@@ -4,6 +4,8 @@ Sitio web en español, sin dependencias de ejecución. `npm start` inicia http:/
 
 ## Diseño e interacción
 
+Para publicar en Vercel, sigue [DEPLOY-VERCEL.md](DEPLOY-VERCEL.md). La configuración está incluida; `npm run build` valida los archivos estáticos antes de publicarlos.
+
 Menú horizontal de cinco aves y controles debajo. Tarjetas crema con ilustración recortada, video independiente, cuatro visualizaciones simultáneas y carrusel inferior de cuatro fotos. Selección alfabética o aleatoria sin repetición inmediata, reproducción continua, volumen y efectos de interfaz desactivables. Espacio 3D giratorio con arrastre, flechas de teclado y botón de restablecer. Carrusel por botones, puntos, teclado y desplazamiento táctil. Respeta movimiento reducido.
 
 ## Contenido demo

@@ -1,0 +1,11 @@
+.git
+.openai
+.sites-runtime
+.vercel
+node_modules
+.env
+.env.*
+*.zip
+*.tar
+*.tar.gz
+**/__pycache__

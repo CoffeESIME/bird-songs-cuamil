@@ -1,1 +1,11 @@
-{"name":"aviario","version":"1.0.0","private":true,"type":"module","scripts":{"start":"node server.mjs","check":"node --check dist/app.js && node --check dist/catalog.js"}}
+{
+  "name": "aviario",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check dist/app.js && node --check dist/catalog.js && node scripts/verify-static.mjs",
+    "build": "npm run check"
+  }
+}
