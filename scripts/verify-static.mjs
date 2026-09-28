@@ -5,7 +5,7 @@ import path from 'node:path';
 import { birds, uiSounds } from '../dist/catalog.js';
 
 const root = fileURLToPath(new URL('../dist/', import.meta.url));
-const assets = new Set(['index.html', 'app.js', 'style.css', 'catalog.js']);
+const assets = new Set(['index.html', 'app.js', 'style.css', 'catalog.js', 'acoustic.js']);
 const html = await readFile(path.join(root, 'index.html'), 'utf8');
 for (const match of html.matchAll(/\b(?:src|href)="([^"]+)"/g)) {
   const ref = match[1];

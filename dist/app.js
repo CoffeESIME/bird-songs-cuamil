@@ -1,8 +1,11 @@
 import {birds,uiSounds} from './catalog.js';
+import {prepareAcoustic,acousticFrame} from './acoustic.js';
 const $=id=>document.getElementById(id), video=$('video'), audio=new Audio();
-const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const motionPreference=matchMedia('(prefers-reduced-motion: reduce)');
+let reduced=motionPreference.matches;
 const icon='<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M2 9h5v5h8V7h5V3h5v7h5v4h-6v9H11v-4H6v-5H2zM12 23h3v6h-3zm8 0h3v6h-3z"/></svg>';
 let index=0,photoIndex=0,playing=false,changing=false,fx=true,ctx,master,analyser,frequency;
+let acousticModel=null;
 let analysis=null,analysisToken=0,frame=0,lastFrame=0,yaw=-.45,pitch=.22,drag=null;
 const sources=new Map(),analysisCache=new Map(),specImage=document.createElement('canvas');
 const plots=Object.fromEntries(['spectrogram','acoustic','waveform','power'].map(id=>{const c=$(id);return [id,{canvas:c,g:c.getContext('2d'),w:0,h:0}]}));
@@ -20,7 +23,7 @@ function pause(){video.pause();audio.pause();updatePlay()}
 function toggle(){return playing?pause():play()}
 function photo(n,scroll=true){const photos=current().photos;photoIndex=(n+photos.length)%photos.length;$('photo-count').textContent=`0${photoIndex+1} / 0${photos.length}`;[...$('photo-strip').children].forEach((c,i)=>c.dataset.current=String(i===photoIndex));[...$('photo-dots').children].forEach((c,i)=>c.setAttribute('aria-pressed',String(i===photoIndex)));if(scroll){const target=$('photo-strip').children[photoIndex],strip=$('photo-strip');strip.scrollTo({left:target.offsetLeft-strip.offsetLeft-(strip.clientWidth-target.clientWidth)/2,behavior:reduced?'instant':'smooth'})}}
 function renderPhotos(){$('photo-strip').replaceChildren();$('photo-dots').replaceChildren();current().photos.forEach((src,i)=>{const card=document.createElement('div');card.className='polaroid photo-card';card.innerHTML=`<span class="tape" aria-hidden="true"></span><img src="${src}" alt="Fotograma ${i+1} del video de muestra, especie sin identificar" loading="lazy"><div class="polaroid-caption"><span>Apunte de campo</span><span>0${i+1}</span></div>`;$('photo-strip').append(card);const dot=document.createElement('button');dot.setAttribute('aria-label',`Ver foto ${i+1}`);dot.onclick=()=>photo(i);$('photo-dots').append(dot)});photo(0,false);$('photo-strip').scrollLeft=0}
-async function loadAnalysis(){const token=++analysisToken;analysis=null;$('analysis-status').hidden=false;$('analysis-status').textContent='Preparando la huella del sonido…';drawAll();try{let data=analysisCache.get(current().analysis);if(!data){const r=await fetch(current().analysis);if(!r.ok)throw Error();data=await r.json();analysisCache.set(current().analysis,data)}if(token!==analysisToken)return;analysis=data;buildSpectrogram();$('analysis-status').hidden=true;$('wave-duration').textContent=time(data.duration);drawAll()}catch{if(token===analysisToken){$('analysis-status').textContent='No se pudo cargar el análisis de esta muestra.';$('wave-duration').textContent='—'}}}
+async function loadAnalysis(){const token=++analysisToken;analysis=null;acousticModel=null;$('analysis-status').hidden=false;$('analysis-status').textContent='Preparando la huella del sonido…';drawAll();try{let data=analysisCache.get(current().analysis);if(!data){const r=await fetch(current().analysis);if(!r.ok)throw Error();data=await r.json();analysisCache.set(current().analysis,data)}if(token!==analysisToken)return;analysis=data;acousticModel=prepareAcoustic(data);buildSpectrogram();$('analysis-status').hidden=true;$('wave-duration').textContent=time(data.duration);drawAll()}catch{if(token===analysisToken){$('analysis-status').textContent='No se pudo cargar el análisis de esta muestra.';$('wave-duration').textContent='—'}}}
 function loadBird(){const b=current();$('bird-name').textContent=b.name;$('scientific').textContent=b.scientific;$('bird-counter').textContent=`PÁGINA 0${index+1} / 0${birds.length}`;$('portrait-number').textContent=`0${index+1}`;$('habitat').textContent=b.habitat;$('bird-art').hidden=false;$('art-error').hidden=true;$('bird-art').src=b.cutout;$('bird-art').alt=`Ilustración recortada de ${b.name.toLowerCase()}`;video.src=b.media.find(m=>m.type==='video').src;video.poster=b.photos[0];video.muted=!!b.audio;if(b.audio)audio.src=b.audio;else audio.removeAttribute('src');routeAudio();$('video-caption').textContent=`Apunte de campo / 0${index+1}`;$('elapsed').textContent='0:00';$('duration').textContent='--:--';$('seek').value=0;$('seek').disabled=true;renderList();renderPhotos();loadAnalysis();updatePlay()}
 async function changeBird(n,resume=playing){if(changing)return;if(n===index){if(!resume)pause();return}changing=true;pause();sound('change');$('transition').classList.remove('running');void $('transition').offsetWidth;$('transition').classList.add('running');await new Promise(r=>setTimeout(r,reduced?0:170));index=n;loadBird();if(resume)await play();await new Promise(r=>setTimeout(r,reduced?0:380));$('transition').classList.remove('running');changing=false}
 const randomIndex=()=>(index+1+Math.floor(Math.random()*(birds.length-1)))%birds.length;
@@ -37,10 +40,75 @@ function cursor(g,x,top,bottom){g.strokeStyle='#a77550';g.lineWidth=1;g.beginPat
 function drawSpectrogram(){const p=plots.spectrogram,{g,w,h}=p;clear(p);if(!analysis||w<1||h<1)return;g.imageSmoothingEnabled=true;g.drawImage(specImage,30,9,w-38,h-26);const progress=Math.min(1,player().currentTime/analysis.duration);if(player().currentTime>0)cursor(g,30+progress*(w-38),8,h-17)}
 function drawWave(){const p=plots.waveform,{g,w,h}=p;clear(p);if(!analysis)return;const arr=analysis.envelope,max=Math.max(...arr,.001),progress=player().currentTime/analysis.duration;g.lineWidth=1;for(let i=0;i<w-48;i++){const j=Math.floor(i/(w-48)*arr.length),amp=(arr[j]/max)**.8*(h*.37);g.strokeStyle=i/(w-48)<progress?'#8b5c3c':'#c7b591';g.beginPath();g.moveTo(24+i,h/2-amp);g.lineTo(24+i,h/2+amp);g.stroke()}if(player().currentTime>0)cursor(g,24+Math.min(1,progress)*(w-48),14,h-14)}
 function drawPower(){const p=plots.power,{g,w,h}=p;clear(p);if(!analysis)return;const row=analysis.spectrogram[Math.min(analysis.spectrogram.length-1,Math.floor(player().currentTime*analysis.sampleRate/analysis.hop))];const gradient=g.createLinearGradient(24,0,w-24,0);gradient.addColorStop(0,'#3d3026');gradient.addColorStop(.5,'#a5865a');gradient.addColorStop(1,'#e6d8b5');g.fillStyle=gradient;g.beginPath();g.moveTo(24,h-18);for(let i=0;i<row.length;i++){const value=Math.max(0,(row[i]/255-.2)/.8);g.lineTo(24+i/(row.length-1)*(w-48),h-18-value*(h-35))}g.lineTo(w-24,h-18);g.closePath();g.fill()}
-function drawAcoustic(){const p=plots.acoustic,{g,w,h}=p;clear(p);if(!analysis||w<1)return;const nodes=analysis.nodes;const ranges=['centroid','spread','rms'].map(key=>{const vals=nodes.map(n=>n[key]);return [Math.min(...vals),Math.max(...vals)]});const scaled=(v,i)=>(v-ranges[i][0])/Math.max(ranges[i][1]-ranges[i][0],.00001)*2-1;const turn=yaw+(playing&&!reduced?player().currentTime*.045:0),cy=Math.cos(turn),sy=Math.sin(turn),cp=Math.cos(pitch),sp=Math.sin(pitch),scale=Math.min(w*.34,h*.63);let active=0;nodes.forEach((n,i)=>{if(Math.abs(n.t-player().currentTime)<Math.abs(nodes[active].t-player().currentTime))active=i});const points=nodes.map((n,i)=>{const x=scaled(n.centroid,0),y=scaled(n.rms,2),z=scaled(n.spread,1),rx=x*cy-z*sy,rz=x*sy+z*cy,ry=y*cp-rz*sp,depth=y*sp+rz*cp,perspective=3.8/(3.8+depth);return {i,x:w/2+rx*scale*perspective,y:h*.53-ry*scale*.6*perspective,z:depth,r:(4+(scaled(n.rms,2)+1)*7)*perspective,n}});g.lineWidth=2;for(let i=1;i<points.length;i++){const a=points[i-1],b=points[i];g.strokeStyle=i<=active?'#927a5890':'#d0bd9470';g.beginPath();g.moveTo(a.x,a.y);g.lineTo(b.x,b.y);g.stroke()}points.sort((a,b)=>b.z-a.z);for(const p of points){const fraction=p.i/(points.length-1),r=p.r;const light=Math.round(74-fraction*49);const grad=g.createRadialGradient(p.x-r*.35,p.y-r*.4,r*.08,p.x,p.y,r);grad.addColorStop(0,`hsl(37 33% ${Math.min(91,light+23)}%)`);grad.addColorStop(.6,`hsl(33 27% ${light}%)`);grad.addColorStop(1,`hsl(29 25% ${Math.max(12,light-19)}%)`);g.fillStyle=grad;g.beginPath();g.arc(p.x,p.y,r,0,Math.PI*2);g.fill();g.strokeStyle='#5f4b3435';g.lineWidth=.7;g.stroke();if(p.i===active&&playing){g.strokeStyle='#b78b5a';g.lineWidth=1.4;g.beginPath();g.arc(p.x,p.y,r+5,0,Math.PI*2);g.stroke()}if(p.i%4===0||p.i===active){g.fillStyle=p.i===active?'#574330':'#ad9c80';g.font='10px "DM Sans",sans-serif';g.textAlign='center';g.fillText(p.n.rms.toFixed(3),p.x,p.y-r-6)}}}
+function drawAcoustic(){
+  const p=plots.acoustic,{g,w,h}=p;clear(p);
+  const status=$('acoustic-progress');
+  if(!acousticModel||w<1){status.textContent='PREPARANDO…';return}
+  const {nodes}=acousticModel;
+  const state=acousticFrame(acousticModel,player().currentTime,reduced);
+  const {t,count,active,link,energy,birth}=state;
+  const label=`${String(count).padStart(2,'0')} / ${nodes.length} FRAGMENTOS`;
+  if(status.textContent!==label)status.textContent=label;
+  const description=`Espacio acústico: ${count} de ${nodes.length} fragmentos revelados. Se dibuja al reproducir. Arrastra o usa las flechas para girar. Inicio restablece la vista.`;
+  if(p.canvas.getAttribute('aria-label')!==description)p.canvas.setAttribute('aria-label',description);
+  const turn=yaw+state.turn,cy=Math.cos(turn),sy=Math.sin(turn),cp=Math.cos(pitch),sp=Math.sin(pitch);
+  const scale=Math.min(w*.27,h*.48);
+  const project=node=>{
+    const rx=node.x*cy-node.z*sy,rz=node.x*sy+node.z*cy;
+    const ry=node.y*cp-rz*sp,depth=node.y*sp+rz*cp,perspective=3.8/(3.8+depth);
+    return {x:w/2+rx*scale*perspective,y:h*.51-ry*scale*.6*perspective,z:depth,r:(4+(node.y+1)*7)*perspective};
+  };
+  // A quiet orbit gives the first notes somewhere to appear.
+  g.strokeStyle='#c9b99a55';g.lineWidth=1;g.setLineDash([3,7]);
+  g.beginPath();g.ellipse(w/2,h*.53,Math.min(w*.34,h*.55),h*.22,0,0,Math.PI*2);g.stroke();g.setLineDash([]);
+  if(!count){
+    g.fillStyle='#827360';g.font='12px "DM Sans",sans-serif';g.textAlign='center';
+    g.fillText(t>0||playing?'Escucha cómo toma forma…':'Dale play para dibujar el sonido',w/2,h*.51);
+    return;
+  }
+  const points=nodes.slice(0,count).map((node,i)=>({...project(node),i,node}));
+  g.lineWidth=1.5;g.strokeStyle='#927a5875';
+  for(let i=1;i<points.length;i++){
+    g.beginPath();g.moveTo(points[i-1].x,points[i-1].y);g.lineTo(points[i].x,points[i].y);g.stroke();
+  }
+  // The leading ink point traces the next chronological connection.
+  if(link>0){
+    const a=points[active],b=project(nodes[count]);
+    const x=a.x+(b.x-a.x)*link,y=a.y+(b.y-a.y)*link;
+    g.strokeStyle='#a77550';g.lineWidth=2;g.beginPath();g.moveTo(a.x,a.y);g.lineTo(x,y);g.stroke();
+    g.fillStyle='#9d6747';g.beginPath();g.arc(x,y,2.5+energy*2,0,Math.PI*2);g.fill();
+  }
+  points.sort((a,b)=>b.z-a.z);
+  for(const point of points){
+    const isActive=point.i===active;
+    const reveal=isActive?birth:1;
+    const r=point.r*(.3+.7*reveal);
+    const light=Math.round(74-point.i/Math.max(1,nodes.length-1)*49);
+    g.globalAlpha=.25+.75*reveal;
+    const gradient=g.createRadialGradient(point.x-r*.35,point.y-r*.4,r*.08,point.x,point.y,r);
+    gradient.addColorStop(0,`hsl(37 33% ${Math.min(91,light+23)}%)`);
+    gradient.addColorStop(.6,`hsl(33 27% ${light}%)`);
+    gradient.addColorStop(1,`hsl(29 25% ${Math.max(12,light-19)}%)`);
+    g.fillStyle=gradient;g.beginPath();g.arc(point.x,point.y,r,0,Math.PI*2);g.fill();
+    g.strokeStyle='#5f4b3435';g.lineWidth=.7;g.stroke();
+    if(isActive){
+      g.strokeStyle='#b78b5a';g.lineWidth=1.4;g.beginPath();g.arc(point.x,point.y,r+4+energy*7,0,Math.PI*2);g.stroke();
+      const age=t-point.node.t;
+      if(!reduced&&age<.8){
+        g.globalAlpha=(1-age/.8)*.45;g.beginPath();g.arc(point.x,point.y,r+6+age*26,0,Math.PI*2);g.stroke();
+      }
+    }
+    g.globalAlpha=1;
+    if(isActive){
+      g.fillStyle='#574330';g.font='10px "DM Sans",sans-serif';g.textAlign='center';
+      g.fillText(point.node.rms.toFixed(3),point.x,point.y-r-8);
+    }
+  }
+}
 function drawAll(){drawSpectrogram();drawWave();drawPower();drawAcoustic()}
 function animate(){if(!frame)frame=requestAnimationFrame(tick)}
-function tick(now){frame=0;if(!playing||document.hidden)return;if(now-lastFrame>(reduced?160:40)){lastFrame=now;drawAll()}animate()}
+function tick(now){frame=0;if(!playing||document.hidden)return;if(now-lastFrame>(reduced?160:40)){lastFrame=now;drawAll()}else if(!reduced)drawAcoustic();animate()}
 $('acoustic').onpointerdown=e=>{drag={x:e.clientX,y:e.clientY};$('acoustic').setPointerCapture(e.pointerId)};$('acoustic').onpointermove=e=>{if(!drag)return;yaw+=(e.clientX-drag.x)*.009;pitch=Math.max(-1.2,Math.min(1.2,pitch+(e.clientY-drag.y)*.009));drag={x:e.clientX,y:e.clientY};drawAcoustic()};$('acoustic').onpointerup=$('acoustic').onpointercancel=()=>drag=null;$('acoustic').onkeydown=e=>{if(!['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','Home'].includes(e.key))return;e.preventDefault();if(e.key==='Home'){yaw=-.45;pitch=.22}else{yaw+=e.key==='ArrowRight'?.15:e.key==='ArrowLeft'?-.15:0;pitch=Math.max(-1.2,Math.min(1.2,pitch+(e.key==='ArrowDown'?.15:e.key==='ArrowUp'?-.15:0)))}drawAcoustic()};$('reset-view').onclick=()=>{yaw=-.45;pitch=.22;drawAcoustic()};document.addEventListener('visibilitychange',()=>{if(!document.hidden&&playing)animate()});
+motionPreference.addEventListener('change',event=>{reduced=event.matches;drawAll()});
 loadBird();resize();
 if(document.modelContext?.registerTool){for(const tool of [{name:'list_birds',description:'Listar aves y consultar la selección actual.',inputSchema:{type:'object',properties:{},additionalProperties:false},annotations:{readOnlyHint:true},execute:()=>({birds:birds.map(({id,name})=>({id,name})),selected:current().id})},{name:'select_bird',description:'Seleccionar un ave de la biblioteca y dejar la reproducción pausada.',inputSchema:{type:'object',properties:{id:{type:'string',enum:birds.map(b=>b.id)}},required:['id'],additionalProperties:false},annotations:{readOnlyHint:false},execute:async input=>{const n=birds.findIndex(b=>b.id===input?.id);if(n<0)throw Error('Ave desconocida');if(changing)throw Error('Espera a que termine la transición');await changeBird(n,false);return {selected:current().id}}}]){try{Promise.resolve(document.modelContext.registerTool(tool)).catch(()=>{})}catch{}}}

@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node server.mjs",
-    "check": "node --check dist/app.js && node --check dist/catalog.js && node scripts/verify-static.mjs",
+    "check": "node --check dist/app.js && node --check dist/catalog.js && node --check dist/acoustic.js && node --test scripts/acoustic.test.mjs && node scripts/verify-static.mjs",
     "build": "npm run check"
   }
 }

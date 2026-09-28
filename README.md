@@ -23,7 +23,7 @@ Edita `dist/catalog.js`. Cada entrada tiene `cutout` (PNG transparente), `media`
 `python scripts/analyze_audio.py` procesa los videos `dist/media/sample-*.mp4` con ffmpeg y numpy. No requiere servidor de análisis durante el uso.
 
 - **Spectrogram:** STFT con ventana Hann de 1024 muestras, salto de 256, audio mono a 24 kHz y 128 bandas entre 0 y 12 kHz. Intensidad en dB relativa al pico de la grabación. Cursor sincronizado.
-- **Acoustic Space:** 36 ventanas temporales, representadas por su centroide espectral, ancho de banda y RMS. Esferas con tamaño según energía y enlaces cronológicos. Los ejes se normalizan dentro de cada grabación. No es UMAP ni un clasificador de especies; no comparar las posiciones normalizadas entre grabaciones como distancias científicas.
+- **Acoustic Space:** 36 ventanas temporales, representadas por su centroide espectral, ancho de banda y RMS. Las esferas aparecen progresivamente al alcanzar su marca temporal y los enlaces se trazan durante la escucha. El contorno del punto activo pulsa con la envolvente del audio; el tamaño de cada esfera indica su energía. La cámara y los efectos siguen el tiempo de reproducción: se congelan al pausar o cargar, se reconstruyen al buscar y empiezan de nuevo al repetir o cambiar de ave. Con movimiento reducido se revelan los fragmentos sin giro, pulsos ni crecimiento animado. Los ejes se normalizan dentro de cada grabación. No es UMAP ni un clasificador de especies; no comparar las posiciones normalizadas entre grabaciones como distancias científicas.
 - **Soundwave:** envolvente de amplitud completa (700 puntos), con progreso sincronizado.
 - **Power Spectrum:** espectro logarítmico de la ventana correspondiente a la posición de reproducción, tomado de los mismos datos precalculados.
 
