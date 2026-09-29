@@ -958,3 +958,131 @@ Cyanocorax yncas: 570 candidates, 352 reusable/eligible, 3 selected
   candidate xeno-canto:XC620765 | Isain Contreras Rodríguez | call | CC BY-NC-SA 4.0 | Botanical Garden UNAM | 10.121 km
   candidate xeno-canto:XC645574 | Isain Contreras Rodríguez | call | CC BY-NC-SA 4.0 | Botanical Garden UNAM | 10.121 km
   ... 559 further candidates (full list in the import report after downloading).
+
+Cynanthus latirostris: 192 candidates, 141 reusable/eligible, 3 selected
+  SELECT xeno-canto:XC792658 | Alberto Paz | call | CC BY-NC-SA 4.0 | Bosque de Aragón (near  Ciudad de México), Ciudad de México | 25.07 km | geographic tier 2; quality A; type call; reusable license; diversity within tier | https://xeno-canto.org/792658
+  SELECT xeno-canto:XC609114 | Isain Contreras Rodríguez | call, flight call, song | CC BY-NC-SA 4.0 | Mx, Distrito Federal, Xochimilco | 20.677 km | geographic tier 2; quality B; type call, flight call, song; reusable license; diversity within tier | https://xeno-canto.org/609114
+  SELECT xeno-canto:XC617979 | Isain Contreras Rodríguez | call, flight call | CC BY-NC-SA 4.0 | Xochimilco (near  Ciudad de México), Ciudad de México | 29.068 km | geographic tier 2; quality B; type call, flight call; reusable license; diversity within tier | https://xeno-canto.org/617979
+  candidate xeno-canto:XC593012 | Isain Contreras Rodríguez | call | CC BY-NC-SA 4.0 | Tláhuac, Mexico City | 32.267 km
+  candidate xeno-canto:XC608505 | Isain Contreras Rodríguez | song | CC BY-NC-SA 4.0 | Xochimilco (near  Ciudad de México), Ciudad de México | 29.068 km
+  candidate inaturalist:1918186 | Octavio Pérez-Martínez | type unknown | CC BY-NC-SA 4.0 | Santa Fe, La Loma, Ciudad de México, CDMX, México | 5.057 km
+  candidate inaturalist:585440 | Brenda Muñoz Martínez | type unknown | no license | Privada Cerro de Chapultepec, Coyoacán, CDMX, MX | 10.801 km | REJECT License not accepted
+  candidate inaturalist:1734389 | Diego Barrales | type unknown | no license | Ciencias, Escandón I Secc, 11800 Ciudad de México, CDMX, México | 12.254 km | REJECT License not accepted
+  candidate inaturalist:1263679 | Efraín Octavio Aguilar Pérez | type unknown | CC BY-NC 4.0 | San Andrés Totoltepec, Ciudad de México, CDMX, México | 13.476 km
+  candidate xeno-canto:XC612008 | Diego Garciarivas | type unknown | CC BY-NC 4.0 | Toluca de Lerdo, Toluca, Estado de México | 41.313 km
+  candidate xeno-canto:XC665649 | Diego Garciarivas | type unknown | CC BY-NC 4.0 | Toluca de Lerdo, Toluca, Estado de México | 43.851 km
+  ... 181 further candidates (full list in the import report after downloading).
+
+Dendrortyx macroura: 94 candidates, 61 reusable/eligible, 3 selected
+  SELECT xeno-canto:XC747537 | Peter de Rouw | song | CC BY-NC-SA 4.0 | La Cima, DF. Tlalpan (near  Parres), Ciudad de México | 28.289 km | geographic tier 2; quality A; type song; reusable license; diversity within tier | https://xeno-canto.org/747537
+  SELECT inaturalist:1711914 | jorgegarciareza | type unknown | CC BY-NC 4.0 | San Miguel Ajusco, Tlalpan, CDMX, MX | 17.758 km | geographic tier 2; quality not rated; type not supplied; reusable license; diversity within tier | https://www.inaturalist.org/observations/330107113
+  SELECT xeno-canto:XC332626 | Esau Toaki Villarreal  | song | CC BY-NC-SA 4.0 | Magdalena Contreras (near  Ciudad de México), Distrito Federal | 9.552 km | geographic tier 2; quality B; type song; reusable license; diversity within tier | https://xeno-canto.org/332626
+  candidate xeno-canto:XC747536 | Peter de Rouw | song | CC BY-NC-SA 4.0 | La Cima, DF. Tlalpan (near  Parres), Ciudad de México | 28.289 km
+  candidate xeno-canto:XC597918 | Isain Contreras Rodríguez | song | CC BY-NC-SA 4.0 | Parque las maravillas, Ciudad de México | 24.103 km
+  candidate inaturalist:375316 | Jose ruiz | type unknown | no license | Distrito Federal, MX | 20.072 km | REJECT License not accepted
+  candidate inaturalist:569717 | -RodrigoFsc | type unknown | CC BY-NC 4.0 | 14505 CDMX, México | 24.523 km
+  candidate inaturalist:569839 | -RodrigoFsc | type unknown | CC BY-NC 4.0 | Distrito Federal, MX | 25.059 km
+  candidate inaturalist:2036058 | Magali Vázquez Cárcamo | type unknown | no license | 14900 CDMX, México | 25.208 km | REJECT License not accepted
+  candidate inaturalist:346024 | acc-comtopilejo-z3corenadr | type unknown | no license | 14905 CDMX, México | 27.026 km | REJECT License not accepted
+  candidate inaturalist:2091923 | Magali Vázquez Cárcamo | type unknown | no license | 14904 CDMX, México | 28.062 km | REJECT License not accepted
+  ... 83 further candidates (full list in the import report after downloading).
+
+Diglossa baritula: 72 candidates, 58 reusable/eligible, 3 selected
+  SELECT xeno-canto:XC459054 | Manuel Grosselet | song | CC BY-NC-SA 4.0 | Mx, Distrito Federal, Lomas de Bezares, Calle Colina | 6.177 km | geographic tier 2; quality A; type song; reusable license; diversity within tier | https://xeno-canto.org/459054
+  SELECT xeno-canto:XC321813 | Manuel Grosselet | begging call, wind | CC BY-NC-SA 4.0 | Mx, Distrito Federal, Lomas de Bezares, Calle Colina | 6.177 km | geographic tier 2; quality B; type begging call, wind; reusable license; diversity within tier | https://xeno-canto.org/321813
+  SELECT xeno-canto:XC779119 | Manuel Grosselet | song | CC BY-NC-SA 4.0 | Magdalena Contreras (near  Ciudad de México), Ciudad de México | 6.898 km | geographic tier 2; quality A; type song; reusable license; diversity within tier | https://xeno-canto.org/779119
+  candidate inaturalist:1890078 | Kendra | type unknown | no license | Frente a No. 783, Contadero, 05500 Ciudad de México, CDMX, México | 0.909 km | REJECT License not accepted
+  candidate xeno-canto:XC539017 | Manuel Grosselet | song | CC BY-NC-SA 4.0 | Lomas de Bezares Miguel Hidalgo Mexico city | 5.885 km
+  candidate xeno-canto:XC176626 | Manuel Grosselet | song | CC BY-NC-SA 4.0 | Mx, Distrito Federal, Lomas de Bezares, Calle Colina | 6.177 km
+  candidate xeno-canto:XC261404 | Manuel Grosselet | song | CC BY-NC-SA 4.0 | Mx, Distrito Federal, Lomas de Bezares, Calle Colina | 6.177 km
+  candidate xeno-canto:XC146068 | Alejandro Gama | song | CC BY-NC-SA 3.0 | Reserva ecológica del Pedregal de San Angel, Distrito Federal | 10.333 km
+  candidate xeno-canto:XC921268 | Miguel Mota | song | CC BY-NC-SA 4.0 | Coyoacán (near  Ciudad de México), Ciudad de México | 16.776 km
+  candidate inaturalist:2113532 | Efraín Octavio Aguilar Pérez | type unknown | CC BY-NC 4.0 | Bosque de Chapultepec III Secc, Ciudad de México, CDMX, México | 8.819 km
+  candidate inaturalist:46195 | Joel Galván | type unknown | CC BY-NC 4.0 | C.U., Ciudad de México, CDMX, México | 9.723 km
+  ... 61 further candidates (full list in the import report after downloading).
+
+Dives dives: 544 candidates, 384 reusable/eligible, 3 selected
+  SELECT inaturalist:766714 | Miguel Ángel Mota Ayala | type unknown | CC BY-NC 4.0 | Deportivo Huayamilpas, 04300 Ciudad de México, CDMX, México | 14.303 km | geographic tier 2; quality not rated; type not supplied; reusable license; diversity within tier | https://www.inaturalist.org/observations/172464235
+  SELECT inaturalist:766715 | Miguel Ángel Mota Ayala | type unknown | CC BY-NC 4.0 | Deportivo Huayamilpas, 04300 Ciudad de México, CDMX, México | 14.303 km | geographic tier 2; quality not rated; type not supplied; reusable license; diversity within tier | https://www.inaturalist.org/observations/172464235
+  SELECT xeno-canto:XC329837 | Esau Toaki Villarreal Olvera  | call, song | CC BY-NC-SA 4.0 | Pacho Viejo, Emiliano Zapata, Veracruz | 254.554 km | geographic tier 4; quality A; type call, song; reusable license; diversity within tier | https://xeno-canto.org/329837
+  candidate xeno-canto:XC679975 | Alán Palacios | song | CC BY-NC-SA 4.0 | Camino a Miguel Aguilar | 256.292 km
+  candidate xeno-canto:XC222452 | Peter Boesman | song | https://creativecommons.org/licenses/by-nc-nd/4.0/ | Hotel Talinul grounds, San Luis Potosí | 287.097 km | REJECT License not accepted
+  candidate xeno-canto:XC1093057 | Manuel Grosselet | call, dawn song | CC BY-NC-SA 4.0 | Mancha, Actopan, Veracruz | 304.769 km
+  candidate xeno-canto:XC222445 | Peter Boesman | song | https://creativecommons.org/licenses/by-nc-nd/4.0/ | Gomez Farias area, Tamaulipas | 406.024 km | REJECT License not accepted
+  candidate xeno-canto:XC222446 | Peter Boesman | call | https://creativecommons.org/licenses/by-nc-nd/4.0/ | Rancho Cielito, Tamaulipas | 424.285 km | REJECT License not accepted
+  candidate xeno-canto:XC222447 | Peter Boesman | call | https://creativecommons.org/licenses/by-nc-nd/4.0/ | Rancho Cielito, Tamaulipas | 424.285 km | REJECT License not accepted
+  candidate xeno-canto:XC375712 | Amauri Sarmiento Rojas | song | CC BY-NC-SA 4.0 | Benito Juárez, Catemaco, Veracruz | 461.138 km
+  candidate xeno-canto:XC378086 | Manuel Grosselet | song | CC BY-NC-SA 4.0 | Mecayapan, Mecayapan, Veracruz | 484.846 km
+  ... 533 further candidates (full list in the import report after downloading).
+
+Dryobates scalaris: 505 candidates, 392 reusable/eligible, 3 selected
+  SELECT xeno-canto:XC466719 | Manuel Grosselet | call | CC BY-NC-SA 4.0 | Mx, Distrito Federal, Lomas de Bezares, Calle Colina | 6.177 km | geographic tier 2; quality A; type call; reusable license; diversity within tier | https://xeno-canto.org/466719
+  SELECT xeno-canto:XC288232 | Manuel Grosselet | call, alarm | CC BY-NC-SA 4.0 | Mx, Distrito Federal, Lomas de Bezares, Calle Colina | 6.177 km | geographic tier 2; quality B; type call, alarm; reusable license; diversity within tier | https://xeno-canto.org/288232
+  SELECT xeno-canto:XC448290 | Manuel Grosselet | drumming | CC BY-NC-SA 4.0 | Mx, Distrito Federal, Lomas de Bezares, Calle Colina | 6.177 km | geographic tier 2; quality B; type drumming; reusable license; diversity within tier | https://xeno-canto.org/448290
+  candidate xeno-canto:XC618034 | Isain Contreras Rodríguez | call | CC BY-NC-SA 4.0 | Xochimilco (near  Ciudad de México), Ciudad de México | 29.068 km
+  candidate xeno-canto:XC779491 | Manuel Grosselet | type unknown | CC BY-NC-SA 4.0 | Magdalena Contreras (near  Ciudad de México), Ciudad de México | 6.898 km
+  candidate inaturalist:1562501 | Efraín Octavio Aguilar Pérez | type unknown | CC BY-NC 4.0 | Lomas Altas, 11950 Ciudad de México, CDMX, México | 8.189 km
+  candidate inaturalist:1736040 | Efraín Octavio Aguilar Pérez | type unknown | CC BY-NC 4.0 | Bosque de Chapultepec III Secc, Ciudad de México, CDMX, México | 8.399 km
+  candidate inaturalist:1628909 | Nao | type unknown | CC BY-NC 4.0 | Bosque de Chapultepec III Secc, Ciudad de México, CDMX, México | 8.614 km
+  candidate inaturalist:1562263 | Efraín Octavio Aguilar Pérez | type unknown | CC BY-NC 4.0 | Bosque de Chapultepec III Secc, Ciudad de México, CDMX, México | 9.102 km
+  candidate inaturalist:894137 | Miguel Ángel Mota Ayala | type unknown | CC BY-NC 4.0 | C.U., Ciudad de México, CDMX, México | 9.861 km
+  candidate inaturalist:39398 | Joel Galván | type unknown | CC BY-NC 4.0 | Copilco el Bajo, Ciudad de México, CDMX, México | 10.227 km
+  ... 494 further candidates (full list in the import report after downloading).
+
+Dumetella carolinensis: 1080 candidates, 864 reusable/eligible, 3 selected
+  SELECT xeno-canto:XC355749 | Manuel Grosselet | song | CC BY-NC-SA 4.0 | Lomas de Bezares Miguel Hidalgo Mexico city | 5.885 km | geographic tier 2; quality C; type song; reusable license; diversity within tier | https://xeno-canto.org/355749
+  SELECT inaturalist:653572 | alberto_paz | type unknown | CC BY-NC 4.0 | calle fco arriaga rancheria los capulines, Tláhuac, 13115 CDMX, México | 28.984 km | geographic tier 2; quality not rated; type not supplied; reusable license; diversity within tier | https://www.inaturalist.org/observations/156226930
+  SELECT xeno-canto:XC843606 | Manuel Grosselet | call | CC BY-NC-SA 4.0 | La Nueva Esperanza, San Juan Bautista Valle Nacional, Oaxaca | 359.734 km | geographic tier 4; quality A; type call; reusable license; diversity within tier | https://xeno-canto.org/843606
+  candidate xeno-canto:XC65554 | manuel Grosselet | call | https://creativecommons.org/licenses/by-nc-nd/2.5/ | Minatitlan, refineria de SAnta Alejandrina, Veracruz   | 519.045 km | REJECT License not accepted
+  candidate xeno-canto:XC872263 | Alán Palacios | call | CC BY-NC-SA 4.0 | Localidad Sendero Manglar al Este de Sisal | 991.492 km
+  candidate xeno-canto:XC872265 | Alán Palacios | call | CC BY-NC-SA 4.0 | Localidad Sendero Manglar al Este de Sisal | 991.492 km
+  candidate xeno-canto:XC872267 | Alán Palacios | call | CC BY-NC-SA 4.0 | Localidad Sendero Manglar al Este de Sisal | 991.492 km
+  candidate xeno-canto:XC474551 | Steve Hampton | call | CC BY-NC-SA 4.0 | Km 18.4, Tulum-Coba Rd, Quintana Roo | 1230.375 km
+  candidate xeno-canto:XC446203 | Manuel Grosselet | alarm call | CC BY-NC-SA 4.0 | Chemuyil predio el venado Tulum, Quintana Roo | 1251.729 km
+  candidate xeno-canto:XC446204 | Manuel Grosselet | alarm call | CC BY-NC-SA 4.0 | Chemuyil predio el venado Tulum, Quintana Roo | 1251.729 km
+  candidate xeno-canto:XC398934 | Gustavo Contreras Cuevas | call | CC BY-NC-SA 4.0 | Xalapa Enríquez, Xalapa, Veracruz | 248.663 km
+  ... 1069 further candidates (full list in the import report after downloading).
+WARNING: Xeno-canto search truncated at 5 pages (world).
+WARNING: iNaturalist search truncated at 5 pages ({}).
+
+Egretta thula: 161 candidates, 125 reusable/eligible, 3 selected
+  SELECT xeno-canto:XC457117 | Manuel Grosselet | alarm call, flight call | CC BY-NC-SA 4.0 | Presa del Bosque, Zitácuaro, Michoacán | 117.36 km | geographic tier 4; quality A; type alarm call, flight call; reusable license; diversity within tier | https://xeno-canto.org/457117
+  SELECT xeno-canto:XC636492 | Manuel Grosselet | flight call | CC BY-NC-SA 4.0 | San Pablo Etla, San Pablo Etla, Oaxaca | 361.011 km | geographic tier 4; quality A; type flight call; reusable license; diversity within tier | https://xeno-canto.org/636492
+  SELECT xeno-canto:XC661724 | Richard E. Webster | call | CC BY-NC-SA 4.0 | Río Hardy below Rancho Mil, Baja California | 2132.86 km | geographic tier 4; quality B; type call; reusable license; diversity within tier | https://xeno-canto.org/661724
+  candidate xeno-canto:XC610097 | Manuel Grosselet | flight call | CC BY-NC-SA 4.0 | San Pablo Etla, San Pablo Etla, Oaxaca | 360.905 km
+  candidate xeno-canto:XC87072 | manuel Grosselet | call | https://creativecommons.org/licenses/by-nc-nd/2.5/ | Minatitlan, refineria de SAnta Alejandrina, Veracruz   | 519.045 km | REJECT License not accepted
+  candidate xeno-canto:XC222664 | Peter Boesman | call | https://creativecommons.org/licenses/by-nc-nd/4.0/ | Puerto Arista, Chiapas | 691.488 km | REJECT License not accepted
+  candidate xeno-canto:XC222663 | Peter Boesman | call | https://creativecommons.org/licenses/by-nc-nd/4.0/ | Boca del Cielo, Chiapas | 707.979 km | REJECT License not accepted
+  candidate xeno-canto:XC222670 | Peter Boesman | call | https://creativecommons.org/licenses/by-nc-nd/4.0/ | Presa Morelos, Tamaulipas | 351.212 km | REJECT License not accepted
+  candidate inaturalist:1747294 | Alvaro Rivera Rojas (brújula de aves) | type unknown | no license | San Juan del Río, Qro., México | 130.716 km | REJECT License not accepted
+  candidate inaturalist:1231783 | Alvaro Rivera Rojas (brújula de aves) | type unknown | no license | Hidalgo, Querétaro, México | 144.073 km | REJECT License not accepted
+  candidate inaturalist:182897 | Manuel Grosselet | type unknown | no license | Oaxaca, MX | 361.7 km | REJECT License not accepted
+  ... 150 further candidates (full list in the import report after downloading).
+
+Empidonax affinis: 72 candidates, 53 reusable/eligible, 3 selected
+  SELECT xeno-canto:XC702571 | Isain Contreras Rodríguez | call | CC BY-NC-SA 4.0 | Milpa Alta (near  Ciudad de México), Ciudad de México | 37.071 km | geographic tier 2; quality A; type call; reusable license; diversity within tier | https://xeno-canto.org/702571
+  SELECT xeno-canto:XC588022 | Manuel Grosselet | call | CC BY-NC-SA 4.0 | Parque las maravillas, Ciudad de México | 24.103 km | geographic tier 2; quality B; type call; reusable license; diversity within tier | https://xeno-canto.org/588022
+  SELECT xeno-canto:XC234591 | Andrew Spencer | song | CC BY-NC-SA 4.0 | San Jose del Pacifico, Oaxaca | 462.583 km | geographic tier 4; quality A; type song; reusable license; diversity within tier | https://xeno-canto.org/234591
+  candidate xeno-canto:XC457213 | Manuel Grosselet | call | CC BY-NC-SA 4.0 | Parque las maravillas, Topilejo | 25.844 km
+  candidate xeno-canto:XC813977 | Manuel Grosselet | call | CC BY-NC-SA 4.0 | San Pablo Etla, San Pablo Etla, Oaxaca | 362.822 km
+  candidate xeno-canto:XC813978 | Manuel Grosselet | call | CC BY-NC-SA 4.0 | San Pablo Etla, San Pablo Etla, Oaxaca | 362.822 km
+  candidate xeno-canto:XC234620 | Andrew Spencer | call | CC BY-NC-SA 4.0 | San Jose del Pacifico, Oaxaca | 462.583 km
+  candidate xeno-canto:XC222750 | Peter Boesman | call | https://creativecommons.org/licenses/by-nc-nd/4.0/ | Cerro El Potosi, Nuevo Leon | 616.987 km | REJECT License not accepted
+  candidate xeno-canto:XC254810 | Andrew Spencer | call | CC BY-NC-SA 4.0 | Parque Natural Mexiquillo, Durango | 819.36 km
+  candidate xeno-canto:XC255054 | Andrew Spencer | call | https://creativecommons.org/licenses/by-nc-nd/4.0/ | Parque Natural Mexiquillo, Durango | 819.36 km | REJECT License not accepted
+  candidate xeno-canto:XC255055 | Andrew Spencer | call | https://creativecommons.org/licenses/by-nc-nd/4.0/ | Parque Natural Mexiquillo, Durango | 819.36 km | REJECT License not accepted
+  ... 61 further candidates (full list in the import report after downloading).
+
+Empidonax albigularis: 54 candidates, 39 reusable/eligible, 3 selected
+  SELECT inaturalist:500691 | rizard | type unknown | CC BY-NC 4.0 | San Andrés Totoltepec, Ciudad de México, CDMX, México | 13.194 km | geographic tier 2; quality not rated; type not supplied; reusable license; diversity within tier | https://www.inaturalist.org/observations/126535006
+  SELECT xeno-canto:XC723713 | Manuel Grosselet | call, song | CC BY-NC-SA 4.0 | Parque Estatal Sierra Morelos, Toluca de Lerdo, Toluca, Estado de México | 43.405 km | geographic tier 3; quality A; type call, song; reusable license; diversity within tier | https://xeno-canto.org/723713
+  SELECT xeno-canto:XC737180 | Manuel Grosselet | call | CC BY-NC-SA 4.0 | Parque Estatal Sierra Morelos, Toluca de Lerdo, Toluca, Estado de México | 43.405 km | geographic tier 3; quality A; type call; reusable license; diversity within tier | https://xeno-canto.org/737180
+  candidate xeno-canto:XC737181 | Manuel Grosselet | song | CC BY-NC-SA 4.0 | Parque Estatal Sierra Morelos, Toluca de Lerdo, Toluca, Estado de México | 43.405 km
+  candidate xeno-canto:XC737182 | Manuel Grosselet | call, subsong | CC BY-NC-SA 4.0 | Parque Estatal Sierra Morelos, Toluca de Lerdo, Toluca, Estado de México | 43.405 km
+  candidate xeno-canto:XC319442 | Manuel Grosselet | song | CC BY-NC-SA 4.0 | Campo de Golf - Malinalco - Estado de México - México | 45.418 km
+  candidate xeno-canto:XC319434 | Manuel Grosselet | song | CC BY-NC-SA 4.0 | Campo de Golf - Malinalco - Estado de México - México | 45.418 km
+  candidate xeno-canto:XC575667 | Manuel Grosselet | song | CC BY-NC-SA 4.0 | Erongarícuaro, Michoacán | 253.6 km
+  candidate xeno-canto:XC921371 | Manuel Grosselet | call, wing beat | CC BY-NC-SA 4.0 | SAn Juan SAyultepec, Oaxaca | 300.76 km
+  candidate xeno-canto:XC817505 | Manuel Grosselet | song | CC BY-NC-SA 4.0 | Güendulain, Rojas de Cuauhtémoc, Oaxaca | 383.272 km
+  candidate xeno-canto:XC658004 | Manuel Grosselet | call | CC BY-NC-SA 4.0 | Santa Cecilia Jalieza, Santo Tomás Jalieza, Oaxaca | 391.096 km
+  ... 43 further candidates (full list in the import report after downloading).
