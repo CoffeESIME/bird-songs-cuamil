@@ -71,6 +71,37 @@
       "bytes": 456759,
       "downloadedAt": "2026-09-29",
       "validation": "ffmpeg decode"
+    },
+    {
+      "source": "xeno-canto",
+      "sourceId": "XC705872",
+      "scientificName": "Cairina moschata",
+      "type": "alarm",
+      "originalType": "alarm call, wing sound",
+      "sourceUrl": "https://xeno-canto.org/705872",
+      "recordist": "Fernando Igor de Godoy",
+      "attribution": null,
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "latitude": -24.4856,
+      "longitude": -51.0607,
+      "country": "Brazil",
+      "location": "Reserva, Paraná",
+      "date": "2020-07-12",
+      "quality": "A",
+      "taxonomicEvidence": "identified",
+      "distanceFromUamKm": 7142.279,
+      "local": false,
+      "licenseLabel": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "derivativesAllowed": true,
+      "nonCommercial": true,
+      "file": "audio/alarm-01.mp3",
+      "originalAudioUrl": "https://xeno-canto.org/705872/download",
+      "originalFileName": "XC705872-2865 Caririna moschata (alarm calls and wing sound)Sertaozinho_Reserva_PR120720_FIG.mp3",
+      "sha256": "7f13fa028f0fbec75d274487997e2388ce48e58244ccb721769a182a6586b3ef",
+      "bytes": 330708,
+      "downloadedAt": "2026-09-29",
+      "validation": "ffmpeg decode"
     }
   ]
 }

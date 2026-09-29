@@ -71,6 +71,37 @@
       "bytes": 840098,
       "downloadedAt": "2026-09-29",
       "validation": "ffmpeg decode"
+    },
+    {
+      "source": "xeno-canto",
+      "sourceId": "XC927847",
+      "scientificName": "Piranga bidentata",
+      "type": "song",
+      "originalType": "song",
+      "sourceUrl": "https://xeno-canto.org/927847",
+      "recordist": "Richard E. Webster",
+      "attribution": null,
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "latitude": 17.6281,
+      "longitude": -96.3472,
+      "country": "Mexico",
+      "location": "Km 75-80 Highway 175, Santiago Comaltepec, Oaxaca",
+      "date": "2024-06-16",
+      "quality": "A",
+      "taxonomicEvidence": "identified",
+      "distanceFromUamKm": 364.093,
+      "local": false,
+      "licenseLabel": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "derivativesAllowed": true,
+      "nonCommercial": true,
+      "file": "audio/song-01.mp3",
+      "originalAudioUrl": "https://xeno-canto.org/927847/download",
+      "originalFileName": "XC927847-TANAGER_Fla-col-above-Valle-Nacional-1500m-061624-1158.mp3",
+      "sha256": "995bca8d8ba9b5e775adb6c17297bcb757bf6974d1e09226f671844ee2af55df",
+      "bytes": 4373581,
+      "downloadedAt": "2026-09-29",
+      "validation": "ffmpeg decode"
     }
   ]
 }

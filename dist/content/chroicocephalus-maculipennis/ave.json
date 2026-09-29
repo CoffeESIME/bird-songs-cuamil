@@ -71,6 +71,37 @@
       "bytes": 1186710,
       "downloadedAt": "2026-09-29",
       "validation": "ffmpeg decode"
+    },
+    {
+      "source": "xeno-canto",
+      "sourceId": "XC824603",
+      "scientificName": "Chroicocephalus maculipennis",
+      "type": "flight_call",
+      "originalType": "flight call",
+      "sourceUrl": "https://xeno-canto.org/824603",
+      "recordist": "Cristian Pinto Fernandez",
+      "attribution": null,
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "latitude": -33.2043,
+      "longitude": -70.8285,
+      "country": "Chile",
+      "location": "Laguna Batuco, Región Metropolitana",
+      "date": "2023-08-14",
+      "quality": "A",
+      "taxonomicEvidence": "identified",
+      "distanceFromUamKm": 6578.532,
+      "local": false,
+      "licenseLabel": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "derivativesAllowed": true,
+      "nonCommercial": true,
+      "file": "audio/flight_call-01.wav",
+      "originalAudioUrl": "https://xeno-canto.org/824603/download",
+      "originalFileName": "XC824603-ZOOM0001_Tr1---Gaviota-cahuil.wav",
+      "sha256": "5378523452264f348076e342f979e5f2b7828c6ad03a6b75aea3861a5d1d5f91",
+      "bytes": 5424024,
+      "downloadedAt": "2026-09-29",
+      "validation": "ffmpeg decode"
     }
   ]
 }

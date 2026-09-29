@@ -58,6 +58,8 @@ El catálogo conserva la ruta `audio` que espera el reproductor y expone los met
 
 Una ejecución real escribe `dist/audio-import-report.json`: candidatos y motivos de rechazo, selección y razones, archivos, licencias, avisos de paginación y errores por especie/fuente. Cada ejecución reemplaza ese reporte, no los audios anteriores. `--dry-run` muestra la selección y alternativas sin escribir archivos, carpetas ni reporte. `speciesWithAudio` representa archivos existentes/importados, mientras `wouldDownload` representa la propuesta del dry-run.
 
+El reporte detallado se conserva sólo localmente y está excluido de Git porque puede superar 100 MB. También se excluyen los logs de ejecución y el bloqueo temporal. El resumen verificable `dist/audio-import-validation.json`, las atribuciones de `ave.json` y los audios sí permanecen versionados.
+
 Los contadores local, CDMX y México se solapan (un sonido local puede pertenecer a los tres); países desconocidos se cuentan aparte. Los errores por especie no detienen las demás, pero devuelven código de salida 1. Un resultado vacío o la ausencia de clave XC son avisos y no fabrican grabaciones.
 
 ```powershell

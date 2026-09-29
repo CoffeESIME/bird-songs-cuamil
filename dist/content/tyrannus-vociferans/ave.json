@@ -71,6 +71,37 @@
       "bytes": 1894081,
       "downloadedAt": "2026-09-29",
       "validation": "ffmpeg decode"
+    },
+    {
+      "source": "xeno-canto",
+      "sourceId": "XC252317",
+      "scientificName": "Tyrannus vociferans",
+      "type": "song",
+      "originalType": "song",
+      "sourceUrl": "https://xeno-canto.org/252317",
+      "recordist": "Manuel Grosselet",
+      "attribution": null,
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "latitude": 19.4691,
+      "longitude": -99.2026,
+      "country": "Mexico",
+      "location": "Miguel Hidalgo (near  Ciudad de México), Distrito Federal",
+      "date": "2015-06-11",
+      "quality": "B",
+      "taxonomicEvidence": "identified",
+      "distanceFromUamKm": 15.432,
+      "local": false,
+      "licenseLabel": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "derivativesAllowed": true,
+      "nonCommercial": true,
+      "file": "audio/song-01.mp3",
+      "originalAudioUrl": "https://xeno-canto.org/252317/download",
+      "originalFileName": "XC252317-Cassin's Kingbird.mp3",
+      "sha256": "4d7775ec1393dacb1c7ded726aa46bbeaa0a23318baad050b10512691f1592a6",
+      "bytes": 235896,
+      "downloadedAt": "2026-09-29",
+      "validation": "ffmpeg decode"
     }
   ]
 }

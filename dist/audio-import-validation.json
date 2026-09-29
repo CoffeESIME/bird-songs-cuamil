@@ -1,0 +1,26 @@
+{
+  "validatedAt": "2026-09-29T06:29:49.898Z",
+  "speciesProcessed": 214,
+  "speciesWithAudio": 212,
+  "speciesWithoutAudio": [
+    {
+      "id": "myiarchus",
+      "scientific": "Myiarchus",
+      "rank": "genus"
+    },
+    {
+      "id": "pavo",
+      "scientific": "Pavo",
+      "rank": "genus"
+    }
+  ],
+  "audioFiles": 633,
+  "bytes": 1233347938,
+  "local": 148,
+  "bySource": {
+    "inaturalist": 204,
+    "xeno-canto": 429
+  },
+  "errors": [],
+  "completedAt": "2026-09-29T06:29:57.954Z"
+}

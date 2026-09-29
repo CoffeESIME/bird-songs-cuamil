@@ -71,6 +71,37 @@
       "bytes": 1511040,
       "downloadedAt": "2026-09-29",
       "validation": "ffmpeg decode"
+    },
+    {
+      "source": "xeno-canto",
+      "sourceId": "XC792661",
+      "scientificName": "Icterus abeillei",
+      "type": "other",
+      "originalType": "uncertain",
+      "sourceUrl": "https://xeno-canto.org/792661",
+      "recordist": "Alberto Paz",
+      "attribution": null,
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "latitude": 19.2856,
+      "longitude": -99.0942,
+      "country": "Mexico",
+      "location": "Xochimilco (near  Mexico City), Mexico City",
+      "date": "2023-02-25",
+      "quality": "B",
+      "taxonomicEvidence": "identified",
+      "distanceFromUamKm": 21.103,
+      "local": false,
+      "licenseLabel": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "derivativesAllowed": true,
+      "nonCommercial": true,
+      "file": "audio/other-01.wav",
+      "originalAudioUrl": "https://xeno-canto.org/792661/download",
+      "originalFileName": "XC792661-543103961.wav",
+      "sha256": "a46253baf2cbbdef5bc7fb77e41fc6478d58cec9227a470a8a4b6d629be0b085",
+      "bytes": 965906,
+      "downloadedAt": "2026-09-29",
+      "validation": "ffmpeg decode"
     }
   ]
 }

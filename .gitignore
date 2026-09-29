@@ -5,3 +5,9 @@ node_modules/
 .env
 .env.*
 !.env.example
+
+# Generated import diagnostics stay local; audio assets and validation are tracked.
+/dist/audio-import-report.json
+/dist/.audio-import.lock
+/audio-import-run.log
+/audio-import-recovery.log
