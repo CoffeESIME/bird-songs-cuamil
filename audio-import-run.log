@@ -648,3 +648,50 @@ Catharus guttatus: 1035 candidates, 838 reusable/eligible, 3 selected
   candidate xeno-canto:XC348959 | Richard E. Webster | song | CC BY-NC-SA 4.0 | Observatorio area, Sierra San Pedro Martir, Baja California | 2077.004 km
   candidate xeno-canto:XC348961 | Richard E. Webster | song | CC BY-NC-SA 4.0 | Observatorio area, Sierra San Pedro Martir, Baja California | 2077.004 km
   ... 1024 further candidates (full list in the import report after downloading).
+WARNING: Xeno-canto search truncated at 5 pages (world).
+WARNING: iNaturalist search truncated at 5 pages ({}).
+
+Catharus occidentalis: 84 candidates, 55 reusable/eligible, 3 selected
+  SELECT xeno-canto:XC252818 | Manuel Grosselet | song | CC BY-NC-SA 4.0 | Mex DF entrance Desierto de los Leones | 4.266 km | geographic tier 0; quality A; type song; reusable license; diversity within tier | https://xeno-canto.org/252818
+  SELECT xeno-canto:XC329093 | Manuel Grosselet | call | CC BY-NC-SA 4.0 | Mex DF entrance Desierto de los Leones | 4.266 km | geographic tier 0; quality B; type call; reusable license; diversity within tier | https://xeno-canto.org/329093
+  SELECT inaturalist:2116333 | Efraín Octavio Aguilar Pérez | type unknown | CC BY-NC 4.0 | Cd. de México, México | 3.052 km | geographic tier 0; quality not rated; type not supplied; reusable license; diversity within tier | https://www.inaturalist.org/observations/390713172
+  candidate xeno-canto:XC814551 | Manuel Grosselet | song | CC BY-NC-SA 4.0 | Mex DF entrance Desierto de los Leones | 4.266 km
+  candidate xeno-canto:XC814552 | Manuel Grosselet | song | CC BY-NC-SA 4.0 | Mex DF entrance Desierto de los Leones | 4.266 km
+  candidate xeno-canto:XC814553 | Manuel Grosselet | song | CC BY-NC-SA 4.0 | Mex DF entrance Desierto de los Leones | 4.266 km
+  candidate xeno-canto:XC248104 | Manuel Grosselet | song | CC BY-NC-SA 4.0 | Mex DF entrance Desierto de los Leones | 4.266 km
+  candidate xeno-canto:XC814554 | Manuel Grosselet | song | CC BY-NC-SA 4.0 | Mex DF entrance Desierto de los Leones | 4.266 km
+  candidate inaturalist:1554895 | Efraín Octavio Aguilar Pérez | type unknown | CC BY-NC 4.0 | Cd. de México, México | 4.032 km
+  candidate inaturalist:1909708 | Nathan Zárate | type unknown | CC BY-NC 4.0 | 01864 CDMX, México | 4.206 km
+  candidate inaturalist:1562036 | Efraín Octavio Aguilar Pérez | type unknown | CC BY-NC 4.0 | Cd. de México, México | 4.338 km
+  ... 73 further candidates (full list in the import report after downloading).
+
+Catharus ustulatus: 1035 candidates, 875 reusable/eligible, 3 selected
+  SELECT xeno-canto:XC501029 | Richard E. Webster | call, song | CC BY-NC-SA 4.0 | Tecuitata (pueblo), Nayarit, | 655.329 km | geographic tier 4; quality A; type call, song; reusable license; diversity within tier | https://xeno-canto.org/501029
+  SELECT xeno-canto:XC335001 | Richard E. Webster | call | CC BY-NC-SA 4.0 | Paval, Chiapas | 800.064 km | geographic tier 4; quality A; type call; reusable license; diversity within tier | https://xeno-canto.org/335001
+  SELECT xeno-canto:XC312896 | Manuel Grosselet | flight call | CC BY-NC-SA 4.0 | Minatitlan, refineria de SAnta Alejandrina, Veracruz | 519.049 km | geographic tier 4; quality C; type flight call; reusable license; diversity within tier | https://xeno-canto.org/312896
+  candidate xeno-canto:XC500983 | Richard E. Webster | call | CC BY-NC-SA 4.0 | Reserva de la Chara Pinta (Tufted Jay Preserve), Sinaloa | 828.33 km
+  candidate xeno-canto:XC615827 | Manuel Grosselet | call | CC BY-NC-SA 4.0 | Аројо Секо, Xico, Veracruz | 235.397 km
+  candidate xeno-canto:XC134606 | Dan Lane | call | CC BY-NC-SA 3.0 | Laguna La Maria, Colima | 464.383 km
+  candidate xeno-canto:XC500981 | Richard E. Webster | call | CC BY-NC-SA 4.0 | Reserva Ecológica Sierra de San Juan--La Noria, Nayarit | 640.634 km
+  candidate xeno-canto:XC335002 | Richard E. Webster | call | CC BY-NC-SA 4.0 | Canada Honda, near El Triunfo, Chiapas | 801.993 km
+  candidate xeno-canto:XC220622 | Peter Boesman | song | https://creativecommons.org/licenses/by-nc-nd/4.0/ | Bonampak, Chiapas | 915.579 km | REJECT License not accepted
+  candidate xeno-canto:XC220623 | Peter Boesman | call | https://creativecommons.org/licenses/by-nc-nd/4.0/ | Bonampak, Chiapas | 915.579 km | REJECT License not accepted
+  candidate xeno-canto:XC220624 | Peter Boesman | call | https://creativecommons.org/licenses/by-nc-nd/4.0/ | Bonampak, Chiapas | 915.579 km | REJECT License not accepted
+  ... 1024 further candidates (full list in the import report after downloading).
+WARNING: Xeno-canto search truncated at 5 pages (world).
+WARNING: iNaturalist search truncated at 5 pages ({}).
+
+Catherpes mexicanus: 963 candidates, 680 reusable/eligible, 3 selected
+  SELECT xeno-canto:XC630969 | Manuel Grosselet | song | CC BY-NC-SA 4.0 | MX Distrito federal la Loma baja | 4.242 km | geographic tier 0; quality B; type song; reusable license; diversity within tier | https://xeno-canto.org/630969
+  SELECT inaturalist:1909322 | Nathan Zárate | type unknown | CC BY-NC 4.0 | Escaleras, San Bartolo Ameyalco, 01800 Ciudad de México, CDMX, México | 3.215 km | geographic tier 0; quality not rated; type not supplied; reusable license; diversity within tier | https://www.inaturalist.org/observations/356131822
+  SELECT xeno-canto:XC608508 | Isain Contreras Rodríguez | call | CC BY-NC-SA 4.0 | Xochimilco (near  Ciudad de México), Ciudad de México | 29.068 km | geographic tier 2; quality B; type call; reusable license; diversity within tier | https://xeno-canto.org/608508
+  candidate inaturalist:175484 | Manuel Grosselet | type unknown | no license | Santa Fe, Zedec Sta Fé, Ciudad de México, CDMX, Mexique | 3.858 km | REJECT License not accepted
+  candidate xeno-canto:XC530766 | Isain Contreras Rodríguez | song | CC BY-NC-SA 4.0 | Xochimilco (near  Ciudad de México), Ciudad de México | 29.007 km
+  candidate xeno-canto:XC608506 | Isain Contreras Rodríguez | song | CC BY-NC-SA 4.0 | Xochimilco (near  Ciudad de México), Ciudad de México | 29.068 km
+  candidate xeno-canto:XC608507 | Isain Contreras Rodríguez | song | CC BY-NC-SA 4.0 | Xochimilco (near  Ciudad de México), Ciudad de México | 29.068 km
+  candidate xeno-canto:XC608509 | Isain Contreras Rodríguez | call | CC BY-NC-SA 4.0 | Xochimilco (near  Ciudad de México), Ciudad de México | 29.068 km
+  candidate xeno-canto:XC645559 | Isain Contreras Rodríguez | song | CC BY-NC-SA 4.0 | Xochimilco (near  Ciudad de México), Ciudad de México | 29.068 km
+  candidate xeno-canto:XC645561 | Isain Contreras Rodríguez | song | CC BY-NC-SA 4.0 | Xochimilco (near  Ciudad de México), Ciudad de México | 29.068 km
+  candidate inaturalist:1121071 | Octavio Pérez-Martínez | type unknown | CC BY-NC-SA 4.0 | San Clemente Nte, Ciudad de México, CDMX, México | 6.114 km
+  ... 952 further candidates (full list in the import report after downloading).
+WARNING: iNaturalist search truncated at 5 pages ({}).
