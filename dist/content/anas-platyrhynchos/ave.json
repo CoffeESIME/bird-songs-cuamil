@@ -1,0 +1,12 @@
+{
+  "id": "anas-platyrhynchos",
+  "name": "Ánade azulón",
+  "scientific": "Anas platyrhynchos",
+  "aliases": [
+    "Mallard"
+  ],
+  "taxonId": 6930,
+  "source": "https://www.inaturalist.org/taxa/6930",
+  "observations": 8,
+  "rank": "species"
+}

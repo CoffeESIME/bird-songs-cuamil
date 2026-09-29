@@ -1,0 +1,12 @@
+{
+  "id": "falco-sparverius",
+  "name": "Cernícalo americano",
+  "scientific": "Falco sparverius",
+  "aliases": [
+    "American Kestrel"
+  ],
+  "taxonId": 4665,
+  "source": "https://www.inaturalist.org/taxa/4665",
+  "observations": 21,
+  "rank": "species"
+}

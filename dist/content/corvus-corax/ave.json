@@ -1,0 +1,12 @@
+{
+  "id": "corvus-corax",
+  "name": "Cuervo Común",
+  "scientific": "Corvus corax",
+  "aliases": [
+    "Common Raven"
+  ],
+  "taxonId": 8010,
+  "source": "https://www.inaturalist.org/taxa/8010",
+  "observations": 13,
+  "rank": "species"
+}

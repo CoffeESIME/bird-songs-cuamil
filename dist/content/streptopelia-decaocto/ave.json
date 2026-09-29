@@ -1,0 +1,12 @@
+{
+  "id": "streptopelia-decaocto",
+  "name": "Paloma turca de collar",
+  "scientific": "Streptopelia decaocto",
+  "aliases": [
+    "Eurasian Collared-Dove"
+  ],
+  "taxonId": 2969,
+  "source": "https://www.inaturalist.org/taxa/2969",
+  "observations": 1,
+  "rank": "species"
+}

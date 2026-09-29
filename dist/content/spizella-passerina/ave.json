@@ -1,0 +1,12 @@
+{
+  "id": "spizella-passerina",
+  "name": "Gorrión Cejas Blancas",
+  "scientific": "Spizella passerina",
+  "aliases": [
+    "Chipping Sparrow"
+  ],
+  "taxonId": 9135,
+  "source": "https://www.inaturalist.org/taxa/9135",
+  "observations": 20,
+  "rank": "species"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "loxia-curvirostra",
+  "name": "Picotuerto rojo",
+  "scientific": "Loxia curvirostra",
+  "aliases": [
+    "Red Crossbill"
+  ],
+  "taxonId": 10411,
+  "source": "https://www.inaturalist.org/taxa/10411",
+  "observations": 9,
+  "rank": "species"
+}

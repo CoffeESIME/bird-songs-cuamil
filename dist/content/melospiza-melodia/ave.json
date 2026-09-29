@@ -1,0 +1,12 @@
+{
+  "id": "melospiza-melodia",
+  "name": "Gorrión cantor",
+  "scientific": "Melospiza melodia",
+  "aliases": [
+    "Song Sparrow"
+  ],
+  "taxonId": 9100,
+  "source": "https://www.inaturalist.org/taxa/9100",
+  "observations": 108,
+  "rank": "species"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "certhia-americana",
+  "name": "Trepadorcito Americano",
+  "scientific": "Certhia americana",
+  "aliases": [
+    "Brown Creeper"
+  ],
+  "taxonId": 7458,
+  "source": "https://www.inaturalist.org/taxa/7458",
+  "observations": 33,
+  "rank": "species"
+}

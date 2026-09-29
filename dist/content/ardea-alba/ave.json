@@ -1,0 +1,12 @@
+{
+  "id": "ardea-alba",
+  "name": "Garza blanca",
+  "scientific": "Ardea alba",
+  "aliases": [
+    "Great Egret"
+  ],
+  "taxonId": 144455,
+  "source": "https://www.inaturalist.org/taxa/144455",
+  "observations": 2,
+  "rank": "species"
+}

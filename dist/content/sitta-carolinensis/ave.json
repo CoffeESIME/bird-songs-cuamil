@@ -1,0 +1,12 @@
+{
+  "id": "sitta-carolinensis",
+  "name": "Bajapalos Pecho Blanco",
+  "scientific": "Sitta carolinensis",
+  "aliases": [
+    "White-breasted Nuthatch"
+  ],
+  "taxonId": 14801,
+  "source": "https://www.inaturalist.org/taxa/14801",
+  "observations": 35,
+  "rank": "species"
+}

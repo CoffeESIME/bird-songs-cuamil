@@ -1,0 +1,12 @@
+{
+  "id": "hirundo-rustica",
+  "name": "Golondrina tijereta",
+  "scientific": "Hirundo rustica",
+  "aliases": [
+    "Barn Swallow"
+  ],
+  "taxonId": 11901,
+  "source": "https://www.inaturalist.org/taxa/11901",
+  "observations": 18,
+  "rank": "species"
+}

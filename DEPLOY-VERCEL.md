@@ -1,6 +1,6 @@
 # Publicar AVIARIO en Vercel
 
-La carpeta de proyecto es **aviario/**: contiene `vercel.json`, `package.json` y `dist/`. No selecciones la carpeta superior con los videos originales. Si usas `aviario-vercel.zip`, descomprímelo primero: sus archivos ya están en la raíz del proyecto.
+La carpeta de proyecto es **aviario/**: contiene `vercel.json`, `package.json` y `dist/`. No selecciones la carpeta superior con los videos originales. El ZIP antiguo contiene la versión anterior; publica esta carpeta actualizada.
 
 ## Opción 1: GitHub + panel de Vercel
 
@@ -14,7 +14,7 @@ La carpeta de proyecto es **aviario/**: contiene `vercel.json`, `package.json` y
    | Framework Preset | Other |
    | Build Command | `npm run build` |
    | Output Directory | `dist` |
-   | Install Command | vacío; no hay dependencias |
+   | Install Command | `npm ci` |
    | Variables de entorno | ninguna |
 
 5. Pulsa **Deploy**. Vercel mostrará la dirección del sitio.
@@ -24,6 +24,7 @@ La carpeta de proyecto es **aviario/**: contiene `vercel.json`, `package.json` y
 Desde la carpeta del proyecto (donde está `vercel.json`):
 
 ```powershell
+npm ci
 npm run build
 npx vercel
 ```
@@ -38,9 +39,9 @@ No se ejecuta `npm start` en producción: ese comando es solo para la vista prev
 
 ## Archivos y actualizaciones
 
-- Mantén los videos optimizados, imágenes y JSON dentro de `dist/media/` y súbelos junto con la app.
+- Mantén los videos optimizados, imágenes y JSON dentro de `dist/content/<nombre-cientifico>/` y súbelos junto con la app.
 - El build comprueba sintaxis, rutas, contenido no vacío y estructura de los análisis. Si falta un archivo, falla antes de publicar.
-- Para reemplazar grabaciones, actualiza `dist/catalog.js` y regenera el análisis siguiendo `README.md`.
+- Para añadir archivos o notas, sigue `CONTENT.md`; el índice se genera automáticamente durante el build.
 - La configuración anterior de Sites se conserva fuera de `dist/` y se excluye de los envíos por CLI mediante `.vercelignore`. No interviene en Vercel.
 - Vercel administra por separado el acceso y la protección de sus despliegues; la configuración privada del alojamiento anterior no se transfiere.
 - Después del primer despliegue, comprueba play/pausa, avance del audio, cambio de ave y carga de las cuatro visualizaciones.

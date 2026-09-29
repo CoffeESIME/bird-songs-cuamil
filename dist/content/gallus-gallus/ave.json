@@ -1,0 +1,12 @@
+{
+  "id": "gallus-gallus",
+  "name": "Gallo asiático",
+  "scientific": "Gallus gallus",
+  "aliases": [
+    "Red Junglefowl"
+  ],
+  "taxonId": 882,
+  "source": "https://www.inaturalist.org/taxa/882",
+  "observations": 10,
+  "rank": "species"
+}

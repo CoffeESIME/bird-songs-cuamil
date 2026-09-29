@@ -1,0 +1,12 @@
+{
+  "id": "cathartes-aura",
+  "name": "Zopilote aura",
+  "scientific": "Cathartes aura",
+  "aliases": [
+    "Turkey Vulture"
+  ],
+  "taxonId": 4756,
+  "source": "https://www.inaturalist.org/taxa/4756",
+  "observations": 4,
+  "rank": "species"
+}

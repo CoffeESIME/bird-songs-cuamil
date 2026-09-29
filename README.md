@@ -1,22 +1,16 @@
 # AVIARIO — Cuaderno de cantos
 
-Sitio web en español, sin dependencias de ejecución. `npm start` inicia http://127.0.0.1:4173. `npm run check` revisa la sintaxis.
+Sitio web en español, con dependencias de Markdown empaquetadas localmente. `npm start` inicia http://127.0.0.1:4173. `npm run check` revisa la sintaxis.
 
-## Diseño e interacción
+## Contenido por especie
 
-Para publicar en Vercel, sigue [DEPLOY-VERCEL.md](DEPLOY-VERCEL.md). La configuración está incluida; `npm run build` valida los archivos estáticos antes de publicarlos.
+El catálogo contiene las 214 entradas (212 especies y dos géneros) importadas de la consulta de iNaturalist. Cada ave tiene una carpeta en **dist/content/**: copia imágenes en **fotos/**, videos en **videos/** y escribe sus notas en **notas.md**. Las notas con contenido aparecen al final en el anexo, con soporte para Markdown y reproductores de YouTube, Spotify y Apple Music.
 
-Menú horizontal de cinco aves y controles debajo. Tarjetas crema con ilustración recortada, video independiente, cuatro visualizaciones simultáneas y carrusel inferior de cuatro fotos. Selección alfabética o aleatoria sin repetición inmediata, reproducción continua, volumen y efectos de interfaz desactivables. Espacio 3D giratorio con arrastre, flechas de teclado y botón de restablecer. Carrusel por botones, puntos, teclado y desplazamiento táctil. Respeta movimiento reducido.
+Consulta **[CONTENT.md](CONTENT.md)** para ejemplos, formatos, actualización automática y publicación. Con el servidor local abierto, guardar archivos actualiza la app; la versión publicada requiere un nuevo despliegue.
 
-## Contenido demo
+Instala dependencias con `npm ci` y ejecuta `npm start`. Para publicar en Vercel, sigue [DEPLOY-VERCEL.md](DEPLOY-VERCEL.md). `npm run build` regenera el catálogo y valida los archivos antes de publicar.
 
-Los videos originales en la carpeta superior permanecen intactos. Se utilizan copias comprimidas de hasta 30 segundos y cuatro fotogramas de cada uno. No hay identificación de especies para esas grabaciones: el sitio lo indica. Las cinco aves recortadas son ilustraciones generadas, no fotografías documentales; prompts y procedencia en `image-prompts.md`.
-
-## Cambiar el contenido
-
-Edita `dist/catalog.js`. Cada entrada tiene `cutout` (PNG transparente), `media` (video), `photos` (carrusel de imágenes), `analysis` (JSON de características), `audio` (opcional) y `demo`. Con `audio: null` se oye el video. Con una ruta MP3/WAV se oye la grabación independiente y el video queda silenciado. Mantén el análisis vinculado al mismo audio: si cambias una grabación, regenera su JSON. Las etiquetas de demo deben actualizarse solo después de verificar la especie.
-
-`uiSounds.click` y `uiSounds.change` aceptan rutas a efectos propios; `null` utiliza chirridos sintetizados por Web Audio.
+Las grabaciones originales de demostración se conservan en media/, pero no se atribuyen a las especies del nuevo catálogo. Las fichas sin fotos, videos o análisis muestran estados vacíos.
 
 ## Visualizaciones y regeneración
 

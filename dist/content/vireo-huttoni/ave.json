@@ -1,0 +1,12 @@
+{
+  "id": "vireo-huttoni",
+  "name": "Vireo reyezuelo",
+  "scientific": "Vireo huttoni",
+  "aliases": [
+    "Hutton's Vireo"
+  ],
+  "taxonId": 17375,
+  "source": "https://www.inaturalist.org/taxa/17375",
+  "observations": 36,
+  "rank": "species"
+}

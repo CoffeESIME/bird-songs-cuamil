@@ -1,0 +1,12 @@
+{
+  "id": "meleagris-gallopavo",
+  "name": "Pavo",
+  "scientific": "Meleagris gallopavo",
+  "aliases": [
+    "Wild Turkey"
+  ],
+  "taxonId": 906,
+  "source": "https://www.inaturalist.org/taxa/906",
+  "observations": 6,
+  "rank": "species"
+}

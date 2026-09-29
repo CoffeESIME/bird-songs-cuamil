@@ -1,0 +1,12 @@
+{
+  "id": "anser-cygnoides",
+  "name": "Ánsar cisnal",
+  "scientific": "Anser cygnoides",
+  "aliases": [
+    "Swan Goose"
+  ],
+  "taxonId": 7014,
+  "source": "https://www.inaturalist.org/taxa/7014",
+  "observations": 1,
+  "rank": "species"
+}

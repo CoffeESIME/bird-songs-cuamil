@@ -1,0 +1,12 @@
+{
+  "id": "vireo-plumbeus",
+  "name": "Vireo plomizo",
+  "scientific": "Vireo plumbeus",
+  "aliases": [
+    "Plumbeous Vireo"
+  ],
+  "taxonId": 17362,
+  "source": "https://www.inaturalist.org/taxa/17362",
+  "observations": 1,
+  "rank": "species"
+}

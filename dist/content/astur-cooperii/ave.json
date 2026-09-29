@@ -1,0 +1,12 @@
+{
+  "id": "astur-cooperii",
+  "name": "Gavilán de Cooper",
+  "scientific": "Astur cooperii",
+  "aliases": [
+    "Cooper's Hawk"
+  ],
+  "taxonId": 1579017,
+  "source": "https://www.inaturalist.org/taxa/1579017",
+  "observations": 20,
+  "rank": "species"
+}

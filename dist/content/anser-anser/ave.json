@@ -1,0 +1,12 @@
+{
+  "id": "anser-anser",
+  "name": "Ganso común",
+  "scientific": "Anser anser",
+  "aliases": [
+    "Greylag Goose"
+  ],
+  "taxonId": 7018,
+  "source": "https://www.inaturalist.org/taxa/7018",
+  "observations": 1,
+  "rank": "species"
+}

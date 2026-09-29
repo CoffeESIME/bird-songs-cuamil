@@ -1,0 +1,12 @@
+{
+  "id": "passerculus-sandwichensis",
+  "name": "Gorrión sabanero",
+  "scientific": "Passerculus sandwichensis",
+  "aliases": [
+    "Savannah Sparrow"
+  ],
+  "taxonId": 9981,
+  "source": "https://www.inaturalist.org/taxa/9981",
+  "observations": 1,
+  "rank": "species"
+}

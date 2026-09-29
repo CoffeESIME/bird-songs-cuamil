@@ -1,0 +1,12 @@
+{
+  "id": "sturnus-vulgaris",
+  "name": "Estornino pinto eurasiático",
+  "scientific": "Sturnus vulgaris",
+  "aliases": [
+    "European Starling"
+  ],
+  "taxonId": 14850,
+  "source": "https://www.inaturalist.org/taxa/14850",
+  "observations": 2,
+  "rank": "species"
+}

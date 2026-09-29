@@ -1,0 +1,12 @@
+{
+  "id": "bubo-virginianus",
+  "name": "Búho cornudo",
+  "scientific": "Bubo virginianus",
+  "aliases": [
+    "Great Horned Owl"
+  ],
+  "taxonId": 20044,
+  "source": "https://www.inaturalist.org/taxa/20044",
+  "observations": 15,
+  "rank": "species"
+}

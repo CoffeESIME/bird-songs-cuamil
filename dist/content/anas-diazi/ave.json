@@ -1,0 +1,12 @@
+{
+  "id": "anas-diazi",
+  "name": "Pato mexicano",
+  "scientific": "Anas diazi",
+  "aliases": [
+    "Mexican Duck"
+  ],
+  "taxonId": 827372,
+  "source": "https://www.inaturalist.org/taxa/827372",
+  "observations": 69,
+  "rank": "species"
+}

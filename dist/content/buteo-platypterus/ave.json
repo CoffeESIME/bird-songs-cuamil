@@ -1,0 +1,12 @@
+{
+  "id": "buteo-platypterus",
+  "name": "Aguililla Alas Anchas",
+  "scientific": "Buteo platypterus",
+  "aliases": [
+    "Broad-winged Hawk"
+  ],
+  "taxonId": 5227,
+  "source": "https://www.inaturalist.org/taxa/5227",
+  "observations": 13,
+  "rank": "species"
+}

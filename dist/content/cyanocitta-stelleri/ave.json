@@ -1,0 +1,12 @@
+{
+  "id": "cyanocitta-stelleri",
+  "name": "Chara Copetona",
+  "scientific": "Cyanocitta stelleri",
+  "aliases": [
+    "Steller's Jay"
+  ],
+  "taxonId": 8234,
+  "source": "https://www.inaturalist.org/taxa/8234",
+  "observations": 26,
+  "rank": "species"
+}

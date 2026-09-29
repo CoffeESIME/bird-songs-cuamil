@@ -1,0 +1,12 @@
+{
+  "id": "serinus-canaria",
+  "name": "Canario",
+  "scientific": "Serinus canaria",
+  "aliases": [
+    "Island Canary"
+  ],
+  "taxonId": 9246,
+  "source": "https://www.inaturalist.org/taxa/9246",
+  "observations": 1,
+  "rank": "species"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "turdus-assimilis",
+  "name": "Mirlo garganta blanca",
+  "scientific": "Turdus assimilis",
+  "aliases": [
+    "White-throated Thrush"
+  ],
+  "taxonId": 12711,
+  "source": "https://www.inaturalist.org/taxa/12711",
+  "observations": 45,
+  "rank": "species"
+}

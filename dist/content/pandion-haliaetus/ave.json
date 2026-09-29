@@ -1,0 +1,12 @@
+{
+  "id": "pandion-haliaetus",
+  "name": "Águila pescadora",
+  "scientific": "Pandion haliaetus",
+  "aliases": [
+    "Osprey"
+  ],
+  "taxonId": 116999,
+  "source": "https://www.inaturalist.org/taxa/116999",
+  "observations": 1,
+  "rank": "species"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "fulica-americana",
+  "name": "Gallareta americana",
+  "scientific": "Fulica americana",
+  "aliases": [
+    "American Coot"
+  ],
+  "taxonId": 473,
+  "source": "https://www.inaturalist.org/taxa/473",
+  "observations": 1,
+  "rank": "species"
+}

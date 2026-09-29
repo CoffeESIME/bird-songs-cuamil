@@ -1,0 +1,12 @@
+{
+  "id": "cardellina-rubra",
+  "name": "Chipe rojo",
+  "scientific": "Cardellina rubra",
+  "aliases": [
+    "Red Warbler"
+  ],
+  "taxonId": 145277,
+  "source": "https://www.inaturalist.org/taxa/145277",
+  "observations": 66,
+  "rank": "species"
+}

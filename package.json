@@ -5,7 +5,14 @@
   "type": "module",
   "scripts": {
     "start": "node server.mjs",
-    "check": "node --check dist/app.js && node --check dist/catalog.js && node --check dist/acoustic.js && node --test scripts/acoustic.test.mjs && node scripts/verify-static.mjs",
-    "build": "npm run check"
+    "check": "npm run content:build && node --check dist/app.js && node --check dist/content-view.js && node --check dist/acoustic.js && node --test scripts/*.test.mjs && node scripts/verify-static.mjs",
+    "build": "npm run check",
+    "content:build": "node scripts/build-content.mjs",
+    "content:sync": "node scripts/sync-species.mjs && npm run content:build",
+    "prestart": "npm run content:build"
+  },
+  "dependencies": {
+    "dompurify": "^3.4.16",
+    "marked": "^18.0.14"
   }
 }

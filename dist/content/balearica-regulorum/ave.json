@@ -1,0 +1,12 @@
+{
+  "id": "balearica-regulorum",
+  "name": "Grulla de corona gris",
+  "scientific": "Balearica regulorum",
+  "aliases": [
+    "Gray Crowned-Crane"
+  ],
+  "taxonId": 53,
+  "source": "https://www.inaturalist.org/taxa/53",
+  "observations": 1,
+  "rank": "species"
+}

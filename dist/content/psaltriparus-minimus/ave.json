@@ -1,0 +1,12 @@
+{
+  "id": "psaltriparus-minimus",
+  "name": "Sastrecillo",
+  "scientific": "Psaltriparus minimus",
+  "aliases": [
+    "Bushtit"
+  ],
+  "taxonId": 7266,
+  "source": "https://www.inaturalist.org/taxa/7266",
+  "observations": 60,
+  "rank": "species"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "setophaga-townsendi",
+  "name": "Chipe de Townsend",
+  "scientific": "Setophaga townsendi",
+  "aliases": [
+    "Townsend's Warbler"
+  ],
+  "taxonId": 145255,
+  "source": "https://www.inaturalist.org/taxa/145255",
+  "observations": 28,
+  "rank": "species"
+}

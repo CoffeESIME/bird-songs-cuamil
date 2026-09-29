@@ -1,0 +1,12 @@
+{
+  "id": "cyanocorax-yncas",
+  "name": "Chara verde",
+  "scientific": "Cyanocorax yncas",
+  "aliases": [
+    "Green Jay"
+  ],
+  "taxonId": 8474,
+  "source": "https://www.inaturalist.org/taxa/8474",
+  "observations": 1,
+  "rank": "species"
+}

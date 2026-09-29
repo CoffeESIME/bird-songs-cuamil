@@ -1,0 +1,12 @@
+{
+  "id": "pipilo-maculatus",
+  "name": "Rascador Moteado",
+  "scientific": "Pipilo maculatus",
+  "aliases": [
+    "Spotted Towhee"
+  ],
+  "taxonId": 9420,
+  "source": "https://www.inaturalist.org/taxa/9420",
+  "observations": 33,
+  "rank": "species"
+}

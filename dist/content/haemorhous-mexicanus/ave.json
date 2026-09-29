@@ -1,0 +1,12 @@
+{
+  "id": "haemorhous-mexicanus",
+  "name": "Pinzón mexicano",
+  "scientific": "Haemorhous mexicanus",
+  "aliases": [
+    "House Finch"
+  ],
+  "taxonId": 199840,
+  "source": "https://www.inaturalist.org/taxa/199840",
+  "observations": 112,
+  "rank": "species"
+}

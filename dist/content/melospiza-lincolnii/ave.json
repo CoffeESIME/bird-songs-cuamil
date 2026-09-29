@@ -1,0 +1,12 @@
+{
+  "id": "melospiza-lincolnii",
+  "name": "Gorrión de Lincoln",
+  "scientific": "Melospiza lincolnii",
+  "aliases": [
+    "Lincoln's Sparrow"
+  ],
+  "taxonId": 9092,
+  "source": "https://www.inaturalist.org/taxa/9092",
+  "observations": 11,
+  "rank": "species"
+}

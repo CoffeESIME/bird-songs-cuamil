@@ -1,0 +1,12 @@
+{
+  "id": "buteo-swainsoni",
+  "name": "Aguililla de Swainson",
+  "scientific": "Buteo swainsoni",
+  "aliases": [
+    "Swainson's Hawk"
+  ],
+  "taxonId": 5196,
+  "source": "https://www.inaturalist.org/taxa/5196",
+  "observations": 1,
+  "rank": "species"
+}

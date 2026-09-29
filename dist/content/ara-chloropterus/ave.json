@@ -1,0 +1,12 @@
+{
+  "id": "ara-chloropterus",
+  "name": "Guacamaya roja",
+  "scientific": "Ara chloropterus",
+  "aliases": [
+    "Red-and-green Macaw"
+  ],
+  "taxonId": 19016,
+  "source": "https://www.inaturalist.org/taxa/19016",
+  "observations": 1,
+  "rank": "species"
+}

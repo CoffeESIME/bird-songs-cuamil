@@ -1,0 +1,12 @@
+{
+  "id": "vireo-solitarius",
+  "name": "Vireo anteojillo",
+  "scientific": "Vireo solitarius",
+  "aliases": [
+    "Blue-headed Vireo"
+  ],
+  "taxonId": 17402,
+  "source": "https://www.inaturalist.org/taxa/17402",
+  "observations": 2,
+  "rank": "species"
+}

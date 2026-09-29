@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {prepareAcoustic,acousticFrame} from '../dist/acoustic.js';
-import {birds} from '../dist/catalog.js';
+import {birds} from '../dist/catalog-demo.js';
 
 for(const bird of birds){
   const data=JSON.parse(await readFile(new URL(`../dist/${bird.analysis}`,import.meta.url),'utf8'));

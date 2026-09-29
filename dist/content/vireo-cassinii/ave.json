@@ -1,0 +1,12 @@
+{
+  "id": "vireo-cassinii",
+  "name": "Vireo de Cassin",
+  "scientific": "Vireo cassinii",
+  "aliases": [
+    "Cassin's Vireo"
+  ],
+  "taxonId": 17382,
+  "source": "https://www.inaturalist.org/taxa/17382",
+  "observations": 2,
+  "rank": "species"
+}

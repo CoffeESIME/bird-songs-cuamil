@@ -1,0 +1,12 @@
+{
+  "id": "melanerpes-aurifrons",
+  "name": "Carpintero cheje",
+  "scientific": "Melanerpes aurifrons",
+  "aliases": [
+    "Golden-fronted Woodpecker"
+  ],
+  "taxonId": 18167,
+  "source": "https://www.inaturalist.org/taxa/18167",
+  "observations": 2,
+  "rank": "species"
+}

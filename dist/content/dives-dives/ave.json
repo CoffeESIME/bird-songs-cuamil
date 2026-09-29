@@ -1,0 +1,12 @@
+{
+  "id": "dives-dives",
+  "name": "Tordo cantor",
+  "scientific": "Dives dives",
+  "aliases": [
+    "Melodious Blackbird"
+  ],
+  "taxonId": 10001,
+  "source": "https://www.inaturalist.org/taxa/10001",
+  "observations": 1,
+  "rank": "species"
+}

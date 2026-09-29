@@ -1,0 +1,12 @@
+{
+  "id": "pelecanus-erythrorhynchos",
+  "name": "Pelícano Blanco Americano",
+  "scientific": "Pelecanus erythrorhynchos",
+  "aliases": [
+    "American White Pelican"
+  ],
+  "taxonId": 4334,
+  "source": "https://www.inaturalist.org/taxa/4334",
+  "observations": 2,
+  "rank": "species"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "passer-domesticus",
+  "name": "Gorrión Doméstico",
+  "scientific": "Passer domesticus",
+  "aliases": [
+    "House Sparrow"
+  ],
+  "taxonId": 13858,
+  "source": "https://www.inaturalist.org/taxa/13858",
+  "observations": 81,
+  "rank": "species"
+}

@@ -1,0 +1,6 @@
+{
+  "url": "https://www.inaturalist.org/observations?lat=19.3525&lng=-99.2824&radius=5&taxon_id=3&view=species",
+  "api": "https://api.inaturalist.org/v1/observations/species_counts?lat=19.3525&lng=-99.2824&radius=5&taxon_id=3&per_page=500&locale=es-MX",
+  "importedAt": "2026-09-29T00:32:43.546Z",
+  "count": 214
+}

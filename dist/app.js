@@ -1,10 +1,11 @@
-import {birds,uiSounds} from './catalog.js';
+import {renderAnnex} from './content-view.js';
+import {birds,uiSounds,source,revision as contentRevision} from './catalog.js';
 import {prepareAcoustic,acousticFrame} from './acoustic.js';
 const $=id=>document.getElementById(id), video=$('video'), audio=new Audio();
 const motionPreference=matchMedia('(prefers-reduced-motion: reduce)');
 let reduced=motionPreference.matches;
 const icon='<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M2 9h5v5h8V7h5V3h5v7h5v4h-6v9H11v-4H6v-5H2zM12 23h3v6h-3zm8 0h3v6h-3z"/></svg>';
-let index=0,photoIndex=0,playing=false,changing=false,fx=true,ctx,master,analyser,frequency;
+let index=Math.max(0,birds.findIndex(b=>b.id===location.hash.slice(1).replace(/^anexo-/,''))),photoIndex=0,playing=false,changing=false,fx=true,ctx,master,analyser,frequency;
 let acousticModel=null;
 let analysis=null,analysisToken=0,frame=0,lastFrame=0,yaw=-.45,pitch=.22,drag=null;
 const sources=new Map(),analysisCache=new Map(),specImage=document.createElement('canvas');
@@ -13,21 +14,66 @@ const current=()=>birds[index], player=()=>current().audio?audio:video;
 const time=s=>Number.isFinite(s)?`${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,'0')}`:'--:--';
 $('transition').innerHTML=icon.repeat(3)+'<p>CAMBIANDO DE VUELO</p>';
 const normalize=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-function renderList(){const query=normalize($('search').value);$('bird-list').replaceChildren();birds.forEach((bird,i)=>{if(!normalize(bird.name+' '+bird.scientific).includes(query))return;const b=document.createElement('button');b.className='bird-item';b.setAttribute('aria-current',String(i===index));b.innerHTML=icon;const label=document.createElement('span');label.textContent=bird.name;b.append(label);b.onclick=()=>changeBird(i);$('bird-list').append(b)});$('empty').hidden=$('bird-list').children.length>0}
+function renderList(){const query=normalize($('search').value);$('bird-list').replaceChildren();birds.forEach((bird,i)=>{if(!normalize(bird.name+' '+bird.scientific+' '+(bird.aliases||[]).join(' ')).includes(query))return;const b=document.createElement('button');b.className='bird-item';b.setAttribute('aria-current',String(i===index));b.innerHTML=icon;const label=document.createElement('span');label.textContent=bird.name;b.append(label);b.onclick=()=>changeBird(i);$('bird-list').append(b)});$('empty').hidden=$('bird-list').children.length>0}
 async function initAudio(){if(!ctx){ctx=new AudioContext();analyser=ctx.createAnalyser();analyser.fftSize=2048;analyser.smoothingTimeConstant=.7;master=ctx.createGain();master.gain.value=+$('volume').value;analyser.connect(master);master.connect(ctx.destination);for(const el of [video,audio]){el.volume=1;sources.set(el,ctx.createMediaElementSource(el))}frequency=new Uint8Array(analyser.frequencyBinCount);routeAudio()}if(ctx.state==='suspended')await ctx.resume()}
 function routeAudio(){if(!ctx)return;for(const source of sources.values())source.disconnect();sources.get(player()).connect(analyser)}
 async function sound(kind='click'){if(!fx)return;try{await initAudio();if(uiSounds[kind]){const effect=new Audio(uiSounds[kind]);effect.volume=.15;await effect.play();return}const t=ctx.currentTime,o=ctx.createOscillator(),gain=ctx.createGain();o.frequency.setValueAtTime(kind==='change'?1750:750,t);o.frequency.exponentialRampToValueAtTime(kind==='change'?3100:1100,t+.045);o.frequency.exponentialRampToValueAtTime(650,t+.13);gain.gain.setValueAtTime(.0001,t);gain.gain.exponentialRampToValueAtTime(.025,t+.008);gain.gain.exponentialRampToValueAtTime(.0001,t+.14);o.connect(gain);gain.connect(ctx.destination);o.start();o.stop(t+.15)}catch{}}
-function updatePlay(){playing=!player().paused&&!player().ended;$('play').setAttribute('aria-label',playing?'Pausar muestra':'Reproducir muestra');$('play').innerHTML=playing?'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zm8 0h4v16h-4z"/></svg>':'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 4 12 8-12 8z"/></svg>';$('track-title').textContent=playing?'Escuchando muestra':'Escuchar muestra';$('video-play').textContent=playing?'Ⅱ':'▶';$('video-play').setAttribute('aria-label',playing?'Pausar video':'Reproducir video');$('live-state').textContent=playing?'● ESCUCHANDO':'EN PAUSA';if(playing)animate();else drawAll()}
-async function play(){try{await initAudio();await player().play();if(current().audio){video.muted=true;video.currentTime=player().currentTime%Math.max(1,video.duration||1);video.play().catch(()=>{})}$('status').textContent=current().demo?'Colección demo · las grabaciones todavía no están asociadas a estas especies.':'Grabación del ave seleccionada.'}catch{$('status').textContent='No se pudo reproducir. Pulsa play para volver a intentarlo.';updatePlay()}}
+function updatePlay(){playing=!player().paused&&!player().ended;$('play').setAttribute('aria-label',playing?'Pausar grabación':'Reproducir grabación');$('play').innerHTML=playing?'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zm8 0h4v16h-4z"/></svg>':'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 4 12 8-12 8z"/></svg>';$('track-title').textContent=playing?'Escuchando grabación':(current().audio||current().media.length?'Escuchar grabación':'Sin grabación todavía');$('video-play').textContent=playing?'Ⅱ':'▶';$('video-play').setAttribute('aria-label',playing?'Pausar video':'Reproducir video');$('live-state').textContent=playing?'● ESCUCHANDO':'EN PAUSA';if(playing)animate();else drawAll()}
+async function play(){if(!current().audio&&!current().media.length)return;try{await initAudio();await player().play();if(current().audio&&current().media.length){video.muted=true;video.currentTime=player().currentTime%Math.max(1,video.duration||1);video.play().catch(()=>{})}$('status').textContent=current().demo?'Colección demo · las grabaciones todavía no están asociadas a estas especies.':'Grabación del ave seleccionada.'}catch{$('status').textContent='No se pudo reproducir. Pulsa play para volver a intentarlo.';updatePlay()}}
 function pause(){video.pause();audio.pause();updatePlay()}
 function toggle(){return playing?pause():play()}
-function photo(n,scroll=true){const photos=current().photos;photoIndex=(n+photos.length)%photos.length;$('photo-count').textContent=`0${photoIndex+1} / 0${photos.length}`;[...$('photo-strip').children].forEach((c,i)=>c.dataset.current=String(i===photoIndex));[...$('photo-dots').children].forEach((c,i)=>c.setAttribute('aria-pressed',String(i===photoIndex)));if(scroll){const target=$('photo-strip').children[photoIndex],strip=$('photo-strip');strip.scrollTo({left:target.offsetLeft-strip.offsetLeft-(strip.clientWidth-target.clientWidth)/2,behavior:reduced?'instant':'smooth'})}}
-function renderPhotos(){$('photo-strip').replaceChildren();$('photo-dots').replaceChildren();current().photos.forEach((src,i)=>{const card=document.createElement('div');card.className='polaroid photo-card';card.innerHTML=`<span class="tape" aria-hidden="true"></span><img src="${src}" alt="Fotograma ${i+1} del video de muestra, especie sin identificar" loading="lazy"><div class="polaroid-caption"><span>Apunte de campo</span><span>0${i+1}</span></div>`;$('photo-strip').append(card);const dot=document.createElement('button');dot.setAttribute('aria-label',`Ver foto ${i+1}`);dot.onclick=()=>photo(i);$('photo-dots').append(dot)});photo(0,false);$('photo-strip').scrollLeft=0}
-async function loadAnalysis(){const token=++analysisToken;analysis=null;acousticModel=null;$('analysis-status').hidden=false;$('analysis-status').textContent='Preparando la huella del sonido…';drawAll();try{let data=analysisCache.get(current().analysis);if(!data){const r=await fetch(current().analysis);if(!r.ok)throw Error();data=await r.json();analysisCache.set(current().analysis,data)}if(token!==analysisToken)return;analysis=data;acousticModel=prepareAcoustic(data);buildSpectrogram();$('analysis-status').hidden=true;$('wave-duration').textContent=time(data.duration);drawAll()}catch{if(token===analysisToken){$('analysis-status').textContent='No se pudo cargar el análisis de esta muestra.';$('wave-duration').textContent='—'}}}
-function loadBird(){const b=current();$('bird-name').textContent=b.name;$('scientific').textContent=b.scientific;$('bird-counter').textContent=`PÁGINA 0${index+1} / 0${birds.length}`;$('portrait-number').textContent=`0${index+1}`;$('habitat').textContent=b.habitat;$('bird-art').hidden=false;$('art-error').hidden=true;$('bird-art').src=b.cutout;$('bird-art').alt=`Ilustración recortada de ${b.name.toLowerCase()}`;video.src=b.media.find(m=>m.type==='video').src;video.poster=b.photos[0];video.muted=!!b.audio;if(b.audio)audio.src=b.audio;else audio.removeAttribute('src');routeAudio();$('video-caption').textContent=`Apunte de campo / 0${index+1}`;$('elapsed').textContent='0:00';$('duration').textContent='--:--';$('seek').value=0;$('seek').disabled=true;renderList();renderPhotos();loadAnalysis();updatePlay()}
-async function changeBird(n,resume=playing){if(changing)return;if(n===index){if(!resume)pause();return}changing=true;pause();sound('change');$('transition').classList.remove('running');void $('transition').offsetWidth;$('transition').classList.add('running');await new Promise(r=>setTimeout(r,reduced?0:170));index=n;loadBird();if(resume)await play();await new Promise(r=>setTimeout(r,reduced?0:380));$('transition').classList.remove('running');changing=false}
+function photo(n,scroll=true){const photos=current().photos;if(!photos.length){$('photo-count').textContent='Sin fotos todavía';return}photoIndex=(n+photos.length)%photos.length;$('photo-count').textContent=`0${photoIndex+1} / 0${photos.length}`;[...$('photo-strip').children].forEach((c,i)=>c.dataset.current=String(i===photoIndex));[...$('photo-dots').children].forEach((c,i)=>c.setAttribute('aria-pressed',String(i===photoIndex)));if(scroll){const target=$('photo-strip').children[photoIndex],strip=$('photo-strip');strip.scrollTo({left:target.offsetLeft-strip.offsetLeft-(strip.clientWidth-target.clientWidth)/2,behavior:reduced?'instant':'smooth'})}}
+function renderPhotos(){
+  $('photo-strip').replaceChildren();$('photo-dots').replaceChildren();
+  const photos=current().photos;
+  $('prev-photo').disabled=$('next-photo').disabled=photos.length<2;
+  if(!photos.length){const p=document.createElement('p');p.className='content-empty';p.textContent='El álbum de esta ave aún está por comenzar.';$('photo-strip').append(p)}
+  photos.forEach((src,i)=>{const card=document.createElement('div');card.className='polaroid photo-card';
+    const img=document.createElement('img');img.src=src;img.alt=current().name+' · fotografía '+(i+1);img.loading='lazy';
+    img.onerror=()=>{img.alt='No se pudo cargar esta fotografía'};
+    const caption=document.createElement('div');caption.className='polaroid-caption';caption.textContent='Apunte de campo / '+String(i+1).padStart(2,'0');
+    card.append(img,caption);$('photo-strip').append(card);
+    const dot=document.createElement('button');dot.setAttribute('aria-label','Ver foto '+(i+1));dot.onclick=()=>photo(i);$('photo-dots').append(dot);
+  });photo(0,false);$('photo-strip').scrollLeft=0;
+}
+async function loadAnalysis(){const token=++analysisToken;analysis=null;acousticModel=null;$('analysis-status').hidden=false;$('analysis-status').textContent='Preparando la huella del sonido…';drawAll();$('wave-duration').textContent='—';if(!current().analysis){$('analysis-status').textContent='Sin análisis de audio para esta ave.';return}try{let data=analysisCache.get(current().analysis);if(!data){const r=await fetch(current().analysis);if(!r.ok)throw Error();data=await r.json();analysisCache.set(current().analysis,data)}if(token!==analysisToken)return;analysis=data;acousticModel=prepareAcoustic(data);buildSpectrogram();$('analysis-status').hidden=true;$('wave-duration').textContent=time(data.duration);drawAll()}catch{if(token===analysisToken){$('analysis-status').textContent='No se pudo cargar el análisis de esta muestra.';$('wave-duration').textContent='—'}}}
+function loadBird(){
+ const b=current();history.replaceState(null,'','#'+b.id);
+ $('bird-name').textContent=b.name;$('scientific').textContent=b.scientific;
+ $('bird-counter').textContent='PÁGINA '+String(index+1).padStart(2,'0')+' / '+birds.length;
+ $('portrait-number').textContent=String(index+1).padStart(2,'0');$('habitat').textContent=b.habitat;
+ $('bird-art').hidden=!b.cutout;$('art-error').hidden=!!b.cutout;
+ if(b.cutout){$('bird-art').src=b.cutout;$('bird-art').alt=b.name}else $('bird-art').removeAttribute('src');
+ video.pause();audio.pause();video.removeAttribute('src');audio.removeAttribute('src');
+ if(b.media.length)video.src=b.media[0].src;
+ video.poster=b.photos[0]||'';video.muted=!!b.audio;
+ if(b.audio)audio.src=b.audio;
+ video.load();audio.load();routeAudio();
+ $('video').hidden=!b.media.length;$('video-play').disabled=!b.media.length;
+ $('play').disabled=!b.audio&&!b.media.length;
+ $('video-caption').textContent=b.media.length?'Grabación de campo':'Aún no hay videos';
+ document.querySelector('.sample-caption').textContent=b.media.length?'Archivo de esta ave':'Una nueva observación empieza aquí.';
+ $('status').textContent=b.audio||b.media.length?'Archivo audiovisual de '+b.name+'.':'Esta ficha todavía no tiene una grabación.';
+ $('elapsed').textContent='0:00';$('duration').textContent='--:--';$('spectrogram-time').textContent='0:00';$('seek').value=0;$('seek').disabled=true;
+ const link=$('taxon-link');link.href=b.source;link.textContent='Ver especie en iNaturalist ↗';
+ const annex=$('annex-link');annex.hidden=!b.hasNotes;annex.href='#anexo-'+b.id;
+ annex.onclick=()=>{const entry=$('anexo-'+b.id);if(entry)entry.open=true};
+ const select=$('video-select');select.replaceChildren();select.hidden=b.media.length<2;
+ b.media.forEach((m,i)=>{const option=document.createElement('option');option.value=m.src;option.textContent=decodeURIComponent(m.src.split('/').pop());select.append(option)});
+ select.onchange=()=>{pause();video.src=select.value;video.load();if(!b.audio){analysisToken++;analysis=null;acousticModel=null;$('analysis-status').hidden=false;$('analysis-status').textContent='Sin análisis para este video.';drawAll()}};
+ const recordings=$('audio-recordings');recordings.replaceChildren();recordings.hidden=b.recordings.length<2;
+ b.recordings.slice(1).forEach(src=>{const label=document.createElement('p');label.textContent=decodeURIComponent(src.split('/').pop());const extra=document.createElement('audio');extra.controls=true;extra.preload='none';extra.src=src;extra.onplay=()=>{pause();for(const other of recordings.querySelectorAll('audio'))if(other!==extra)other.pause()};recordings.append(label,extra)});
+ renderList();renderPhotos();loadAnalysis();updatePlay();
+}
+async function changeBird(n,resume=playing){if(changing)return;if(n===index){if(!resume)pause();history.replaceState(null,'','#'+current().id);return}changing=true;pause();sound('change');$('transition').classList.remove('running');void $('transition').offsetWidth;$('transition').classList.add('running');await new Promise(r=>setTimeout(r,reduced?0:170));index=n;loadBird();if(resume)await play();await new Promise(r=>setTimeout(r,reduced?0:380));$('transition').classList.remove('running');changing=false}
 const randomIndex=()=>(index+1+Math.floor(Math.random()*(birds.length-1)))%birds.length;
-const next=(resume=playing)=>changeBird($('order').value==='shuffle'?randomIndex():(index+1)%birds.length,resume);
+const next=(resume=playing)=>{
+ const candidates=birds.map((b,i)=>i).filter(i=>!resume||birds[i].audio||birds[i].media.length);
+ if(!candidates.length)return;
+ const n=$('order').value==='shuffle'?candidates.filter(i=>i!==index):candidates.filter(i=>i>index);
+ const options=n.length?n:candidates;
+ return changeBird(options[$('order').value==='shuffle'?Math.floor(Math.random()*options.length):0],resume);
+};
 for(const el of [video,audio]){el.addEventListener('play',updatePlay);el.addEventListener('pause',updatePlay);el.addEventListener('loadedmetadata',()=>{if(el===player()){$('duration').textContent=time(el.duration);$('seek').disabled=!Number.isFinite(el.duration)}});el.addEventListener('timeupdate',()=>{if(el!==player())return;$('elapsed').textContent=time(el.currentTime);$('spectrogram-time').textContent=time(el.currentTime);$('seek').value=Number.isFinite(el.duration)&&el.duration?100*el.currentTime/el.duration:0;if(!playing)drawAll()});el.addEventListener('seeked',drawAll);el.addEventListener('ended',()=>{if(el!==player())return;updatePlay();if($('autoplay').checked)next(true)});el.addEventListener('error',()=>{if(el===player()){$('status').textContent='No se encontró esta grabación. Prueba otra ave.';updatePlay()}})}
 $('play').onclick=toggle;$('video-play').onclick=toggle;$('next').onclick=()=>next();$('random').onclick=()=>changeBird(randomIndex());$('search').oninput=renderList;$('prev-photo').onclick=()=>photo(photoIndex-1);$('next-photo').onclick=()=>photo(photoIndex+1);$('photo-strip').onkeydown=e=>{if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();photo(photoIndex+(e.key==='ArrowRight'?1:-1));sound()}};
 let scrollTimer;$('photo-strip').onscroll=()=>{clearTimeout(scrollTimer);scrollTimer=setTimeout(()=>{const strip=$('photo-strip'),center=strip.scrollLeft+strip.clientWidth/2;let closest=0,distance=Infinity;[...strip.children].forEach((c,i)=>{const d=Math.abs(c.offsetLeft-strip.offsetLeft+c.clientWidth/2-center);if(d<distance){distance=d;closest=i}});if(strip.scrollWidth>strip.clientWidth+5){if(strip.scrollLeft<2)closest=0;else if(strip.scrollLeft>=strip.scrollWidth-strip.clientWidth-2)closest=strip.children.length-1;photo(closest,false)}},180)};
@@ -43,7 +89,7 @@ function drawPower(){const p=plots.power,{g,w,h}=p;clear(p);if(!analysis)return;
 function drawAcoustic(){
   const p=plots.acoustic,{g,w,h}=p;clear(p);
   const status=$('acoustic-progress');
-  if(!acousticModel||w<1){status.textContent='PREPARANDO…';return}
+  if(!acousticModel||w<1){status.textContent=current().analysis?'PREPARANDO…':'SIN ANÁLISIS';return}
   const {nodes}=acousticModel;
   const state=acousticFrame(acousticModel,player().currentTime,reduced);
   const {t,count,active,link,energy,birth}=state;
@@ -110,5 +156,13 @@ function animate(){if(!frame)frame=requestAnimationFrame(tick)}
 function tick(now){frame=0;if(!playing||document.hidden)return;if(now-lastFrame>(reduced?160:40)){lastFrame=now;drawAll()}else if(!reduced)drawAcoustic();animate()}
 $('acoustic').onpointerdown=e=>{drag={x:e.clientX,y:e.clientY};$('acoustic').setPointerCapture(e.pointerId)};$('acoustic').onpointermove=e=>{if(!drag)return;yaw+=(e.clientX-drag.x)*.009;pitch=Math.max(-1.2,Math.min(1.2,pitch+(e.clientY-drag.y)*.009));drag={x:e.clientX,y:e.clientY};drawAcoustic()};$('acoustic').onpointerup=$('acoustic').onpointercancel=()=>drag=null;$('acoustic').onkeydown=e=>{if(!['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','Home'].includes(e.key))return;e.preventDefault();if(e.key==='Home'){yaw=-.45;pitch=.22}else{yaw+=e.key==='ArrowRight'?.15:e.key==='ArrowLeft'?-.15:0;pitch=Math.max(-1.2,Math.min(1.2,pitch+(e.key==='ArrowDown'?.15:e.key==='ArrowUp'?-.15:0)))}drawAcoustic()};$('reset-view').onclick=()=>{yaw=-.45;pitch=.22;drawAcoustic()};document.addEventListener('visibilitychange',()=>{if(!document.hidden&&playing)animate()});
 motionPreference.addEventListener('change',event=>{reduced=event.matches;drawAll()});
+document.querySelector('.library-heading h2 span').textContent='/ '+birds.length;
+$('catalog-source').href=source.url;$('catalog-source').textContent=birds.length+' fichas · radio de 5 km · iNaturalist';
+renderAnnex(birds,n=>changeBird(n,false));
 loadBird();resize();
+// The local server rebuilds the index when files are pasted. Refresh an idle page.
+if(location.hostname==='127.0.0.1'||location.hostname==='localhost'){
+ let revision=contentRevision;
+ setInterval(async()=>{try{const r=await fetch('/__content-version',{cache:'no-store'});if(!r.ok)return;const data=await r.json();if(data.error){$('status').textContent='No se pudo actualizar el contenido: '+data.error;return}if(revision&&revision!==data.version&&!playing)location.reload();revision??=data.version}catch{}},2500);
+}
 if(document.modelContext?.registerTool){for(const tool of [{name:'list_birds',description:'Listar aves y consultar la selección actual.',inputSchema:{type:'object',properties:{},additionalProperties:false},annotations:{readOnlyHint:true},execute:()=>({birds:birds.map(({id,name})=>({id,name})),selected:current().id})},{name:'select_bird',description:'Seleccionar un ave de la biblioteca y dejar la reproducción pausada.',inputSchema:{type:'object',properties:{id:{type:'string',enum:birds.map(b=>b.id)}},required:['id'],additionalProperties:false},annotations:{readOnlyHint:false},execute:async input=>{const n=birds.findIndex(b=>b.id===input?.id);if(n<0)throw Error('Ave desconocida');if(changing)throw Error('Espera a que termine la transición');await changeBird(n,false);return {selected:current().id}}}]){try{Promise.resolve(document.modelContext.registerTool(tool)).catch(()=>{})}catch{}}}

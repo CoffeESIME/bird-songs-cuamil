@@ -1,0 +1,12 @@
+{
+  "id": "buteo-jamaicensis",
+  "name": "Aguililla cola roja",
+  "scientific": "Buteo jamaicensis",
+  "aliases": [
+    "Red-tailed Hawk"
+  ],
+  "taxonId": 5212,
+  "source": "https://www.inaturalist.org/taxa/5212",
+  "observations": 23,
+  "rank": "species"
+}

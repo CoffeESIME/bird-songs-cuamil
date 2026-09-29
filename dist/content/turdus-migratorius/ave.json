@@ -1,0 +1,13 @@
+{
+  "id": "turdus-migratorius",
+  "name": "Mirlo primavera",
+  "scientific": "Turdus migratorius",
+  "aliases": [
+    "American Robin",
+    "robin americano"
+  ],
+  "taxonId": 12727,
+  "source": "https://www.inaturalist.org/taxa/12727",
+  "observations": 160,
+  "rank": "species"
+}

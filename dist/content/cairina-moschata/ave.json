@@ -1,0 +1,12 @@
+{
+  "id": "cairina-moschata",
+  "name": "Pato real",
+  "scientific": "Cairina moschata",
+  "aliases": [
+    "Muscovy Duck"
+  ],
+  "taxonId": 7120,
+  "source": "https://www.inaturalist.org/taxa/7120",
+  "observations": 1,
+  "rank": "species"
+}

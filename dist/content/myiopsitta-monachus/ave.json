@@ -1,0 +1,12 @@
+{
+  "id": "myiopsitta-monachus",
+  "name": "Perico Monje Argentino",
+  "scientific": "Myiopsitta monachus",
+  "aliases": [
+    "Monk Parakeet"
+  ],
+  "taxonId": 19349,
+  "source": "https://www.inaturalist.org/taxa/19349",
+  "observations": 6,
+  "rank": "species"
+}

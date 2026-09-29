@@ -1,0 +1,12 @@
+{
+  "id": "trogon-mexicanus",
+  "name": "Coa Mexicana",
+  "scientific": "Trogon mexicanus",
+  "aliases": [
+    "Mountain Trogon"
+  ],
+  "taxonId": 20777,
+  "source": "https://www.inaturalist.org/taxa/20777",
+  "observations": 7,
+  "rank": "species"
+}
