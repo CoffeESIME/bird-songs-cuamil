@@ -201,7 +201,17 @@ export async function updateBird(file,raw,recording) {
   const current=await readFile(file,'utf8');if(current!==raw) throw Error('ave.json changed during import; refusing to overwrite');
   const bird=JSON.parse(current);bird.audio=[...(bird.audio||[]),recording];
   const tmp=`${file}.${randomUUID()}.tmp`, next=JSON.stringify(bird,null,2)+'\n';
-  try {await writeFile(tmp,next,{flag:'wx'});await rename(tmp,file)} finally {await unlink(tmp).catch(()=>{})}
+  try {
+    await writeFile(tmp,next,{flag:'wx'});
+    for(let attempt=0;;attempt++) {
+      if(await readFile(file,'utf8')!==raw) throw Error('ave.json changed during import; refusing to overwrite');
+      try {await rename(tmp,file);break} catch(e) {
+        // Windows file watchers/antivirus can briefly hold the destination open.
+        if(!['EPERM','EACCES','EBUSY'].includes(e.code)||attempt>=5) throw e;
+        await delay(100*2**attempt);
+      }
+    }
+  } finally {await unlink(tmp).catch(()=>{})}
   return next;
 }
 export async function existingAudio(bird,dir) {
