@@ -1095,13 +1095,17 @@
       "source": "https://www.inaturalist.org/taxa/10025",
       "observations": 53,
       "rank": "species",
+      "audio": "content/basileuterus-belli/audio/call-01.mp3",
       "habitat": "53 observaciones en la zona",
       "demo": false,
       "cutout": null,
       "photos": [],
       "media": [],
-      "audio": null,
-      "recordings": [],
+      "recordings": [
+        "content/basileuterus-belli/audio/call-01.mp3",
+        "content/basileuterus-belli/audio/other-01.wav",
+        "content/basileuterus-belli/audio/song-01.mp3"
+      ],
       "analysis": null,
       "notes": "<!-- Escribe aquí notas, poemas o enlaces. Solo aparecerá el anexo si hay contenido. -->\n",
       "contentPath": "content/basileuterus-belli/",
@@ -2077,13 +2081,17 @@
       "source": "https://www.inaturalist.org/taxa/1579017",
       "observations": 20,
       "rank": "species",
+      "audio": "content/astur-cooperii/audio/other-01.wav",
       "habitat": "20 observaciones en la zona",
       "demo": false,
       "cutout": null,
       "photos": [],
       "media": [],
-      "audio": null,
-      "recordings": [],
+      "recordings": [
+        "content/astur-cooperii/audio/other-01.wav",
+        "content/astur-cooperii/audio/other-02.wav",
+        "content/astur-cooperii/audio/other-03.wav"
+      ],
       "analysis": null,
       "notes": "<!-- Escribe aquí notas, poemas o enlaces. Solo aparecerá el anexo si hay contenido. -->\n",
       "contentPath": "content/astur-cooperii/",
@@ -2426,13 +2434,17 @@
       "source": "https://www.inaturalist.org/taxa/53",
       "observations": 1,
       "rank": "species",
+      "audio": "content/balearica-regulorum/audio/call-01.mp3",
       "habitat": "1 observaciones en la zona",
       "demo": false,
       "cutout": null,
       "photos": [],
       "media": [],
-      "audio": null,
-      "recordings": [],
+      "recordings": [
+        "content/balearica-regulorum/audio/call-01.mp3",
+        "content/balearica-regulorum/audio/flight_call-01.mp3",
+        "content/balearica-regulorum/audio/song-01.mp3"
+      ],
       "analysis": null,
       "notes": "<!-- Escribe aquí notas, poemas o enlaces. Solo aparecerá el anexo si hay contenido. -->\n",
       "contentPath": "content/balearica-regulorum/",
@@ -4054,13 +4066,17 @@
       "source": "https://www.inaturalist.org/taxa/10331",
       "observations": 31,
       "rank": "species",
+      "audio": "content/atlapetes-pileatus/audio/alarm-01.mp3",
       "habitat": "31 observaciones en la zona",
       "demo": false,
       "cutout": null,
       "photos": [],
       "media": [],
-      "audio": null,
-      "recordings": [],
+      "recordings": [
+        "content/atlapetes-pileatus/audio/alarm-01.mp3",
+        "content/atlapetes-pileatus/audio/call-01.mp3",
+        "content/atlapetes-pileatus/audio/song-01.mp3"
+      ],
       "analysis": null,
       "notes": "<!-- Escribe aquí notas, poemas o enlaces. Solo aparecerá el anexo si hay contenido. -->\n",
       "contentPath": "content/atlapetes-pileatus/",
@@ -4802,13 +4818,17 @@
       "source": "https://www.inaturalist.org/taxa/3962",
       "observations": 1,
       "rank": "species",
+      "audio": "content/bartramia-longicauda/audio/flight_call-01.mp3",
       "habitat": "1 observaciones en la zona",
       "demo": false,
       "cutout": null,
       "photos": [],
       "media": [],
-      "audio": null,
-      "recordings": [],
+      "recordings": [
+        "content/bartramia-longicauda/audio/flight_call-01.mp3",
+        "content/bartramia-longicauda/audio/other-01.mp3",
+        "content/bartramia-longicauda/audio/other-02.mp3"
+      ],
       "analysis": null,
       "notes": "<!-- Escribe aquí notas, poemas o enlaces. Solo aparecerá el anexo si hay contenido. -->\n",
       "contentPath": "content/bartramia-longicauda/",
@@ -5022,5 +5042,5 @@
       "hasNotes": false
     }
   ],
-  "revision": "90bd03ad9f6fa6cce895abb83c89893fc9acc0183f83163296c5e5a9a5eabd86"
+  "revision": "6847804b2d5513fb74c0dc5d9a51e2790bcd2e6e53956f319c38ffcfa1c4d67c"
 }

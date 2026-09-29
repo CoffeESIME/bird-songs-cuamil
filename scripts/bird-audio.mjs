@@ -8,6 +8,9 @@ export const UAM = {latitude:19.3525, longitude:-99.2824};
 const clean = value => String(value ?? '').trim();
 const fold = value => clean(value).normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase();
 export const identity = c => `${c.source}:${c.sourceId}`;
+export function hasDownloadUrl(candidate) {
+  try {return new URL(candidate.audioUrl).protocol==='https:'} catch {return false}
+}
 export function coordinate(value, maximum) {
   if(value === null || value === undefined || clean(value)==='') return null;
   const n=Number(value); return Number.isFinite(n) && Math.abs(n)<=maximum ? n : null;

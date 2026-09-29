@@ -2,7 +2,7 @@ import {writeFile,open,unlink} from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 import {parseArgs} from 'node:util';
-import {getSpecies,readBird,existingAudio,searchXc,searchInat,licenseInfo,selectCandidates,compareCandidates,identity,region,downloadAudio,updateBird} from './bird-audio.mjs';
+import {getSpecies,readBird,existingAudio,searchXc,searchInat,licenseInfo,selectCandidates,compareCandidates,identity,region,downloadAudio,updateBird,hasDownloadUrl} from './bird-audio.mjs';
 
 const dist=fileURLToPath(new URL('../dist/',import.meta.url));
 export function options(args) {
@@ -29,7 +29,7 @@ async function processBird(entry,opts,report) {
     const accepted=[];
     for(const c of unique) {
       const lic=licenseInfo(c.license,c.source,opts);
-      const rejection=!lic?'License not accepted':!c.recordist||!c.sourceId||!c.sourceUrl?'Incomplete attribution':['D','E'].includes(c.quality)?'Low source quality':null;
+      const rejection=!lic?'License not accepted':!hasDownloadUrl(c)?'Source does not provide an HTTPS download URL':!c.recordist||!c.sourceId||!c.sourceUrl?'Incomplete attribution':['D','E'].includes(c.quality)?'Low source quality':null;
       item.candidates.push({...c,...lic,rejection});
       if(!lic) report.licenseRejected++;
       if(!rejection) accepted.push({...c,...lic});

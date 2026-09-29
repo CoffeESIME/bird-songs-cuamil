@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {mkdtemp,writeFile,readFile,readdir,rm,mkdir} from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
-import {distanceFromUam,enrich,licenseInfo,normalizeType,normalizeXc,normalizeInat,selectCandidates,audioExtension,downloadAudio,updateBird,searchXc} from './bird-audio.mjs';
+import {distanceFromUam,enrich,licenseInfo,normalizeType,normalizeXc,normalizeInat,selectCandidates,audioExtension,downloadAudio,updateBird,searchXc,hasDownloadUrl} from './bird-audio.mjs';
 import {options} from './download-bird-audio.mjs';
 
 test('coordinates: missing, zero, invalid and exact radius are not confused',()=>{
@@ -70,4 +70,8 @@ test('CLI defaults are safe and selection is explicit',()=>{
  assert.equal(options(['--bird','a','--bird','b','--dry-run']).bird.length,2);
  assert.equal(options(['--all','--source','xeno-canto']).source,'xeno-canto');
  assert.throws(()=>options(['--all','--source','unknown']));
+});
+test('unavailable recordings are excluded before selection even if licensed',()=>{
+ for(const audioUrl of [null,undefined,'','//example.org/audio','http://example.org/audio','not a URL']) assert.equal(hasDownloadUrl({audioUrl}),false);
+ assert.equal(hasDownloadUrl({audioUrl:'https://xeno-canto.org/123/download'}),true);
 });
