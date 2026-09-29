@@ -8,5 +8,40 @@
   "taxonId": 202471,
   "source": "https://www.inaturalist.org/taxa/202471",
   "observations": 1,
-  "rank": "species"
+  "rank": "species",
+  "audio": [
+    {
+      "source": "inaturalist",
+      "sourceId": "1337299",
+      "scientificName": "Aratinga solstitialis",
+      "type": "other",
+      "originalType": null,
+      "sourceUrl": "https://www.inaturalist.org/observations/265588554",
+      "recordist": "bugems",
+      "attribution": "(c) bugems, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc",
+      "latitude": null,
+      "longitude": null,
+      "country": null,
+      "location": "Virginia, US",
+      "date": "2025-03-16",
+      "quality": null,
+      "taxonomicEvidence": "research; exact species taxon and scientific name",
+      "observationId": 265588554,
+      "coordinatesObscured": true,
+      "distanceFromUamKm": null,
+      "local": false,
+      "licenseLabel": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "derivativesAllowed": true,
+      "nonCommercial": true,
+      "file": "audio/other-01.m4a",
+      "originalAudioUrl": "https://static.inaturalist.org/sounds/1337299.m4a?1742152419",
+      "originalFileName": null,
+      "sha256": "48fb541e5d4d0008543e0dee1db1eafdad492bc1cecf22eadeccb0b8be619809",
+      "bytes": 64523,
+      "downloadedAt": "2026-09-29",
+      "validation": "ffmpeg decode"
+    }
+  ]
 }

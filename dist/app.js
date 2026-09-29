@@ -61,7 +61,14 @@ function loadBird(){
  const select=$('video-select');select.replaceChildren();select.hidden=b.media.length<2;
  b.media.forEach((m,i)=>{const option=document.createElement('option');option.value=m.src;option.textContent=decodeURIComponent(m.src.split('/').pop());select.append(option)});
  select.onchange=()=>{pause();video.src=select.value;video.load();if(!b.audio){analysisToken++;analysis=null;acousticModel=null;$('analysis-status').hidden=false;$('analysis-status').textContent='Sin análisis para este video.';drawAll()}};
- const recordings=$('audio-recordings');recordings.replaceChildren();recordings.hidden=b.recordings.length<2;
+ const recordings=$('audio-recordings');recordings.replaceChildren();recordings.hidden=b.recordings.length<2&&!b.audioCredits?.length;
+ for(const credit of b.audioCredits||[]){
+  const p=document.createElement('p');p.textContent=`${credit.file.split('/').pop()} · ${credit.recordist} · `;
+  for(const [text,href] of [[credit.source+' '+credit.sourceId,credit.sourceUrl],[credit.licenseLabel||credit.license,credit.licenseUrl]]){
+   try{const u=new URL(href);if(!['https:','http:'].includes(u.protocol))continue;const a=document.createElement('a');a.textContent=text;a.href=u.href;a.target='_blank';a.rel='noopener noreferrer';p.append(a,' · ')}catch{}
+  }
+  p.append(`${credit.location||'Ubicación no indicada'}${credit.originalType?' · '+credit.originalType:''}${credit.derivativesAllowed===false?' · Sin modificaciones permitidas':''}`);recordings.append(p);
+ }
  b.recordings.slice(1).forEach(src=>{const label=document.createElement('p');label.textContent=decodeURIComponent(src.split('/').pop());const extra=document.createElement('audio');extra.controls=true;extra.preload='none';extra.src=src;extra.onplay=()=>{pause();for(const other of recordings.querySelectorAll('audio'))if(other!==extra)other.pause()};recordings.append(label,extra)});
  renderList();renderPhotos();loadAnalysis();updatePlay();
 }

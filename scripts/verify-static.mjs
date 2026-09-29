@@ -13,7 +13,7 @@ for (const match of html.matchAll(/\b(?:src|href)="([^"]+)"/g)) {
   if (!/^(?:[a-z][a-z0-9+.-]*:|\/\/|#|\.\/$)/i.test(ref)) assets.add(ref);
 }
 for (const bird of birds) {
-  for (const ref of [bird.cutout, bird.analysis, bird.audio, ...bird.photos, ...bird.media.map(m => m.src)]) {
+  for (const ref of [bird.cutout, bird.analysis, bird.audio, ...bird.recordings, ...bird.photos, ...bird.media.map(m => m.src)]) {
     if (ref) assets.add(ref);
   }
 }

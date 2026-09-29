@@ -1,0 +1,71 @@
+{
+  "validatedAt": "2026-09-29T01:08:21.293Z",
+  "recordings": [
+    {
+      "id": "accipiter-striatus",
+      "file": "audio/other-01.mp3",
+      "sourceId": "812271",
+      "sha256": "44c8807ffa174b650f9d48baa4f832f535e4c2d29ea30654fc2cf8bda83349d3",
+      "durationSeconds": 8.678,
+      "codec": "mp3",
+      "attributionComplete": true,
+      "originalFieldsPreserved": true
+    },
+    {
+      "id": "accipiter-striatus",
+      "file": "audio/call-01.mp3",
+      "sourceId": "XC676528",
+      "sha256": "8f30cb30289bfe6ea29d116e177e0bba5367eb38e293b01a33c71fa2daa1a7df",
+      "durationSeconds": 328.0255,
+      "codec": "mp3",
+      "attributionComplete": true,
+      "originalFieldsPreserved": true
+    },
+    {
+      "id": "haemorhous-mexicanus",
+      "file": "audio/other-01.wav",
+      "sourceId": "191588",
+      "sha256": "7b635df8b6c9a0936774fc4069d2d9534e33d8f6fe8e89370c5d2be985ed401f",
+      "durationSeconds": 11.459048,
+      "codec": "pcm_s16le",
+      "attributionComplete": true,
+      "originalFieldsPreserved": true
+    },
+    {
+      "id": "haemorhous-mexicanus",
+      "file": "audio/call-01.mp3",
+      "sourceId": "XC314416",
+      "sha256": "73082511f377ad81a28b885c691708556331d1ad716df482053257a02ff6ad31",
+      "durationSeconds": 59.239524,
+      "codec": "mp3",
+      "attributionComplete": true,
+      "originalFieldsPreserved": true
+    },
+    {
+      "id": "turdus-migratorius",
+      "file": "audio/other-01.m4a",
+      "sourceId": "1067112",
+      "sha256": "1c8248dfc27004bcf5334915fa660ee0d7787f19e2399fe738440b5dbcb4f546",
+      "durationSeconds": 21.455011,
+      "codec": "aac",
+      "attributionComplete": true,
+      "originalFieldsPreserved": true
+    },
+    {
+      "id": "turdus-migratorius",
+      "file": "audio/song-01.mp3",
+      "sourceId": "XC398608",
+      "sha256": "d28513b5a5323fac60176bdd73b974363a5e773a4eb75937b1c26b37582c5ed0",
+      "durationSeconds": 49.999365,
+      "codec": "mp3",
+      "attributionComplete": true,
+      "originalFieldsPreserved": true
+    }
+  ],
+  "idempotency": {
+    "downloadedOnSecondRun": 0,
+    "skippedExisting": 6,
+    "filesAndMetadataUnchanged": true,
+    "dryRunUnchanged": true
+  }
+}

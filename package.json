@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "birds:audio": "node scripts/download-bird-audio.mjs",
     "start": "node server.mjs",
     "check": "npm run content:build && node --check dist/app.js && node --check dist/content-view.js && node --check dist/acoustic.js && node --test scripts/*.test.mjs && node scripts/verify-static.mjs",
     "build": "npm run check",

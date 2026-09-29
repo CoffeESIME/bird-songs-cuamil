@@ -43,7 +43,7 @@ export async function buildContent() {
     birds.push({...metadata, habitat:metadata.habitat || (metadata.rank==='genus'?'Identificación a nivel de género':`${metadata.observations ?? '—'} observaciones en la zona`),
       demo:false, cutout:cover?url(cover):null, photos:allImages.map(url),
       media:allVideos.map(f=>({type:'video',src:url(f)})), audio:allAudio[0]&&(!metadata.recording||audio.test(metadata.recording))?url(allAudio[0]):null,
-      recordings:allAudio.map(url),analysis,notes,contentPath:url(dir)+'/',
+      recordings:allAudio.map(url),audioCredits:Array.isArray(metadata.audio)?metadata.audio:[],analysis,notes,contentPath:url(dir)+'/',
       hasNotes:!!notes.replace(/<!--[\s\S]*?-->/g,'').trim()});
   }
   birds.sort((a,b)=>a.name.localeCompare(b.name,'es'));
