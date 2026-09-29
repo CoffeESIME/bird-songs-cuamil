@@ -41,7 +41,10 @@
       "sha256": "9fffb99cd31114eb19c6a688424f10a5dbe110b47967489b95185ffeac27c4a7",
       "bytes": 1422108,
       "downloadedAt": "2026-09-29",
-      "validation": "ffmpeg decode"
+      "validation": "ffmpeg decode",
+      "analysis": "analysis/other-01.wav.json",
+      "analysisSha256": "246bf21b5bd4dc29038b077ba475a3f964ed462f4cdfdd0e245039a4b16deb17",
+      "analysisVersion": 2
     },
     {
       "source": "inaturalist",
@@ -74,7 +77,10 @@
       "sha256": "eebf0f50e27ce5fcbb1dea02e862fd4c42b51bf84a7b7ccd30c2c3fc7ddcbc06",
       "bytes": 145490,
       "downloadedAt": "2026-09-29",
-      "validation": "ffmpeg decode"
+      "validation": "ffmpeg decode",
+      "analysis": "analysis/other-01.m4a.json",
+      "analysisSha256": "31a2a1cc0ee9fb85e5fcc129242e15255a7ab37a885d18f6110de09550183fc5",
+      "analysisVersion": 2
     },
     {
       "source": "inaturalist",
@@ -107,7 +113,10 @@
       "sha256": "a20d2bda3840d746b2b40be9ecb0e4cec4441fef12c7919dd83bb8e11e9827e0",
       "bytes": 8203856,
       "downloadedAt": "2026-09-29",
-      "validation": "ffmpeg decode"
+      "validation": "ffmpeg decode",
+      "analysis": "analysis/other-02.wav.json",
+      "analysisSha256": "13765fbf290eac96450873148734ed1f01de8f2d7c5764b584a6ae13f95d4797",
+      "analysisVersion": 2
     }
   ]
 }

@@ -39,7 +39,10 @@
       "sha256": "6ad0857b565f964ff9509e39c2999d396a1431c8cfa24c1418291fad9362b3d4",
       "bytes": 211666,
       "downloadedAt": "2026-09-29",
-      "validation": "ffmpeg decode"
+      "validation": "ffmpeg decode",
+      "analysis": "analysis/call-01.mp3.json",
+      "analysisSha256": "18c7dc6c10527a8feafb21a60924acf721d2aaaf124c704eb16c982d66d5d522",
+      "analysisVersion": 2
     },
     {
       "source": "inaturalist",
@@ -72,7 +75,10 @@
       "sha256": "e06d0a05614772895e0562b257288b4f514a3e681b751f2ff38b8c5306e7ccc7",
       "bytes": 3745360,
       "downloadedAt": "2026-09-29",
-      "validation": "ffmpeg decode"
+      "validation": "ffmpeg decode",
+      "analysis": "analysis/other-01.wav.json",
+      "analysisSha256": "87192129eaab4296144e368dffbc3f73bed5f9444de29f39981b77b3566d80e2",
+      "analysisVersion": 2
     },
     {
       "source": "inaturalist",
@@ -105,7 +111,10 @@
       "sha256": "ba429e1f32c895aa915e3cfe27ca932e9017a77d47804af4238e5c14c245d96c",
       "bytes": 3131340,
       "downloadedAt": "2026-09-29",
-      "validation": "ffmpeg decode"
+      "validation": "ffmpeg decode",
+      "analysis": "analysis/other-02.wav.json",
+      "analysisSha256": "3ca24218344113d41a1b47eea391b98afebed9bc74e1715182e5f8e4592691ad",
+      "analysisVersion": 2
     }
   ]
 }

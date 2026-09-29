@@ -40,10 +40,19 @@ export async function buildContent() {
         await stat(full); analysis=url(full);
       }
     }
+    const recordingAnalyses={};
+    for(const credit of Array.isArray(metadata.audio)?metadata.audio:[]) {
+      if(!credit.analysis)continue;
+      const sound=path.resolve(dir,credit.file),full=path.resolve(dir,credit.analysis);
+      if(!allAudio.includes(sound)||!full.startsWith(dir+path.sep)) throw Error(`Análisis sin grabación válida: ${entry.name}`);
+      const info=await stat(full);fingerprints.push([url(full),info.size,info.mtimeMs]);
+      recordingAnalyses[url(sound)]=url(full);
+    }
+    if(allAudio.length&&(!metadata.recording||audio.test(metadata.recording))) analysis=recordingAnalyses[url(allAudio[0])]||analysis;
     birds.push({...metadata, habitat:metadata.habitat || (metadata.rank==='genus'?'Identificación a nivel de género':`${metadata.observations ?? '—'} observaciones en la zona`),
       demo:false, cutout:cover?url(cover):null, photos:allImages.map(url),
       media:allVideos.map(f=>({type:'video',src:url(f)})), audio:allAudio[0]&&(!metadata.recording||audio.test(metadata.recording))?url(allAudio[0]):null,
-      recordings:allAudio.map(url),audioCredits:Array.isArray(metadata.audio)?metadata.audio:[],analysis,notes,contentPath:url(dir)+'/',
+      recordings:allAudio.map(url),recordingAnalyses,audioCredits:Array.isArray(metadata.audio)?metadata.audio:[],analysis,notes,contentPath:url(dir)+'/',
       hasNotes:!!notes.replace(/<!--[\s\S]*?-->/g,'').trim()});
   }
   birds.sort((a,b)=>a.name.localeCompare(b.name,'es'));

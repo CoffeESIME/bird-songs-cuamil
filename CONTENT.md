@@ -24,7 +24,7 @@ dist/content/turdus-migratorius/
     01-canto.mp3
 ```
 
-Las fotos aparecen todas en el carrusel. Si hay un archivo llamado `portada.jpg` (o PNG/WebP/etc.), se usa para la imagen principal; de lo contrario se usa la primera foto. Los nombres se ordenan alfabéticamente con números naturales: utiliza `01-`, `02-`, etc. Los videos se eligen desde el selector debajo del reproductor. El primer audio independiente tiene prioridad sobre el sonido del video; los demás audios aparecen con controles propios después del álbum. Evita guardar el mismo material tanto en una nota como en fotos si no quieres mostrarlo dos veces.
+Las fotos aparecen todas en el carrusel. Si hay un archivo llamado `portada.jpg` (o PNG/WebP/etc.), se usa para la imagen principal; de lo contrario se usa la primera foto. Los nombres se ordenan alfabéticamente con números naturales: utiliza `01-`, `02-`, etc. Los videos se eligen desde el selector debajo del reproductor. El primer audio independiente tiene prioridad sobre el sonido del video; todas las grabaciones de audio se eligen en el selector «Grabación» del reproductor principal, con sus visualizaciones sincronizadas. Las atribuciones aparecen después del álbum. Evita guardar el mismo material tanto en una nota como en fotos si no quieres mostrarlo dos veces.
 
 Formatos detectados: JPG, JPEG, PNG, WebP, GIF y AVIF; MP4, WebM, MOV y M4V; MP3, WAV, OGG, M4A y FLAC. La reproducción depende del códec compatible con el navegador. MP4 H.264/AAC y MP3 suelen ser las opciones más portables.
 
@@ -78,7 +78,7 @@ Agregar un audio o video permite reproducirlo de inmediato. Las gráficas requie
 "analysis": "analisis.json"
 ```
 
-Estas son propiedades adicionales dentro del objeto existente, separadas por comas. Sin `recording` y `analysis`, se muestra «Sin análisis de audio». Al elegir otro video se retira el análisis del video anterior. El script de análisis anterior sigue disponible para las muestras originales; no genera automáticamente análisis para los archivos nuevos.
+Estas son propiedades adicionales dentro del objeto existente, separadas por comas. La asociación manual `recording` + `analysis` sigue siendo válida. Para los audios importados, ejecuta `npm run birds:analyze -- --all`: se genera un JSON por grabación y se registra en cada entrada de `audio`. Al elegir otra grabación se carga su propio análisis. Consulta [ANALYSIS.md](ANALYSIS.md). El script antiguo se conserva para las muestras originales.
 
 ## Actualizar la lista de especies
 

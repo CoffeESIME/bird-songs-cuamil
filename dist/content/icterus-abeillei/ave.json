@@ -39,7 +39,10 @@
       "sha256": "931a54a7b22aa8efd24fdb768c463e473a53a9dc4a4ecefc14a39ccf9de1e978",
       "bytes": 996459,
       "downloadedAt": "2026-09-29",
-      "validation": "ffmpeg decode"
+      "validation": "ffmpeg decode",
+      "analysis": "analysis/call-01.mp3.json",
+      "analysisSha256": "98ad6125ef22b5757120d9a549eb94de219587b4a6ccb6c2924b9fc713fd95ef",
+      "analysisVersion": 2
     },
     {
       "source": "xeno-canto",
@@ -70,7 +73,10 @@
       "sha256": "d03a782db25a1e5325606bc798b7eedf578ac33d53055df932ea4d7bdef03a3c",
       "bytes": 1511040,
       "downloadedAt": "2026-09-29",
-      "validation": "ffmpeg decode"
+      "validation": "ffmpeg decode",
+      "analysis": "analysis/song-01.mp3.json",
+      "analysisSha256": "1c66060b697e0caf46a256afc7138a5a262cba61b888719a0af4662ad9d513be",
+      "analysisVersion": 2
     },
     {
       "source": "xeno-canto",
@@ -101,7 +107,10 @@
       "sha256": "a46253baf2cbbdef5bc7fb77e41fc6478d58cec9227a470a8a4b6d629be0b085",
       "bytes": 965906,
       "downloadedAt": "2026-09-29",
-      "validation": "ffmpeg decode"
+      "validation": "ffmpeg decode",
+      "analysis": "analysis/other-01.wav.json",
+      "analysisSha256": "6d12c5f6daf292033781ecfa9671fa0863c173096b2f3a5ce2f06957af6ebd22",
+      "analysisVersion": 2
     }
   ]
 }

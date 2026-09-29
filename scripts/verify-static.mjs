@@ -2,18 +2,20 @@
 import { readFile, stat } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
+import {createHash} from 'node:crypto';
+import {validateAnalysis} from '../dist/analysis-data.js';
 const {birds} = JSON.parse(await readFile(new URL('../dist/content-index.json',import.meta.url),'utf8'));
 const uiSounds={};
 
 const root = fileURLToPath(new URL('../dist/', import.meta.url));
-const assets = new Set(['index.html', 'app.js', 'style.css', 'catalog.js', 'acoustic.js','content-view.js','embeds.js','content-index.json','vendor/marked.js','vendor/purify.js']);
+const assets = new Set(['index.html', 'app.js', 'style.css', 'catalog.js', 'acoustic.js','analysis-data.js','content-view.js','embeds.js','content-index.json','vendor/marked.js','vendor/purify.js']);
 const html = await readFile(path.join(root, 'index.html'), 'utf8');
 for (const match of html.matchAll(/\b(?:src|href)="([^"]+)"/g)) {
   const ref = match[1];
   if (!/^(?:[a-z][a-z0-9+.-]*:|\/\/|#|\.\/$)/i.test(ref)) assets.add(ref);
 }
 for (const bird of birds) {
-  for (const ref of [bird.cutout, bird.analysis, bird.audio, ...bird.recordings, ...bird.photos, ...bird.media.map(m => m.src)]) {
+  for (const ref of [bird.cutout, bird.analysis, ...Object.values(bird.recordingAnalyses||{}), bird.audio, ...bird.recordings, ...bird.photos, ...bird.media.map(m => m.src)]) {
     if (ref) assets.add(ref);
   }
 }
@@ -29,6 +31,13 @@ for (const ref of assets) {
   bytes += info.size;
 }
 for (const bird of birds) {
+  for(const [sound,analysisFile] of Object.entries(bird.recordingAnalyses||{})) {
+    const raw=await readFile(path.join(root,decodeURIComponent(analysisFile)));
+    const data=validateAnalysis(JSON.parse(raw));
+    const credit=bird.audioCredits.find(c=>sound===bird.contentPath+c.file.split('/').map(encodeURIComponent).join('/'));
+    const sourceBytes=await readFile(path.join(root,decodeURIComponent(sound)));
+    if(!credit||data.version!==2||raw.length>350000||data.sourceFile!==credit.file||data.sourceSha256!==createHash('sha256').update(sourceBytes).digest('hex')||credit.analysisSha256!==createHash('sha256').update(raw).digest('hex')) throw Error(`Stale or mismatched analysis: ${analysisFile}`);
+  }
   if(!bird.analysis)continue;
   const data = JSON.parse(await readFile(path.join(root, decodeURIComponent(bird.analysis)), 'utf8'));
   if (!(data.duration > 0) || !(data.sampleRate > 0) || !(data.hop > 0)

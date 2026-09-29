@@ -1,12 +1,14 @@
 import {renderAnnex} from './content-view.js';
 import {birds,uiSounds,source,revision as contentRevision} from './catalog.js';
 import {prepareAcoustic,acousticFrame} from './acoustic.js';
+import {analysisRow,recordingAnalysis,validateAnalysis} from './analysis-data.js';
 const $=id=>document.getElementById(id), video=$('video'), audio=new Audio();
 const motionPreference=matchMedia('(prefers-reduced-motion: reduce)');
 let reduced=motionPreference.matches;
 const icon='<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M2 9h5v5h8V7h5V3h5v7h5v4h-6v9H11v-4H6v-5H2zM12 23h3v6h-3zm8 0h3v6h-3z"/></svg>';
 let index=Math.max(0,birds.findIndex(b=>b.id===location.hash.slice(1).replace(/^anexo-/,''))),photoIndex=0,playing=false,changing=false,fx=true,ctx,master,analyser,frequency;
 let acousticModel=null;
+let selectedAnalysisUrl=null;
 let analysis=null,analysisToken=0,frame=0,lastFrame=0,yaw=-.45,pitch=.22,drag=null;
 const sources=new Map(),analysisCache=new Map(),specImage=document.createElement('canvas');
 const plots=Object.fromEntries(['spectrogram','acoustic','waveform','power'].map(id=>{const c=$(id);return [id,{canvas:c,g:c.getContext('2d'),w:0,h:0}]}));
@@ -36,9 +38,25 @@ function renderPhotos(){
     const dot=document.createElement('button');dot.setAttribute('aria-label','Ver foto '+(i+1));dot.onclick=()=>photo(i);$('photo-dots').append(dot);
   });photo(0,false);$('photo-strip').scrollLeft=0;
 }
-async function loadAnalysis(){const token=++analysisToken;analysis=null;acousticModel=null;$('analysis-status').hidden=false;$('analysis-status').textContent='Preparando la huella del sonido…';drawAll();$('wave-duration').textContent='—';if(!current().analysis){$('analysis-status').textContent='Sin análisis de audio para esta ave.';return}try{let data=analysisCache.get(current().analysis);if(!data){const r=await fetch(current().analysis);if(!r.ok)throw Error();data=await r.json();analysisCache.set(current().analysis,data)}if(token!==analysisToken)return;analysis=data;acousticModel=prepareAcoustic(data);buildSpectrogram();$('analysis-status').hidden=true;$('wave-duration').textContent=time(data.duration);drawAll()}catch{if(token===analysisToken){$('analysis-status').textContent='No se pudo cargar el análisis de esta muestra.';$('wave-duration').textContent='—'}}}
+async function loadAnalysis(){
+ const token=++analysisToken,url=selectedAnalysisUrl;analysis=null;acousticModel=null;
+ $('analysis-status').hidden=false;$('analysis-status').textContent='Preparando la huella del sonido…';drawAll();$('wave-duration').textContent='—';
+ if(!url){$('analysis-status').textContent='Sin análisis para esta grabación.';return}
+ try{
+  let data=analysisCache.get(url);
+  if(!data){const r=await fetch(url);if(!r.ok)throw Error();data=validateAnalysis(await r.json());if(token!==analysisToken)return;analysisCache.set(url,data);if(analysisCache.size>6)analysisCache.delete(analysisCache.keys().next().value)}
+  if(token!==analysisToken)return;analysis=data;acousticModel=prepareAcoustic(data);buildSpectrogram();$('analysis-status').hidden=true;$('wave-duration').textContent=time(data.duration);drawAll();
+ }catch{if(token===analysisToken){selectedAnalysisUrl=null;$('analysis-status').textContent='No se pudo cargar el análisis de esta grabación.';$('wave-duration').textContent='—';drawAll()}}
+}
+function chooseRecording(src){
+ pause();selectedAnalysisUrl=recordingAnalysis(current(),src);audio.src=src;audio.load();
+ $('elapsed').textContent='0:00';$('duration').textContent='--:--';$('spectrogram-time').textContent='0:00';$('seek').value=0;$('seek').disabled=true;
+ $('status').textContent='Grabación seleccionada: '+decodeURIComponent(src.split('/').pop());
+ loadAnalysis();updatePlay();
+}
+
 function loadBird(){
- const b=current();history.replaceState(null,'','#'+b.id);
+ const b=current();selectedAnalysisUrl=b.audio?recordingAnalysis(b,b.audio):b.analysis;history.replaceState(null,'','#'+b.id);
  $('bird-name').textContent=b.name;$('scientific').textContent=b.scientific;
  $('bird-counter').textContent='PÁGINA '+String(index+1).padStart(2,'0')+' / '+birds.length;
  $('portrait-number').textContent=String(index+1).padStart(2,'0');$('habitat').textContent=b.habitat;
@@ -60,7 +78,7 @@ function loadBird(){
  annex.onclick=()=>{const entry=$('anexo-'+b.id);if(entry)entry.open=true};
  const select=$('video-select');select.replaceChildren();select.hidden=b.media.length<2;
  b.media.forEach((m,i)=>{const option=document.createElement('option');option.value=m.src;option.textContent=decodeURIComponent(m.src.split('/').pop());select.append(option)});
- select.onchange=()=>{pause();video.src=select.value;video.load();if(!b.audio){analysisToken++;analysis=null;acousticModel=null;$('analysis-status').hidden=false;$('analysis-status').textContent='Sin análisis para este video.';drawAll()}};
+ select.onchange=()=>{pause();video.src=select.value;video.load();if(!b.audio){selectedAnalysisUrl=select.value===b.media[0]?.src?b.analysis:null;loadAnalysis()}};
  const recordings=$('audio-recordings');recordings.replaceChildren();recordings.hidden=b.recordings.length<2&&!b.audioCredits?.length;
  for(const credit of b.audioCredits||[]){
   const p=document.createElement('p');p.textContent=`${credit.file.split('/').pop()} · ${credit.recordist} · `;
@@ -69,7 +87,10 @@ function loadBird(){
   }
   p.append(`${credit.location||'Ubicación no indicada'}${credit.originalType?' · '+credit.originalType:''}${credit.derivativesAllowed===false?' · Sin modificaciones permitidas':''}`);recordings.append(p);
  }
- b.recordings.slice(1).forEach(src=>{const label=document.createElement('p');label.textContent=decodeURIComponent(src.split('/').pop());const extra=document.createElement('audio');extra.controls=true;extra.preload='none';extra.src=src;extra.onplay=()=>{pause();for(const other of recordings.querySelectorAll('audio'))if(other!==extra)other.pause()};recordings.append(label,extra)});
+ const picker=$('audio-select');picker.replaceChildren();$('audio-choice').hidden=!b.recordings.length;
+ b.recordings.forEach((src,i)=>{const option=document.createElement('option');option.value=src;const credit=(b.audioCredits||[]).find(c=>src.endsWith('/'+c.file.split('/').map(encodeURIComponent).join('/')));option.textContent=`${i+1}. ${credit?.originalType||decodeURIComponent(src.split('/').pop())}${credit?.recordist?' · '+credit.recordist:''}`;picker.append(option)});
+ picker.value=b.audio||b.recordings[0]||'';picker.onchange=()=>chooseRecording(picker.value);
+
  renderList();renderPhotos();loadAnalysis();updatePlay();
 }
 async function changeBird(n,resume=playing){if(changing)return;if(n===index){if(!resume)pause();history.replaceState(null,'','#'+current().id);return}changing=true;pause();sound('change');$('transition').classList.remove('running');void $('transition').offsetWidth;$('transition').classList.add('running');await new Promise(r=>setTimeout(r,reduced?0:170));index=n;loadBird();if(resume)await play();await new Promise(r=>setTimeout(r,reduced?0:380));$('transition').classList.remove('running');changing=false}
@@ -92,11 +113,11 @@ function clear(p){p.g.clearRect(0,0,p.w,p.h)}
 function cursor(g,x,top,bottom){g.strokeStyle='#a77550';g.lineWidth=1;g.beginPath();g.moveTo(x,top);g.lineTo(x,bottom);g.stroke();g.fillStyle='#a77550';g.beginPath();g.arc(x,top,2.5,0,Math.PI*2);g.fill()}
 function drawSpectrogram(){const p=plots.spectrogram,{g,w,h}=p;clear(p);if(!analysis||w<1||h<1)return;g.imageSmoothingEnabled=true;g.drawImage(specImage,30,9,w-38,h-26);const progress=Math.min(1,player().currentTime/analysis.duration);if(player().currentTime>0)cursor(g,30+progress*(w-38),8,h-17)}
 function drawWave(){const p=plots.waveform,{g,w,h}=p;clear(p);if(!analysis)return;const arr=analysis.envelope,max=Math.max(...arr,.001),progress=player().currentTime/analysis.duration;g.lineWidth=1;for(let i=0;i<w-48;i++){const j=Math.floor(i/(w-48)*arr.length),amp=(arr[j]/max)**.8*(h*.37);g.strokeStyle=i/(w-48)<progress?'#8b5c3c':'#c7b591';g.beginPath();g.moveTo(24+i,h/2-amp);g.lineTo(24+i,h/2+amp);g.stroke()}if(player().currentTime>0)cursor(g,24+Math.min(1,progress)*(w-48),14,h-14)}
-function drawPower(){const p=plots.power,{g,w,h}=p;clear(p);if(!analysis)return;const row=analysis.spectrogram[Math.min(analysis.spectrogram.length-1,Math.floor(player().currentTime*analysis.sampleRate/analysis.hop))];const gradient=g.createLinearGradient(24,0,w-24,0);gradient.addColorStop(0,'#3d3026');gradient.addColorStop(.5,'#a5865a');gradient.addColorStop(1,'#e6d8b5');g.fillStyle=gradient;g.beginPath();g.moveTo(24,h-18);for(let i=0;i<row.length;i++){const value=Math.max(0,(row[i]/255-.2)/.8);g.lineTo(24+i/(row.length-1)*(w-48),h-18-value*(h-35))}g.lineTo(w-24,h-18);g.closePath();g.fill()}
+function drawPower(){const p=plots.power,{g,w,h}=p;clear(p);if(!analysis)return;const row=analysisRow(analysis,player().currentTime);const gradient=g.createLinearGradient(24,0,w-24,0);gradient.addColorStop(0,'#3d3026');gradient.addColorStop(.5,'#a5865a');gradient.addColorStop(1,'#e6d8b5');g.fillStyle=gradient;g.beginPath();g.moveTo(24,h-18);for(let i=0;i<row.length;i++){const value=Math.max(0,(row[i]/255-.2)/.8);g.lineTo(24+i/(row.length-1)*(w-48),h-18-value*(h-35))}g.lineTo(w-24,h-18);g.closePath();g.fill()}
 function drawAcoustic(){
   const p=plots.acoustic,{g,w,h}=p;clear(p);
   const status=$('acoustic-progress');
-  if(!acousticModel||w<1){status.textContent=current().analysis?'PREPARANDO…':'SIN ANÁLISIS';return}
+  if(!acousticModel||w<1){status.textContent=selectedAnalysisUrl?'PREPARANDO…':'SIN ANÁLISIS';return}
   const {nodes}=acousticModel;
   const state=acousticFrame(acousticModel,player().currentTime,reduced);
   const {t,count,active,link,energy,birth}=state;

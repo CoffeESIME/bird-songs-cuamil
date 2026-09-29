@@ -41,7 +41,10 @@
       "sha256": "48fb541e5d4d0008543e0dee1db1eafdad492bc1cecf22eadeccb0b8be619809",
       "bytes": 64523,
       "downloadedAt": "2026-09-29",
-      "validation": "ffmpeg decode"
+      "validation": "ffmpeg decode",
+      "analysis": "analysis/other-01.m4a.json",
+      "analysisSha256": "8ac2a05a23f28c2fec77f1fb73dd8b1981dc073302dd016f916be289a2d1a590",
+      "analysisVersion": 2
     }
   ]
 }

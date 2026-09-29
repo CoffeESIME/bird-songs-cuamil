@@ -11,3 +11,6 @@ node_modules/
 /dist/.audio-import.lock
 /audio-import-run.log
 /audio-import-recovery.log
+/.audio-analysis.lock
+/audio-analysis-run.log
+__pycache__/

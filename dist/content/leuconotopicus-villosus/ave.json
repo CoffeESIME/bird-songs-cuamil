@@ -39,7 +39,10 @@
       "sha256": "d6be9b74b8dc6f2d4461f9734c207eb898d8264ad46e7fdd068e86b99fec4bad",
       "bytes": 298349,
       "downloadedAt": "2026-09-29",
-      "validation": "ffmpeg decode"
+      "validation": "ffmpeg decode",
+      "analysis": "analysis/flight_call-01.mp3.json",
+      "analysisSha256": "af976e00944cdf3b7213bd99546471afdfbe88e8eb68bbbb7b78c058ea35d43a",
+      "analysisVersion": 2
     },
     {
       "source": "inaturalist",
@@ -72,7 +75,10 @@
       "sha256": "9029d0df2591487be447029f353278529ab176b10192e6f8d3b5ee58ab626ae5",
       "bytes": 2294688,
       "downloadedAt": "2026-09-29",
-      "validation": "ffmpeg decode"
+      "validation": "ffmpeg decode",
+      "analysis": "analysis/other-01.mp3.json",
+      "analysisSha256": "ff5777ffc91fdf2decfc0f5aae1d1fdc47f70fab70e98f40f64fc5e292bbd875",
+      "analysisVersion": 2
     },
     {
       "source": "inaturalist",
@@ -105,7 +111,10 @@
       "sha256": "d35051266bdd1c3a3eef535e6ac7f062d00ea8a118ee343233e875a5b6113dd6",
       "bytes": 6791760,
       "downloadedAt": "2026-09-29",
-      "validation": "ffmpeg decode"
+      "validation": "ffmpeg decode",
+      "analysis": "analysis/other-01.wav.json",
+      "analysisSha256": "9618eec3cffe6b074c634658a11d5c74c3eb1c253000993604f1c845090b4e32",
+      "analysisVersion": 2
     }
   ]
 }

@@ -16,6 +16,8 @@ Las grabaciones originales de demostración se conservan en media/, pero no se a
 
 ## Visualizaciones y regeneración
 
+Las grabaciones de las fichas se procesan con `npm run birds:analyze -- --all`. Consulta [ANALYSIS.md](ANALYSIS.md) para generación, reanudación por hashes y límites de tamaño. El selector «Grabación» carga el análisis propio de cada audio y sincroniza las cuatro vistas. Los detalles siguientes describen el analizador original de las muestras; los nuevos JSON compactan el espectro a un máximo de 512 columnas temporales.
+
 `python scripts/analyze_audio.py` procesa los videos `dist/media/sample-*.mp4` con ffmpeg y numpy. No requiere servidor de análisis durante el uso.
 
 - **Spectrogram:** STFT con ventana Hann de 1024 muestras, salto de 256, audio mono a 24 kHz y 128 bandas entre 0 y 12 kHz. Intensidad en dB relativa al pico de la grabación. Cursor sincronizado.
