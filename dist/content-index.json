@@ -1511,13 +1511,17 @@
       "source": "https://www.inaturalist.org/taxa/19587",
       "observations": 1,
       "rank": "species",
+      "audio": "content/chordeiles-acutipennis/audio/alarm-01.mp3",
       "habitat": "1 observaciones en la zona",
       "demo": false,
       "cutout": null,
       "photos": [],
       "media": [],
-      "audio": null,
-      "recordings": [],
+      "recordings": [
+        "content/chordeiles-acutipennis/audio/alarm-01.mp3",
+        "content/chordeiles-acutipennis/audio/call-01.mp3",
+        "content/chordeiles-acutipennis/audio/song-01.mp3"
+      ],
       "analysis": null,
       "notes": "<!-- Escribe aquí notas, poemas o enlaces. Solo aparecerá el anexo si hay contenido. -->\n",
       "contentPath": "content/chordeiles-acutipennis/",
@@ -1776,13 +1780,17 @@
       "source": "https://www.inaturalist.org/taxa/508366",
       "observations": 21,
       "rank": "species",
+      "audio": "content/colibri-thalassinus/audio/call-01.mp3",
       "habitat": "21 observaciones en la zona",
       "demo": false,
       "cutout": null,
       "photos": [],
       "media": [],
-      "audio": null,
-      "recordings": [],
+      "recordings": [
+        "content/colibri-thalassinus/audio/call-01.mp3",
+        "content/colibri-thalassinus/audio/other-01.wav",
+        "content/colibri-thalassinus/audio/song-01.mp3"
+      ],
       "analysis": null,
       "notes": "<!-- Escribe aquí notas, poemas o enlaces. Solo aparecerá el anexo si hay contenido. -->\n",
       "contentPath": "content/colibri-thalassinus/",
@@ -2214,13 +2222,16 @@
       "source": "https://www.inaturalist.org/taxa/144504",
       "observations": 1,
       "rank": "species",
+      "audio": "content/chroicocephalus-maculipennis/audio/alarm-01.mp3",
       "habitat": "1 observaciones en la zona",
       "demo": false,
       "cutout": null,
       "photos": [],
       "media": [],
-      "audio": null,
-      "recordings": [],
+      "recordings": [
+        "content/chroicocephalus-maculipennis/audio/alarm-01.mp3",
+        "content/chroicocephalus-maculipennis/audio/call-01.mp3"
+      ],
       "analysis": null,
       "notes": "<!-- Escribe aquí notas, poemas o enlaces. Solo aparecerá el anexo si hay contenido. -->\n",
       "contentPath": "content/chroicocephalus-maculipennis/",
@@ -3097,13 +3108,17 @@
       "source": "https://www.inaturalist.org/taxa/3017",
       "observations": 32,
       "rank": "species",
+      "audio": "content/columba-livia/audio/other-01.wav",
       "habitat": "32 observaciones en la zona",
       "demo": false,
       "cutout": null,
       "photos": [],
       "media": [],
-      "audio": null,
-      "recordings": [],
+      "recordings": [
+        "content/columba-livia/audio/other-01.wav",
+        "content/columba-livia/audio/song-01.wav",
+        "content/columba-livia/audio/song-02.wav"
+      ],
       "analysis": null,
       "notes": "<!-- Escribe aquí notas, poemas o enlaces. Solo aparecerá el anexo si hay contenido. -->\n",
       "contentPath": "content/columba-livia/",
@@ -5140,5 +5155,5 @@
       "hasNotes": false
     }
   ],
-  "revision": "d8e3ec8ffeefb4d8794f7a6eedbe85dd1d9af19ee33caf797b79ed9ce6a7e5cb"
+  "revision": "4655aaecd71a1bd37c94b41ae8fa265b904d52be3847ce90f8438b57e11453cc"
 }
