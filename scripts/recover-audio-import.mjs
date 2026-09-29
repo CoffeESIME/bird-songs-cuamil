@@ -24,7 +24,8 @@ try {
    if(!c) break;
    tried.add(identity(c));let recording;
    try {
-    recording=await downloadAudio(c,dir,{decode:true});
+    const {rejection,...candidate}=c;
+    recording=await downloadAudio(candidate,dir,{decode:true});
     raw=await updateBird(metadataFile,raw,recording);existing.push(recording);
     item.downloaded.push(recording);attempt.downloaded.push(recording);
     console.log(`Recovered ${item.id}: ${identity(c)} -> ${recording.file}`);
