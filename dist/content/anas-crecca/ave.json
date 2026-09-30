@@ -114,5 +114,231 @@
       "analysisSha256": "b4d1f0901d3f122f8d140fa4588179e65807be79a1757e144b185c2d1923a483",
       "analysisVersion": 2
     }
+  ],
+  "photos": [
+    {
+      "kind": "photo",
+      "source": "inaturalist",
+      "sourceId": "341971608",
+      "sourceUrl": "https://www.inaturalist.org/photos/341971608",
+      "observationUrl": "https://www.inaturalist.org/observations/194533215",
+      "observationId": 194533215,
+      "scientificName": "Anas crecca",
+      "author": "Álvaro San José Elizundia",
+      "attribution": "(c) Álvaro San José Elizundia, some rights reserved (CC BY-NC)",
+      "rawLicense": "cc-by-nc",
+      "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/341971608/original.jpeg",
+      "latitude": 19.3551576638,
+      "longitude": -99.2723901942,
+      "distanceFromUamKm": 1.091,
+      "local": true,
+      "coordinatesObscured": false,
+      "location": "Lomas de Santa Fe, Contadero, Ciudad de México, CDMX, México",
+      "geoTier": 0,
+      "width": 2048,
+      "height": 1536,
+      "favorites": 0,
+      "taxonomicEvidence": "Research grade; exact active species ID and scientific name",
+      "visualReview": "pending",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "nonCommercial": true,
+      "file": "fotos/local-01.jpg",
+      "codec": "mjpeg",
+      "changes": null,
+      "sha256": "0b05caac161535215903af89cf8e1d92d3dba9d394a92b745c26b7a6cb33853a",
+      "bytes": 1695663,
+      "downloadedAt": "2026-09-30T03:53:25.130Z",
+      "validation": "ffmpeg full decode"
+    },
+    {
+      "kind": "photo",
+      "source": "inaturalist",
+      "sourceId": "30416009",
+      "sourceUrl": "https://www.inaturalist.org/photos/30416009",
+      "observationUrl": "https://www.inaturalist.org/observations/19740833",
+      "observationId": 19740833,
+      "scientificName": "Anas crecca",
+      "author": "Martín Sánchez Vilchis",
+      "attribution": "(c) Martín Sánchez Vilchis, some rights reserved (CC BY-SA)",
+      "rawLicense": "cc-by-sa",
+      "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/30416009/original.jpeg",
+      "latitude": 19.2913419058,
+      "longitude": -99.0979754912,
+      "distanceFromUamKm": 20.512,
+      "local": false,
+      "coordinatesObscured": false,
+      "location": "Parque Ecológico de Xochimilco, Ciudad de México, CDMX, México",
+      "geoTier": 2,
+      "width": 2048,
+      "height": 1536,
+      "favorites": 0,
+      "taxonomicEvidence": "Research grade; exact active species ID and scientific name",
+      "visualReview": "pending",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "nonCommercial": false,
+      "file": "fotos/reference-01.jpg",
+      "codec": "mjpeg",
+      "changes": null,
+      "sha256": "9322b2ce37f6e2ed796c3dd41e464e6eee9273c20782c8f49e5a78e7c847b077",
+      "bytes": 1786166,
+      "downloadedAt": "2026-09-30T03:53:25.871Z",
+      "validation": "ffmpeg full decode"
+    },
+    {
+      "kind": "photo",
+      "source": "inaturalist",
+      "sourceId": "31681759",
+      "sourceUrl": "https://www.inaturalist.org/photos/31681759",
+      "observationUrl": "https://www.inaturalist.org/observations/20524632",
+      "observationId": 20524632,
+      "scientificName": "Anas crecca",
+      "author": "Martín Sánchez Vilchis",
+      "attribution": "(c) Martín Sánchez Vilchis, some rights reserved (CC BY-SA)",
+      "rawLicense": "cc-by-sa",
+      "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/31681759/original.jpeg",
+      "latitude": 19.2656146179,
+      "longitude": -99.0498633623,
+      "distanceFromUamKm": 26.245,
+      "local": false,
+      "coordinatesObscured": false,
+      "location": "Cd. de México, México",
+      "geoTier": 2,
+      "width": 2048,
+      "height": 1536,
+      "favorites": 0,
+      "taxonomicEvidence": "Research grade; exact active species ID and scientific name",
+      "visualReview": "pending",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "nonCommercial": false,
+      "file": "fotos/reference-02.jpg",
+      "codec": "mjpeg",
+      "changes": null,
+      "sha256": "3224298c0159c6bb57300f3fee7cc8f90788df63711fe8d07c493766b777c3df",
+      "bytes": 1830032,
+      "downloadedAt": "2026-09-30T03:53:26.943Z",
+      "validation": "ffmpeg full decode"
+    }
+  ],
+  "videos": [
+    {
+      "kind": "video",
+      "source": "wikimedia-commons",
+      "sourceId": "62373804",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wintertaling_-_Common_Teal.webm",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Wintertaling_-_Common_Teal.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "scientificName": "Anas crecca",
+      "author": "Hans Niekus",
+      "attribution": "Hans Niekus",
+      "rawLicense": "https://creativecommons.org/licenses/by/3.0",
+      "sourceLicense": "CC BY 3.0",
+      "mime": "video/webm",
+      "width": 1920,
+      "height": 1080,
+      "size": 21191255,
+      "duration": 17.604,
+      "latitude": null,
+      "longitude": null,
+      "distanceFromUamKm": null,
+      "local": false,
+      "geoTier": 4,
+      "title": "File:Wintertaling - Common Teal.webm",
+      "description": "Wintertaling in Centraal park Gaasperdam http://pic.sysanalyser.com/vogel/index.html Hans Niekus",
+      "type": "behavior",
+      "commonsMetadata": {
+        "DateTime": {
+          "value": "2017-09-12 10:27:20",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Wintertaling - Common Teal",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Anas crecca|Media from YouTube|Files from external sources with reviewed licenses|Videos of 2013|Uploaded with video2commons",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<p>Wintertaling in Centraal park Gaasperdam\n<a rel=\"nofollow\" class=\"external free\" href=\"http://pic.sysanalyser.com/vogel/index.html\">http://pic.sysanalyser.com/vogel/index.html</a>\n</p>\nHans Niekus",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2013-02-21",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<bdi lang=\"en\" dir=\"ltr\"><a href=\"//commons.wikimedia.org/wiki/Commons:YouTube_files\" title=\"Commons:YouTube files\">YouTube</a>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=xbn3jTZk6ZI\"><bdi lang=\"\">Wintertaling / Common Teal</bdi></a> – View/save archived versions on <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/*/https://www.youtube.com/watch?v=xbn3jTZk6ZI\">archive.org</a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/user/HansNiekusVogels\">Hans Niekus</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Hans Niekus",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "taxonomicEvidence": "Scientific name in Commons file title or species category",
+      "visualReview": "pending",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "nonCommercial": false,
+      "file": "videos/behavior-01.webm",
+      "codec": "vp8",
+      "changes": null,
+      "sha256": "4e3554b6969e20ccf308f3370a2bb5ebd83f33069653e3f391a0dc8e259f1a5e",
+      "bytes": 21191255,
+      "downloadedAt": "2026-09-30T03:53:33.130Z",
+      "validation": "ffmpeg full decode"
+    }
   ]
 }

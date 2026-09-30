@@ -112,5 +112,191 @@
       "analysisSha256": "9c9de9f8aa6fc7dc3d331c123442e7682a5efd0763e346008d6bacc2fe77b919",
       "analysisVersion": 2
     }
+  ],
+  "photos": [
+    {
+      "kind": "photo",
+      "source": "inaturalist",
+      "sourceId": "366260931",
+      "sourceUrl": "https://www.inaturalist.org/photos/366260931",
+      "observationUrl": "https://www.inaturalist.org/observations/207087517",
+      "observationId": 207087517,
+      "scientificName": "Anser anser",
+      "author": "Jorge A. Pérez Torres",
+      "attribution": "(c) Jorge A. Pérez Torres, some rights reserved (CC BY-NC)",
+      "rawLicense": "cc-by-nc",
+      "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/366260931/original.jpeg",
+      "latitude": 19.4611888974,
+      "longitude": -99.072687996,
+      "distanceFromUamKm": 25.096,
+      "local": false,
+      "coordinatesObscured": false,
+      "location": "Zoológico de San Juan de Aragón, 07920 Ciudad de México, CDMX, México",
+      "geoTier": 2,
+      "width": 2048,
+      "height": 1536,
+      "favorites": 1,
+      "taxonomicEvidence": "Research grade; exact active species ID and scientific name",
+      "visualReview": "pending",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "nonCommercial": true,
+      "file": "fotos/reference-01.jpg",
+      "codec": "mjpeg",
+      "changes": null,
+      "sha256": "814e85e62a4658a47f63d42db36209fb8952765dae65527b3dc77c6c4e829119",
+      "bytes": 1795913,
+      "downloadedAt": "2026-09-30T03:53:46.410Z",
+      "validation": "ffmpeg full decode"
+    },
+    {
+      "kind": "photo",
+      "source": "inaturalist",
+      "sourceId": "662671707",
+      "sourceUrl": "https://www.inaturalist.org/photos/662671707",
+      "observationUrl": "https://www.inaturalist.org/observations/363046514",
+      "observationId": 363046514,
+      "scientificName": "Anser anser",
+      "author": "ericparry",
+      "attribution": "(c) ericparry, some rights reserved (CC BY-NC)",
+      "rawLicense": "cc-by-nc",
+      "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/662671707/original.jpg",
+      "latitude": 19.2546283333,
+      "longitude": -99.0930638333,
+      "distanceFromUamKm": 22.655,
+      "local": false,
+      "coordinatesObscured": false,
+      "location": "Calle Capulín, Xochimilco, CDMX, MX",
+      "geoTier": 2,
+      "width": 2048,
+      "height": 1536,
+      "favorites": 0,
+      "taxonomicEvidence": "Research grade; exact active species ID and scientific name",
+      "visualReview": "pending",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "nonCommercial": true,
+      "file": "fotos/reference-02.jpg",
+      "codec": "mjpeg",
+      "changes": null,
+      "sha256": "5e4c85055e0c099ab5699427a0fa4ca46e4fa5b1c0cf4253d42a3ed7aec9bb41",
+      "bytes": 1524269,
+      "downloadedAt": "2026-09-30T03:53:47.074Z",
+      "validation": "ffmpeg full decode"
+    }
+  ],
+  "videos": [
+    {
+      "kind": "video",
+      "source": "wikimedia-commons",
+      "sourceId": "147012393",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mehere_Graug%C3%A4nse_am_Terrassenufer_in_Dresden_(1).webm",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Mehere_Graug%C3%A4nse_am_Terrassenufer_in_Dresden_%281%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "scientificName": "Anser anser",
+      "author": "Fiver, der Hellseher",
+      "attribution": "Own work",
+      "rawLicense": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceLicense": "CC BY-SA 4.0",
+      "mime": "video/webm",
+      "width": 3840,
+      "height": 2160,
+      "size": 12588734,
+      "duration": 10.88,
+      "latitude": null,
+      "longitude": null,
+      "distanceFromUamKm": null,
+      "local": false,
+      "geoTier": 4,
+      "title": "File:Mehere Graugänse am Terrassenufer in Dresden (1).webm",
+      "description": "meh­re­re Graugänse ( Anser anser ) am Terrassenufer in Dresden",
+      "type": "behavior",
+      "commonsMetadata": {
+        "DateTime": {
+          "value": "2024-04-02 10:00:24",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Mehere Graugänse am Terrassenufer in Dresden (1)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Videos from Dresden|Videos of Anser anser|Videos of 2024 from Germany|Elbe in Dresden in 2024|April 2024 in Dresden|Anser anser from Terrassenufer, Dresden",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "meh­re­re Graugänse (<i>Anser anser</i>) am Terrassenufer in Dresden",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-04-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Fiver,_der_Hellseher\" title=\"User:Fiver, der Hellseher\">Fiver, der Hellseher</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "taxonomicEvidence": "Scientific name in Commons file title or species category",
+      "visualReview": "pending",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "nonCommercial": false,
+      "file": "videos/behavior-01.webm",
+      "codec": "vp8",
+      "changes": null,
+      "sha256": "828237879a6f8bccc4fa86e620c8fbae764ed4682bdfeb96f600a8e03276150d",
+      "bytes": 12588734,
+      "downloadedAt": "2026-09-30T03:53:50.882Z",
+      "validation": "ffmpeg full decode"
+    }
   ]
 }

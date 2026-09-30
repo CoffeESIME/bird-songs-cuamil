@@ -112,5 +112,191 @@
       "analysisSha256": "904108313a46a495b2cbe7e86b93612842e0d0c1d13fe311c697e4dd7daf9990",
       "analysisVersion": 2
     }
+  ],
+  "photos": [
+    {
+      "kind": "photo",
+      "source": "inaturalist",
+      "sourceId": "166347472",
+      "sourceUrl": "https://www.inaturalist.org/photos/166347472",
+      "observationUrl": "https://www.inaturalist.org/observations/99746194",
+      "observationId": 99746194,
+      "scientificName": "Amazona autumnalis",
+      "author": "Jade",
+      "attribution": "(c) Jade, some rights reserved (CC BY-NC)",
+      "rawLicense": "cc-by-nc",
+      "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/166347472/original.jpeg",
+      "latitude": null,
+      "longitude": null,
+      "distanceFromUamKm": null,
+      "local": false,
+      "coordinatesObscured": true,
+      "location": "Mexico",
+      "geoTier": 2,
+      "width": 1536,
+      "height": 2048,
+      "favorites": 1,
+      "taxonomicEvidence": "Research grade; exact active species ID and scientific name",
+      "visualReview": "pending",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "nonCommercial": true,
+      "file": "fotos/reference-01.jpg",
+      "codec": "mjpeg",
+      "changes": null,
+      "sha256": "2513ebe8f0aab18399e35aa6ecffe1ade38c79594c60729c8371743f776a6c20",
+      "bytes": 1618105,
+      "downloadedAt": "2026-09-30T03:53:17.785Z",
+      "validation": "ffmpeg full decode"
+    },
+    {
+      "kind": "photo",
+      "source": "inaturalist",
+      "sourceId": "186046781",
+      "sourceUrl": "https://www.inaturalist.org/photos/186046781",
+      "observationUrl": "https://www.inaturalist.org/observations/110296939",
+      "observationId": 110296939,
+      "scientificName": "Amazona autumnalis",
+      "author": "Gustavo Aceves Herrera",
+      "attribution": "(c) Gustavo Aceves Herrera, some rights reserved (CC BY-NC)",
+      "rawLicense": "cc-by-nc",
+      "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/186046781/original.jpg",
+      "latitude": null,
+      "longitude": null,
+      "distanceFromUamKm": null,
+      "local": false,
+      "coordinatesObscured": true,
+      "location": "Mexico",
+      "geoTier": 2,
+      "width": 1440,
+      "height": 1080,
+      "favorites": 1,
+      "taxonomicEvidence": "Research grade; exact active species ID and scientific name",
+      "visualReview": "pending",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "nonCommercial": true,
+      "file": "fotos/reference-02.jpg",
+      "codec": "mjpeg",
+      "changes": null,
+      "sha256": "1f99aab47b38c3d909c34eebe8e549b4d2d40f2e74d914053588393f8e6d3d6d",
+      "bytes": 449126,
+      "downloadedAt": "2026-09-30T03:53:18.668Z",
+      "validation": "ffmpeg full decode"
+    }
+  ],
+  "videos": [
+    {
+      "kind": "video",
+      "source": "wikimedia-commons",
+      "sourceId": "110517023",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red-lored_Parrot_Amazona_autumnalis_video.webm",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Red-lored_Parrot_Amazona_autumnalis_video.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "scientificName": "Amazona autumnalis",
+      "author": "https://www.flickr.com/photos/gails_pictures/",
+      "attribution": "Red-lored Parrot Amazona autumnalis - Flickr",
+      "rawLicense": "https://creativecommons.org/licenses/by/2.0",
+      "sourceLicense": "CC BY 2.0",
+      "mime": "video/webm",
+      "width": 1920,
+      "height": 1080,
+      "size": 19257512,
+      "duration": 18.767,
+      "latitude": null,
+      "longitude": null,
+      "distanceFromUamKm": null,
+      "local": false,
+      "geoTier": 4,
+      "title": "File:Red-lored Parrot Amazona autumnalis video.webm",
+      "description": "Near Torti, Darien Province, Panama",
+      "type": "behavior",
+      "commonsMetadata": {
+        "DateTime": {
+          "value": "2021-09-28 12:03:09",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Red-lored Parrot Amazona autumnalis video",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Amazona autumnalis|Videos of Psittacidae|Files from external sources with reviewed licenses|Uploaded with video2commons|Videos by Gailhampshire|Psittaciformes of Panama",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Near Torti, Darien Province, Panama",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-06-15",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/gails_pictures/42098474614\">Red-lored Parrot Amazona autumnalis - Flickr</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/gails_pictures/\">https://www.flickr.com/photos/gails_pictures/</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "taxonomicEvidence": "Scientific name in Commons file title or species category",
+      "visualReview": "pending",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "nonCommercial": false,
+      "file": "videos/behavior-01.webm",
+      "codec": "vp9",
+      "changes": null,
+      "sha256": "f8dc26f7374e82fb42faf1aa526e43b46816ed8c598f657f1b3852ca2b54a7fe",
+      "bytes": 19257512,
+      "downloadedAt": "2026-09-30T03:53:24.120Z",
+      "validation": "ffmpeg full decode"
+    }
   ]
 }

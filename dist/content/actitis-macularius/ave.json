@@ -112,5 +112,338 @@
       "analysisSha256": "b38bf899bfc868a5450a392d13da5ade657847e4a61140043921458edc8fe75d",
       "analysisVersion": 2
     }
+  ],
+  "photos": [
+    {
+      "kind": "photo",
+      "source": "inaturalist",
+      "sourceId": "17067943",
+      "sourceUrl": "https://www.inaturalist.org/photos/17067943",
+      "observationUrl": "https://www.inaturalist.org/observations/11921581",
+      "observationId": 11921581,
+      "scientificName": "Actitis macularius",
+      "author": "Dallas Levey",
+      "attribution": "(c) Dallas Levey, some rights reserved (CC BY-NC)",
+      "rawLicense": "cc-by-nc",
+      "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/17067943/original.jpeg",
+      "latitude": 19.3476899235,
+      "longitude": -99.241942494,
+      "distanceFromUamKm": 4.278,
+      "local": true,
+      "coordinatesObscured": false,
+      "location": "Parque Tarango, Ciudad de México, CDMX, Mexico",
+      "geoTier": 0,
+      "width": 2048,
+      "height": 1536,
+      "favorites": 0,
+      "taxonomicEvidence": "Research grade; exact active species ID and scientific name",
+      "visualReview": "pending",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "nonCommercial": true,
+      "file": "fotos/local-01.jpg",
+      "codec": "mjpeg",
+      "changes": null,
+      "sha256": "c7228e672f2a5a8f6fd7919436a75091cea524c50967f17ed522816847494882",
+      "bytes": 1139195,
+      "downloadedAt": "2026-09-30T03:52:45.096Z",
+      "validation": "ffmpeg full decode"
+    },
+    {
+      "kind": "photo",
+      "source": "inaturalist",
+      "sourceId": "50266832",
+      "sourceUrl": "https://www.inaturalist.org/photos/50266832",
+      "observationUrl": "https://www.inaturalist.org/observations/32072691",
+      "observationId": 32072691,
+      "scientificName": "Actitis macularius",
+      "author": "Martín Sánchez Vilchis",
+      "attribution": "(c) Martín Sánchez Vilchis, some rights reserved (CC BY-SA)",
+      "rawLicense": "cc-by-sa",
+      "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/50266832/original.jpeg",
+      "latitude": 19.2572231293,
+      "longitude": -99.0405578613,
+      "distanceFromUamKm": 27.502,
+      "local": false,
+      "coordinatesObscured": false,
+      "location": "Avenida Año Juárez - Lázaro Cárdenas, San Luis Tlaxialtemalco, 16610 Ciudad de México, CDMX, México",
+      "geoTier": 2,
+      "width": 1536,
+      "height": 2048,
+      "favorites": 0,
+      "taxonomicEvidence": "Research grade; exact active species ID and scientific name",
+      "visualReview": "pending",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "nonCommercial": false,
+      "file": "fotos/reference-01.jpg",
+      "codec": "mjpeg",
+      "changes": null,
+      "sha256": "a059352863bff2531a8ec74d059d4221972176c7478bbaedbfa72bb69ac57e7b",
+      "bytes": 1044962,
+      "downloadedAt": "2026-09-30T03:52:45.763Z",
+      "validation": "ffmpeg full decode"
+    },
+    {
+      "kind": "photo",
+      "source": "inaturalist",
+      "sourceId": "252399092",
+      "sourceUrl": "https://www.inaturalist.org/photos/252399092",
+      "observationUrl": "https://www.inaturalist.org/observations/146762684",
+      "observationId": 146762684,
+      "scientificName": "Actitis macularius",
+      "author": "Alva-Martinez A.F.",
+      "attribution": "(c) Alva-Martinez A.F., some rights reserved (CC BY-NC)",
+      "rawLicense": "cc-by-nc",
+      "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/252399092/original.jpeg",
+      "latitude": 19.410773,
+      "longitude": -99.200678,
+      "distanceFromUamKm": 10.746,
+      "local": false,
+      "coordinatesObscured": false,
+      "location": "Bosque de Chapultepec II Secc, 11100 Ciudad de México, CDMX, México",
+      "geoTier": 2,
+      "width": 2048,
+      "height": 1536,
+      "favorites": 1,
+      "taxonomicEvidence": "Research grade; exact active species ID and scientific name",
+      "visualReview": "pending",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "nonCommercial": true,
+      "file": "fotos/reference-02.jpg",
+      "codec": "mjpeg",
+      "changes": null,
+      "sha256": "99a2d073b38ba108449a442ce227bc3670305d3e895a5480c8bba77bdd1db47e",
+      "bytes": 821129,
+      "downloadedAt": "2026-09-30T03:52:46.781Z",
+      "validation": "ffmpeg full decode"
+    }
+  ],
+  "videos": [
+    {
+      "kind": "video",
+      "source": "wikimedia-commons",
+      "sourceId": "182359422",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playero_Alzacolita.webm",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Playero_Alzacolita.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "scientificName": "Actitis macularius",
+      "author": "Monsieur Cabrito",
+      "attribution": "Own work",
+      "rawLicense": "https://creativecommons.org/licenses/by/4.0",
+      "sourceLicense": "CC BY 4.0",
+      "mime": "video/webm",
+      "width": 1920,
+      "height": 1080,
+      "size": 4262024,
+      "duration": 13.149000000000001,
+      "latitude": null,
+      "longitude": null,
+      "distanceFromUamKm": null,
+      "local": false,
+      "geoTier": 4,
+      "title": "File:Playero Alzacolita.webm",
+      "description": "Registro del Actitis macularius (Playero Alzacolita) en el Río Santa Catarina, ubicado en Nuevo León, México.",
+      "type": "behavior",
+      "commonsMetadata": {
+        "DateTime": {
+          "value": "2026-01-24 19:31:23",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Playero Alzacolita",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Actitis macularius|Self-published work|Uploaded with video2commons|Biodiversidad del Río Santa Catarina",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Registro del Actitis macularius (Playero Alzacolita) en el Río Santa Catarina, ubicado en Nuevo León, México.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2025-10-07 17:42:32",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Monsieur_Cabrito\" title=\"User:Monsieur Cabrito\">Monsieur Cabrito</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "taxonomicEvidence": "Scientific name in Commons file title or species category",
+      "visualReview": "pending",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "nonCommercial": false,
+      "file": "videos/behavior-01.webm",
+      "codec": "av1",
+      "changes": null,
+      "sha256": "ea8a4355665d066e45c1f082491367310dafce2b227cd6785c440041b6717868",
+      "bytes": 4262024,
+      "downloadedAt": "2026-09-30T03:52:51.137Z",
+      "validation": "ffmpeg full decode"
+    },
+    {
+      "kind": "video",
+      "source": "wikimedia-commons",
+      "sourceId": "98539125",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spotted_sandpiper_teeterpeep_2020-01-03.webm",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Spotted_sandpiper_teeterpeep_2020-01-03.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "scientificName": "Actitis macularius",
+      "author": "Mxbndr",
+      "attribution": "Own work",
+      "rawLicense": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceLicense": "CC BY-SA 4.0",
+      "mime": "video/webm",
+      "width": 1080,
+      "height": 1920,
+      "size": 45547671,
+      "duration": 19.307000000000002,
+      "latitude": null,
+      "longitude": null,
+      "distanceFromUamKm": null,
+      "local": false,
+      "geoTier": 4,
+      "title": "File:Spotted sandpiper teeterpeep 2020-01-03.webm",
+      "description": "A Spotted Sandpiper Actitis macularius , or \"teeterpeep\", displaying its trademark bobbing-motion while foraging in a harbor in Oakland, CA.",
+      "type": "feeding",
+      "commonsMetadata": {
+        "DateTime": {
+          "value": "2021-01-05 02:55:32",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Spotted sandpiper teeterpeep 2020-01-03",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Actitis macularius|Videos of Scolopacidae|Videos from California|Scolopacidae of California|Self-published work|Birds of Oakland, California|Videos of birds in the United States|Videos of 2021 from the United States|Videos of bird behavior",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "A Spotted Sandpiper <i>Actitis macularius</i>, or \"teeterpeep\", displaying its trademark bobbing-motion while foraging in a harbor in Oakland, CA.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2021-01-03",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mxbndr&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mxbndr (page does not exist)\">Mxbndr</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "taxonomicEvidence": "Scientific name in Commons file title or species category",
+      "visualReview": "pending",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "nonCommercial": false,
+      "file": "videos/feeding-01.webm",
+      "codec": "vp9",
+      "changes": null,
+      "sha256": "299f37e4d7c7e22a2d9ba7d6d52a31740f8b872a2ce11b5516457f4245a012ed",
+      "bytes": 45547671,
+      "downloadedAt": "2026-09-30T03:53:06.104Z",
+      "validation": "ffmpeg full decode"
+    }
   ]
 }
