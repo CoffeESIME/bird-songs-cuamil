@@ -112,5 +112,260 @@
       "analysisSha256": "7fc31a4c219ab93793d9fc67c3d24d7dde3214934fc2e5a0550281614cbd5ad3",
       "analysisVersion": 2
     }
+  ],
+  "photos": [
+    {
+      "kind": "photo",
+      "source": "wikimedia-commons",
+      "sourceId": "65239760",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anser_cygnoides_Mex2018.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Anser_cygnoides_Mex2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "scientificName": "Anser cygnoides",
+      "author": "Carlos Valenzuela",
+      "attribution": "Own work",
+      "rawLicense": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceLicense": "CC BY-SA 4.0",
+      "mime": "image/jpeg",
+      "width": 4511,
+      "height": 3788,
+      "size": 12055293,
+      "duration": null,
+      "latitude": null,
+      "longitude": null,
+      "distanceFromUamKm": null,
+      "local": false,
+      "geoTier": 4,
+      "title": "File:Anser cygnoides Mex2018.jpg",
+      "description": "Anser cygnoides , Chinese goose, in park Panoaya Mexico",
+      "commonsMetadata": {
+        "DateTime": {
+          "value": "2018-01-04 06:36:54",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Anser cygnoides Mex2018",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Nikon D7200|Taken with AF Zoom-Nikkor 70-300mm f/4.5-5.6G|Self-published work|Files with coordinates missing SDC location of creation|Mexico photographs taken on 2018-01-02|2018 in Mexico (state)|Domestic swan geese|Hacienda Panoaya|Images by Cvmontuy in 2018",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "19.140356",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-98.771292",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<i>Anser cygnoides</i>, Chinese goose, in park Panoaya Mexico",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-01-02 13:13:53",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Cvmontuy\" title=\"User:Cvmontuy\">Carlos Valenzuela</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "taxonomicEvidence": "Scientific name in Commons file title or species category",
+      "visualReview": "pending",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "nonCommercial": false,
+      "file": "fotos/reference-01.jpg",
+      "codec": "mjpeg",
+      "changes": null,
+      "sha256": "e6babc6414267d567592d9a9f6ae9ec8e03461c4119f8456f755fc55868c0466",
+      "bytes": 12055293,
+      "downloadedAt": "2026-09-30T03:53:53.953Z",
+      "validation": "ffmpeg full decode"
+    },
+    {
+      "kind": "photo",
+      "source": "wikimedia-commons",
+      "sourceId": "72059775",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anser_cygnoides_MHNT.ZOO.2010.11.13.1.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Anser_cygnoides_MHNT.ZOO.2010.11.13.1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "scientificName": "Anser cygnoides",
+      "author": "Roger Culos",
+      "attribution": "Own work",
+      "rawLicense": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceLicense": "CC BY-SA 4.0",
+      "mime": "image/jpeg",
+      "width": 2929,
+      "height": 2929,
+      "size": 2869219,
+      "duration": null,
+      "latitude": null,
+      "longitude": null,
+      "distanceFromUamKm": null,
+      "local": false,
+      "geoTier": 4,
+      "title": "File:Anser cygnoides MHNT.ZOO.2010.11.13.1.jpg",
+      "description": "Egg of swan goose Collection of Jacques Perrin de Brichambaut.",
+      "commonsMetadata": {
+        "DateTime": {
+          "value": "2018-08-27 11:53:14",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Anser cygnoides MHNT.ZOO.2010.11.13.1",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Supported by Projet Phoebus|Media supported by Wikimedia France|Files with coordinates missing SDC location of creation|Bird eggs on black background|Anser cygnoides (museum specimens)|Anser cygnoides eggs|Images by Ercé Ornithology|Anseriformes eggs of the Muséum de Toulouse",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality|valued",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "43.593897",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "1.449230",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Artist": {
+          "value": "<div class=\"fn value\">\n<a href=\"//commons.wikimedia.org/wiki/User:Erc%C3%A9\" title=\"User:Ercé\">Roger Culos</a></div>",
+          "source": "commons-desc-page"
+        },
+        "ImageDescription": {
+          "value": "Egg of <a href=\"https://en.wikipedia.org/wiki/Anser_cygnoides\" class=\"extiw\" title=\"w:Anser cygnoides\">swan goose</a> Collection of Jacques Perrin de Brichambaut.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "3 July 2018",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "I, the copyright holder of this work, hereby publish it under the following license:",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "taxonomicEvidence": "Scientific name in Commons file title or species category",
+      "visualReview": "pending",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "nonCommercial": false,
+      "file": "fotos/reference-02.jpg",
+      "codec": "mjpeg",
+      "changes": null,
+      "sha256": "3fdbd0cb4a533b445c61c0fc11a24e4ed3f134f9713ede1f4bc6e5e1ff4d4c0b",
+      "bytes": 2869219,
+      "downloadedAt": "2026-09-30T03:53:56.921Z",
+      "validation": "ffmpeg full decode"
+    }
   ]
 }
