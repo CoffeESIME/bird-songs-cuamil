@@ -114,5 +114,42 @@
       "analysisSha256": "e8f7a100fdb3b8e96a0cd235f05c8666a3fc681d287e07a8676c228ff2d10a77",
       "analysisVersion": 2
     }
+  ],
+  "photos": [
+    {
+      "kind": "photo",
+      "source": "inaturalist",
+      "sourceId": "429897538",
+      "sourceUrl": "https://www.inaturalist.org/photos/429897538",
+      "observationUrl": "https://www.inaturalist.org/observations/241230616",
+      "observationId": 241230616,
+      "scientificName": "Columba livia",
+      "author": "Dalila Galvan",
+      "attribution": "(c) Dalila Galvan, some rights reserved (CC BY-NC)",
+      "rawLicense": "cc-by-nc",
+      "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/429897538/original.jpeg",
+      "latitude": 19.3799716365,
+      "longitude": -99.2695319653,
+      "distanceFromUamKm": 3.34,
+      "local": true,
+      "coordinatesObscured": false,
+      "location": "2do Retorno Lomas del Recuerdo, Lomas de Vista Hermosa, 05100 Ciudad de México, CDMX, México",
+      "geoTier": 0,
+      "width": 1536,
+      "height": 2048,
+      "favorites": 0,
+      "taxonomicEvidence": "Research grade; exact active species ID and scientific name",
+      "visualReview": "pending",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "nonCommercial": true,
+      "file": "fotos/local-01.jpg",
+      "codec": "mjpeg",
+      "changes": null,
+      "sha256": "38b61867a48abccdd42434a44bd8de83803c262599f95a9b563453f60536d1d5",
+      "bytes": 2554461,
+      "downloadedAt": "2026-09-30T04:26:02.294Z",
+      "validation": "ffmpeg full decode"
+    }
   ]
 }
