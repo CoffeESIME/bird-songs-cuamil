@@ -16,6 +16,21 @@ npm run content:build
 
 `--bird` puede repetirse. Es obligatorio elegir exactamente uno entre `--bird`, `--all` y `--missing`; no hay una ejecución masiva implícita. `--missing` busca únicamente tipos de medio ausentes: fotos si no hay fotos, videos si no hay videos. `--all` puede completar los cupos pendientes. La prueba inicial se limita a Accipiter striatus, Turdus migratorius y Zenaida macroura.
 
+### PowerShell en Windows
+
+Si `npm run` muestra el script sin los argumentos y termina con `Choose --all, --missing, or --bird`, utiliza `npm.cmd` explícitamente. En el entorno local se comprobó que `npm` resuelve a `npm.ps1` y no transmite estas opciones correctamente; `npm.cmd` sí las transmite:
+
+```powershell
+npm.cmd run birds:media -- --missing --dry-run --allow-nc
+npm.cmd run birds:media -- --missing --allow-nc --plan reports/media-dry-run.json
+```
+
+También puedes invocar el script directamente, sin el separador `--` de npm:
+
+```powershell
+node scripts/download-bird-media.mjs --missing --dry-run --allow-nc
+```
+
 El dry-run no descarga multimedia ni modifica `ave.json`; escribe caché y un informe con **todos los candidatos encontrados, motivos de rechazo y selección**, no solo el resumen de consola. `--report ruta.json` cambia la salida. `--plan informe-dry-run.json` descarga únicamente su selección y vuelve a aplicar las reglas de licencia y los cupos existentes. Sin `--plan` se hace una nueva selección. Para revisar licencias actualizadas, repite el dry-run con `--refresh`.
 
 ## Selección y límites
