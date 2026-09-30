@@ -14,3 +14,5 @@ node_modules/
 /.audio-analysis.lock
 /audio-analysis-run.log
 __pycache__/
+.media-cache/
+.media-import.lock

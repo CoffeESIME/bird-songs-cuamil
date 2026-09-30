@@ -79,13 +79,14 @@ function loadBird(){
  const select=$('video-select');select.replaceChildren();select.hidden=b.media.length<2;
  b.media.forEach((m,i)=>{const option=document.createElement('option');option.value=m.src;option.textContent=decodeURIComponent(m.src.split('/').pop());select.append(option)});
  select.onchange=()=>{pause();video.src=select.value;video.load();if(!b.audio){selectedAnalysisUrl=select.value===b.media[0]?.src?b.analysis:null;loadAnalysis()}};
- const recordings=$('audio-recordings');recordings.replaceChildren();recordings.hidden=b.recordings.length<2&&!b.audioCredits?.length;
- for(const credit of b.audioCredits||[]){
-  const p=document.createElement('p');p.textContent=`${credit.file.split('/').pop()} · ${credit.recordist} · `;
+ const credits=[...(b.audioCredits||[]),...(b.photoCredits||[]),...(b.videoCredits||[])];
+ const recordings=$('audio-recordings');recordings.replaceChildren();recordings.hidden=b.recordings.length<2&&!credits.length;
+ for(const credit of credits){
+  const p=document.createElement('p');p.textContent=`${credit.file.split('/').pop()} · ${credit.author||credit.recordist||'Autor no indicado'} · `;
   for(const [text,href] of [[credit.source+' '+credit.sourceId,credit.sourceUrl],[credit.licenseLabel||credit.license,credit.licenseUrl]]){
    try{const u=new URL(href);if(!['https:','http:'].includes(u.protocol))continue;const a=document.createElement('a');a.textContent=text;a.href=u.href;a.target='_blank';a.rel='noopener noreferrer';p.append(a,' · ')}catch{}
   }
-  p.append(`${credit.location||'Ubicación no indicada'}${credit.originalType?' · '+credit.originalType:''}${credit.derivativesAllowed===false?' · Sin modificaciones permitidas':''}`);recordings.append(p);
+  p.append(`${credit.location||'Ubicación no indicada'}${credit.originalType?' · '+credit.originalType:''}${credit.derivativesAllowed===false?' · Sin modificaciones permitidas':''}${credit.changes?' · '+credit.changes:''}`);recordings.append(p);
  }
  const picker=$('audio-select');picker.replaceChildren();$('audio-choice').hidden=!b.recordings.length;
  b.recordings.forEach((src,i)=>{const option=document.createElement('option');option.value=src;const credit=(b.audioCredits||[]).find(c=>src.endsWith('/'+c.file.split('/').map(encodeURIComponent).join('/')));option.textContent=`${i+1}. ${credit?.originalType||decodeURIComponent(src.split('/').pop())}${credit?.recordist?' · '+credit.recordist:''}`;picker.append(option)});

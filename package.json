@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "birds:media": "node scripts/download-bird-media.mjs",
     "birds:analyze": "python scripts/analyze_bird_audio.py",
     "birds:audio": "node scripts/download-bird-audio.mjs",
     "start": "node server.mjs",

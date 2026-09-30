@@ -1,0 +1,133 @@
+{
+  "createdAt": "2026-09-30T02:41:19.924Z",
+  "species": [
+    {
+      "id": "accipiter-striatus",
+      "photos": 3,
+      "videos": 0,
+      "local": 1,
+      "attributionsComplete": true,
+      "jsonValid": true,
+      "noDuplicates": true,
+      "hashesVerified": true,
+      "files": [
+        {
+          "file": "fotos/local-01.jpg",
+          "source": "inaturalist",
+          "sourceId": "116662129",
+          "sha256": "379be65a454fba00379c54064e72e984f287ce033ac17d7a0964891e767e54dd",
+          "decode": "ffmpeg full decode"
+        },
+        {
+          "file": "fotos/reference-01.jpg",
+          "source": "inaturalist",
+          "sourceId": "628165537",
+          "sha256": "3e14978a68ffb1ad9a5df686af30eecd9f04a7b7690e7e001c5767bb44cd1e80",
+          "decode": "ffmpeg full decode"
+        },
+        {
+          "file": "fotos/reference-02.jpg",
+          "source": "inaturalist",
+          "sourceId": "186394699",
+          "sha256": "f7b3e3eb309d141ad0f397aa158652588a049f2a2d376b806501bafd8d9c1370",
+          "decode": "ffmpeg full decode"
+        }
+      ]
+    },
+    {
+      "id": "turdus-migratorius",
+      "photos": 4,
+      "videos": 2,
+      "local": 2,
+      "attributionsComplete": true,
+      "jsonValid": true,
+      "noDuplicates": true,
+      "hashesVerified": true,
+      "files": [
+        {
+          "file": "fotos/local-02.jpg",
+          "source": "inaturalist",
+          "sourceId": "663756928",
+          "sha256": "d055074bacb8c39fd72ff995f01f5d7f52ecbf1dcfc3ea430b3abf7832cab3c6",
+          "decode": "ffmpeg full decode"
+        },
+        {
+          "file": "fotos/reference-01.jpg",
+          "source": "inaturalist",
+          "sourceId": "4031080",
+          "sha256": "1e6bf88a2f4374d16a85e85f400942cf274ff8dc054bffb8ddf063e83f74f91e",
+          "decode": "ffmpeg full decode"
+        },
+        {
+          "file": "fotos/local-01.jpg",
+          "source": "inaturalist",
+          "sourceId": "531585132",
+          "sha256": "fa1d3e6f869921335265595b6d10e335df6f8da0982d2a743f07ba7e3bdab512",
+          "decode": "ffmpeg full decode"
+        },
+        {
+          "file": "fotos/reference-02.jpg",
+          "source": "inaturalist",
+          "sourceId": "533929037",
+          "sha256": "10a9bdf44f68912d2d448835560d6d27d2054d6572e8b88a8ddc7327e37ab163",
+          "decode": "ffmpeg full decode"
+        },
+        {
+          "file": "videos/vocalization-01.webm",
+          "source": "wikimedia-commons",
+          "sourceId": "41546479",
+          "sha256": "450e1e524f3bec5b3ce5690ca74e6362ce18b1a9cf922a1509b3bf233ca1c5cf",
+          "decode": "ffmpeg full decode"
+        },
+        {
+          "file": "videos/behavior-01.webm",
+          "source": "wikimedia-commons",
+          "sourceId": "114426414",
+          "sha256": "855ef31410955c439918ac26b009bf9aa446db26fbfd16e1321daac180dab49a",
+          "decode": "ffmpeg full decode"
+        }
+      ]
+    },
+    {
+      "id": "zenaida-macroura",
+      "photos": 3,
+      "videos": 1,
+      "local": 1,
+      "attributionsComplete": true,
+      "jsonValid": true,
+      "noDuplicates": true,
+      "hashesVerified": true,
+      "files": [
+        {
+          "file": "fotos/local-01.jpg",
+          "source": "inaturalist",
+          "sourceId": "446122454",
+          "sha256": "d5a3cc767576e32ff340736878199d3cde1277ead9e46b027a9d14b5f7ab164c",
+          "decode": "ffmpeg full decode"
+        },
+        {
+          "file": "fotos/reference-01.jpg",
+          "source": "inaturalist",
+          "sourceId": "274292066",
+          "sha256": "9e353bd559592b160c267620521a3f591dc95d08989355649e0aa7325d5b8ee7",
+          "decode": "ffmpeg full decode"
+        },
+        {
+          "file": "fotos/reference-02.jpg",
+          "source": "inaturalist",
+          "sourceId": "3942034",
+          "sha256": "985a128774938ea08f2d6e012e0c3a669ed81114048b9548f79a10a1efb775db",
+          "decode": "ffmpeg full decode"
+        },
+        {
+          "file": "videos/behavior-01.webm",
+          "source": "wikimedia-commons",
+          "sourceId": "47294890",
+          "sha256": "4f801dd85c7310aa3fc92371cce6820184b742a8f4629e5138b1c115e150fb7a",
+          "decode": "ffmpeg full decode"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

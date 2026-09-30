@@ -1,5 +1,7 @@
 # Agregar contenido por ave
 
+Para importar fotografías y videos con licencias individuales, consulta [MEDIA.md](MEDIA.md). El comando `npm run birds:media -- --bird <id> --dry-run` permite revisar la selección antes de descargar.
+
 La app tiene una carpeta por especie en **dist/content/**. El catálogo inicial contiene las 214 entradas (212 especies y dos géneros) de la consulta de iNaturalist (19.3525, −99.2824; radio de 5 km; aves), importadas el 29 de septiembre de 2026 UTC. Es una instantánea, no un listado que depende de internet al abrir la app. La fecha, la consulta y el total están en `dist/content/source.json`.
 
 ## Uso diario: copiar, pegar y guardar

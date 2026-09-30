@@ -22,6 +22,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/pandion-haliaetus/audio/call-01.mp3",
@@ -160,6 +162,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/buteo-platypterus/audio/call-01.mp3",
@@ -300,6 +304,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/buteo-brachyurus/audio/call-01.mp3",
@@ -438,6 +444,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/buteo-jamaicensis/audio/other-01.mp3",
@@ -580,6 +588,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/buteo-swainsoni/audio/call-01.mp3",
@@ -718,6 +728,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/parabuteo-unicinctus/audio/other-01.mp3",
@@ -860,6 +872,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/anas-platyrhynchos/audio/alarm-01.wav",
@@ -996,6 +1010,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/anser-cygnoides/audio/alarm-01.mp3",
@@ -1132,6 +1148,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/sialia-mexicana/audio/call-01.mp3",
@@ -1268,6 +1286,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/sialia-sialis/audio/alarm-01.mp3",
@@ -1404,6 +1424,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/sitta-pygmaea/audio/call-01.wav",
@@ -1542,6 +1564,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/sitta-carolinensis/audio/call-01.mp3",
@@ -1680,6 +1704,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/bubo-virginianus/audio/call-01.mp3",
@@ -1820,6 +1846,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/nymphicus-hollandicus/audio/call-01.mp3",
@@ -1956,6 +1984,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/mimus-dorsalis/audio/call-01.mp3",
@@ -2094,6 +2124,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/icterus-spurius/audio/call-01.mp3",
@@ -2230,6 +2262,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/icterus-bullockii/audio/alarm-01.mp3",
@@ -2366,6 +2400,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/icterus-mesomelas/audio/call-01.mp3",
@@ -2504,6 +2540,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/icterus-wagleri/audio/alarm-01.mp3",
@@ -2642,6 +2680,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/icterus-cucullatus/audio/call-01.mp3",
@@ -2778,6 +2818,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/icterus-pustulatus/audio/alarm-01.mp3",
@@ -2914,6 +2956,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/icterus-abeillei/audio/call-01.mp3",
@@ -3050,6 +3094,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/icterus-parisorum/audio/call-01.mp3",
@@ -3188,6 +3234,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/serinus-canaria/audio/alarm-01.mp3",
@@ -3324,6 +3372,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/ptiliogonys-cinereus/audio/call-01.mp3",
@@ -3462,6 +3512,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/poecile-sclateri/audio/call-01.mp3",
@@ -3598,6 +3650,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/cardinalis-cardinalis/audio/call-01.mp3",
@@ -3736,6 +3790,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/melanerpes-formicivorus/audio/other-01.m4a",
@@ -3876,6 +3932,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/melanerpes-aurifrons/audio/other-01.mp3",
@@ -4018,6 +4076,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/sphyrapicus-thyroideus/audio/alarm-01.mp3",
@@ -4154,6 +4214,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/dryobates-scalaris/audio/alarm-01.mp3",
@@ -4290,6 +4352,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/sphyrapicus-varius/audio/call-01.mp3",
@@ -4428,6 +4492,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/leuconotopicus-stricklandi/audio/call-01.mp3",
@@ -4564,6 +4630,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/leuconotopicus-villosus/audio/flight_call-01.mp3",
@@ -4704,6 +4772,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/anas-crecca/audio/call-01.mp3",
@@ -4842,6 +4912,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/falco-sparverius/audio/alarm-01.mp3",
@@ -4982,6 +5054,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/cyanocitta-stelleri/audio/call-01.mp3",
@@ -5120,6 +5194,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/aphelocoma-woodhouseii/audio/call-01.mp3",
@@ -5256,6 +5332,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/aphelocoma-ultramarina/audio/alarm-01.mp3",
@@ -5392,6 +5470,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/cyanocorax-yncas/audio/other-01.mp3",
@@ -5534,6 +5614,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/bombycilla-cedrorum/audio/call-01.mp3",
@@ -5670,6 +5752,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/parkesia-motacilla/audio/call-01.mp3",
@@ -5808,6 +5892,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/setophaga-occidentalis/audio/call-01.mp3",
@@ -5944,6 +6030,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/leiothlypis-ruficapilla/audio/call-01.mp3",
@@ -6082,6 +6170,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/setophaga-graciae/audio/call-01.mp3",
@@ -6220,6 +6310,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/oreothlypis-superciliosa/audio/call-01.mp3",
@@ -6358,6 +6450,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/basileuterus-belli/audio/call-01.mp3",
@@ -6496,6 +6590,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/cardellina-pusilla/audio/call-01.mp3",
@@ -6634,6 +6730,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/setophaga-coronata/audio/call-01.mp3",
@@ -6772,6 +6870,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/setophaga-townsendi/audio/call-01.mp3",
@@ -6912,6 +7012,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/leiothlypis-virginiae/audio/call-01.mp3",
@@ -7050,6 +7152,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/protonotaria-citrea/audio/other-01.wav",
@@ -7192,6 +7296,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/setophaga-virens/audio/call-01.mp3",
@@ -7330,6 +7436,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/basileuterus-rufifrons/audio/call-01.mp3",
@@ -7468,6 +7576,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/geothlypis-tolmiei/audio/call-01.mp3",
@@ -7606,6 +7716,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/setophaga-nigrescens/audio/call-01.mp3",
@@ -7744,6 +7856,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/leiothlypis-celata/audio/call-01.mp3",
@@ -7882,6 +7996,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/leiothlypis-peregrina/audio/call-01.mp3",
@@ -8020,6 +8136,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/cardellina-rubra/audio/call-01.mp3",
@@ -8158,6 +8276,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/seiurus-aurocapilla/audio/call-01.mp3",
@@ -8296,6 +8416,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/mniotilta-varia/audio/other-01.mp3",
@@ -8438,6 +8560,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/charadrius-vociferus/audio/alarm-01.mp3",
@@ -8574,6 +8698,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/chordeiles-acutipennis/audio/alarm-01.mp3",
@@ -8710,6 +8836,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/myadestes-occidentalis/audio/call-01.mp3",
@@ -8848,6 +8976,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/trogon-ambiguus/audio/other-01.mp3",
@@ -8990,6 +9120,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/trogon-mexicanus/audio/call-01.mp3",
@@ -9128,6 +9260,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/dendrortyx-macroura/audio/other-01.m4a",
@@ -9266,6 +9400,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/basilinna-leucotis/audio/call-01.mp3",
@@ -9402,6 +9538,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/archilochus-alexandri/audio/other-01.wav",
@@ -9544,6 +9682,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/saucerottia-beryllina/audio/alarm-01.mp3",
@@ -9682,6 +9822,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/lampornis-clemenciae/audio/other-01.m4a",
@@ -9824,6 +9966,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/archilochus-colubris/audio/call-01.mp3",
@@ -9962,6 +10106,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/eugenes-fulgens/audio/call-01.mp3",
@@ -10100,6 +10246,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/colibri-thalassinus/audio/call-01.mp3",
@@ -10238,6 +10386,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/cynanthus-latirostris/audio/call-01.wav",
@@ -10374,6 +10524,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/passerina-cyanea/audio/call-01.mp3",
@@ -10512,6 +10664,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/passerina-amoena/audio/flight_call-01.mp3",
@@ -10652,6 +10806,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/passerina-ciris/audio/alarm-01.mp3",
@@ -10788,6 +10944,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/corvus-corax/audio/call-01.mp3",
@@ -10924,6 +11082,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/toxostoma-curvirostre/audio/other-01.m4a",
@@ -11064,6 +11224,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/sturnus-vulgaris/audio/other-01.wav",
@@ -11204,6 +11366,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/chlorophonia-elegantissima/audio/call-01.mp3",
@@ -11342,6 +11506,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/fulica-americana/audio/call-01.mp3",
@@ -11480,6 +11646,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/gallus-gallus/audio/alarm-01.mp3",
@@ -11616,6 +11784,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/anser-anser/audio/call-01.mp3",
@@ -11752,6 +11922,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/crotophaga-sulcirostris/audio/call-01.mp3",
@@ -11890,6 +12062,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/ardea-alba/audio/alarm-01.mp3",
@@ -12026,6 +12200,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/egretta-thula/audio/alarm-01.mp3",
@@ -12162,6 +12338,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/astur-cooperii/audio/other-01.wav",
@@ -12300,10 +12478,122 @@
       "observations": 2,
       "rank": "species",
       "audio": "content/accipiter-striatus/audio/call-01.mp3",
+      "photos": [
+        "content/accipiter-striatus/fotos/local-01.jpg",
+        "content/accipiter-striatus/fotos/reference-01.jpg",
+        "content/accipiter-striatus/fotos/reference-02.jpg"
+      ],
       "habitat": "2 observaciones en la zona",
       "demo": false,
-      "cutout": null,
-      "photos": [],
+      "cutout": "content/accipiter-striatus/fotos/local-01.jpg",
+      "photoCredits": [
+        {
+          "kind": "photo",
+          "source": "inaturalist",
+          "sourceId": "116662129",
+          "sourceUrl": "https://www.inaturalist.org/photos/116662129",
+          "observationUrl": "https://www.inaturalist.org/observations/71640174",
+          "observationId": 71640174,
+          "scientificName": "Accipiter striatus",
+          "author": "Nathan Zárate",
+          "attribution": "(c) Nathan Zárate, some rights reserved (CC BY-NC)",
+          "rawLicense": "cc-by-nc",
+          "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/116662129/original.png",
+          "latitude": 19.3200442616,
+          "longitude": -99.2786103487,
+          "distanceFromUamKm": 3.631,
+          "local": true,
+          "coordinatesObscured": false,
+          "location": "Cd. de México, México",
+          "geoTier": 0,
+          "width": 1650,
+          "height": 1275,
+          "favorites": 0,
+          "taxonomicEvidence": "Research grade; exact active species ID and scientific name",
+          "visualReview": "pending",
+          "license": "CC BY-NC 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+          "nonCommercial": true,
+          "file": "fotos/local-01.jpg",
+          "codec": "png",
+          "changes": "Converted to JPEG; no crop",
+          "sha256": "379be65a454fba00379c54064e72e984f287ce033ac17d7a0964891e767e54dd",
+          "bytes": 295273,
+          "downloadedAt": "2026-09-30T02:37:55.542Z",
+          "validation": "ffmpeg full decode"
+        },
+        {
+          "kind": "photo",
+          "source": "inaturalist",
+          "sourceId": "628165537",
+          "sourceUrl": "https://www.inaturalist.org/photos/628165537",
+          "observationUrl": "https://www.inaturalist.org/observations/344737900",
+          "observationId": 344737900,
+          "scientificName": "Accipiter striatus",
+          "author": "Alberto Sánchez",
+          "attribution": "(c) Alberto Sánchez, some rights reserved (CC BY)",
+          "rawLicense": "cc-by",
+          "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/628165537/original.jpg",
+          "latitude": 19.2944914604,
+          "longitude": -99.0951916296,
+          "distanceFromUamKm": 20.676,
+          "local": false,
+          "coordinatesObscured": false,
+          "location": "Parque Ecológico de Xochimilco, Ciudad de México, CDMX, México",
+          "geoTier": 2,
+          "width": 1920,
+          "height": 1280,
+          "favorites": 1,
+          "taxonomicEvidence": "Research grade; exact active species ID and scientific name",
+          "visualReview": "pending",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "nonCommercial": false,
+          "file": "fotos/reference-01.jpg",
+          "codec": "mjpeg",
+          "changes": null,
+          "sha256": "3e14978a68ffb1ad9a5df686af30eecd9f04a7b7690e7e001c5767bb44cd1e80",
+          "bytes": 558538,
+          "downloadedAt": "2026-09-30T02:37:56.011Z",
+          "validation": "ffmpeg full decode"
+        },
+        {
+          "kind": "photo",
+          "source": "inaturalist",
+          "sourceId": "186394699",
+          "sourceUrl": "https://www.inaturalist.org/photos/186394699",
+          "observationUrl": "https://www.inaturalist.org/observations/110489884",
+          "observationId": 110489884,
+          "scientificName": "Accipiter striatus",
+          "author": "Mario Castañeda",
+          "attribution": "(c) Mario Castañeda, some rights reserved (CC BY-NC)",
+          "rawLicense": "cc-by-nc",
+          "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/186394699/original.jpeg",
+          "latitude": 19.2060664556,
+          "longitude": -99.2168081056,
+          "distanceFromUamKm": 17.678,
+          "local": false,
+          "coordinatesObscured": false,
+          "location": "San Miguel Ajusco, CDMX, México",
+          "geoTier": 2,
+          "width": 2048,
+          "height": 1536,
+          "favorites": 2,
+          "taxonomicEvidence": "Research grade; exact active species ID and scientific name",
+          "visualReview": "pending",
+          "license": "CC BY-NC 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+          "nonCommercial": true,
+          "file": "fotos/reference-02.jpg",
+          "codec": "mjpeg",
+          "changes": null,
+          "sha256": "f7b3e3eb309d141ad0f397aa158652588a049f2a2d376b806501bafd8d9c1370",
+          "bytes": 434775,
+          "downloadedAt": "2026-09-30T02:37:57.020Z",
+          "validation": "ffmpeg full decode"
+        }
+      ],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/accipiter-striatus/audio/call-01.mp3",
@@ -12444,6 +12734,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/chondrohierax-uncinatus/audio/call-01.mp3",
@@ -12582,6 +12874,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/chroicocephalus-maculipennis/audio/alarm-01.mp3",
@@ -12718,6 +13012,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/stelgidopteryx-serripennis/audio/call-01.mp3",
@@ -12854,6 +13150,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/petrochelidon-pyrrhonota/audio/alarm-01.mp3",
@@ -12990,6 +13288,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/hirundo-rustica/audio/flight_call-01.mp3",
@@ -13128,6 +13428,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/tachycineta-thalassina/audio/call-01.mp3",
@@ -13264,6 +13566,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/spizella-atrogularis/audio/other-01.wav",
@@ -13402,6 +13706,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/melospiza-melodia/audio/call-01.mp3",
@@ -13540,6 +13846,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/spizella-passerina/audio/other-01.m4a",
@@ -13682,6 +13990,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/melospiza-lincolnii/audio/call-01.mp3",
@@ -13820,6 +14130,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/passer-domesticus/audio/call-01.mp3",
@@ -13960,6 +14272,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/spizella-pallida/audio/call-01.mp3",
@@ -14096,6 +14410,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/passerculus-sandwichensis/audio/call-01.mp3",
@@ -14232,6 +14548,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/balearica-regulorum/audio/call-01.mp3",
@@ -14368,6 +14686,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/ara-chloropterus/audio/call-01.mp3",
@@ -14504,6 +14824,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/falco-peregrinus/audio/call-01.mp3",
@@ -14638,11 +14960,355 @@
       "observations": 1,
       "rank": "species",
       "audio": "content/zenaida-macroura/audio/other-01.wav",
+      "photos": [
+        "content/zenaida-macroura/fotos/local-01.jpg",
+        "content/zenaida-macroura/fotos/reference-01.jpg",
+        "content/zenaida-macroura/fotos/reference-02.jpg"
+      ],
+      "videos": [
+        {
+          "kind": "video",
+          "source": "wikimedia-commons",
+          "sourceId": "47294890",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mourning_dove_(Zenaida_macroura).webm",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Mourning_dove_%28Zenaida_macroura%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "scientificName": "Zenaida macroura",
+          "author": "Katja Schulz",
+          "attribution": "https://www.flickr.com/photos/treegrow/6084320440/in/album-72157629085880901/",
+          "rawLicense": "https://creativecommons.org/licenses/by/2.0",
+          "sourceLicense": "CC BY 2.0",
+          "mime": "video/webm",
+          "width": 1920,
+          "height": 1280,
+          "size": 22693948,
+          "duration": 43.843,
+          "latitude": null,
+          "longitude": null,
+          "distanceFromUamKm": null,
+          "local": false,
+          "geoTier": 4,
+          "title": "File:Mourning dove (Zenaida macroura).webm",
+          "description": "Mourning dove ( Zenaida macroura ). Tucson, Pima County, Arizona, USA. 25 March 2009. In this video, the original material has been stabilised.",
+          "type": "behavior",
+          "commonsMetadata": {
+            "DateTime": {
+              "value": "2016-03-03 06:07:46",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "Mourning dove (Zenaida macroura)",
+              "source": "mediawiki-metadata"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "Zenaida macroura|Birds of Tucson, Arizona|Flickr videos reviewed by trusted users|Columbiformes of the United States",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "ImageDescription": {
+              "value": "Mourning dove (<i>Zenaida macroura</i>). Tucson, Pima County, Arizona, USA. 25 March 2009.\nIn this video, the original material has been stabilised.",
+              "source": "commons-desc-page"
+            },
+            "DateTimeOriginal": {
+              "value": "2011-08-27",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/treegrow/6084320440/in/album-72157629085880901/\">https://www.flickr.com/photos/treegrow/6084320440/in/album-72157629085880901/</a>",
+              "source": "commons-desc-page"
+            },
+            "Artist": {
+              "value": "Katja Schulz",
+              "source": "commons-desc-page"
+            },
+            "LicenseShortName": {
+              "value": "CC BY 2.0",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Creative Commons Attribution 2.0",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "true",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "LicenseUrl": {
+              "value": "https://creativecommons.org/licenses/by/2.0",
+              "source": "commons-desc-page"
+            },
+            "Copyrighted": {
+              "value": "True",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "cc-by-2.0",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          },
+          "taxonomicEvidence": "Scientific name in Commons file title or species category",
+          "visualReview": "pending",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "nonCommercial": false,
+          "file": "videos/behavior-01.webm",
+          "codec": "vp8",
+          "changes": null,
+          "sha256": "4f801dd85c7310aa3fc92371cce6820184b742a8f4629e5138b1c115e150fb7a",
+          "bytes": 22693948,
+          "downloadedAt": "2026-09-30T02:38:15.010Z",
+          "validation": "ffmpeg full decode"
+        }
+      ],
       "habitat": "1 observaciones en la zona",
       "demo": false,
-      "cutout": null,
-      "photos": [],
-      "media": [],
+      "cutout": "content/zenaida-macroura/fotos/local-01.jpg",
+      "photoCredits": [
+        {
+          "kind": "photo",
+          "source": "inaturalist",
+          "sourceId": "446122454",
+          "sourceUrl": "https://www.inaturalist.org/photos/446122454",
+          "observationUrl": "https://www.inaturalist.org/observations/249554469",
+          "observationId": 249554469,
+          "scientificName": "Zenaida macroura",
+          "author": "Rodolfo DQ",
+          "attribution": "(c) Rodolfo DQ, some rights reserved (CC BY-NC)",
+          "rawLicense": "cc-by-nc",
+          "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/446122454/original.jpeg",
+          "latitude": 19.3465504029,
+          "longitude": -99.2446022774,
+          "distanceFromUamKm": 4.02,
+          "local": true,
+          "coordinatesObscured": false,
+          "location": "Autopista Urbana Poniente, Álvaro Obregón, CDMX, MX",
+          "geoTier": 0,
+          "width": 1536,
+          "height": 2048,
+          "favorites": 0,
+          "taxonomicEvidence": "Research grade; exact active species ID and scientific name",
+          "visualReview": "pending",
+          "license": "CC BY-NC 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+          "nonCommercial": true,
+          "file": "fotos/local-01.jpg",
+          "codec": "mjpeg",
+          "changes": null,
+          "sha256": "d5a3cc767576e32ff340736878199d3cde1277ead9e46b027a9d14b5f7ab164c",
+          "bytes": 1392771,
+          "downloadedAt": "2026-09-30T02:38:07.667Z",
+          "validation": "ffmpeg full decode"
+        },
+        {
+          "kind": "photo",
+          "source": "inaturalist",
+          "sourceId": "274292066",
+          "sourceUrl": "https://www.inaturalist.org/photos/274292066",
+          "observationUrl": "https://www.inaturalist.org/observations/158762639",
+          "observationId": 158762639,
+          "scientificName": "Zenaida macroura",
+          "author": "Alberto Sánchez",
+          "attribution": "(c) Alberto Sánchez, some rights reserved (CC BY)",
+          "rawLicense": "cc-by",
+          "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/274292066/original.jpg",
+          "latitude": 19.2910297178,
+          "longitude": -99.0968187149,
+          "distanceFromUamKm": 20.638,
+          "local": false,
+          "coordinatesObscured": false,
+          "location": "Parque Ecológico de Xochimilco, Ciudad de México, CDMX, México",
+          "geoTier": 2,
+          "width": 1920,
+          "height": 1920,
+          "favorites": 0,
+          "taxonomicEvidence": "Research grade; exact active species ID and scientific name",
+          "visualReview": "pending",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "nonCommercial": false,
+          "file": "fotos/reference-01.jpg",
+          "codec": "mjpeg",
+          "changes": null,
+          "sha256": "9e353bd559592b160c267620521a3f591dc95d08989355649e0aa7325d5b8ee7",
+          "bytes": 860597,
+          "downloadedAt": "2026-09-30T02:38:08.116Z",
+          "validation": "ffmpeg full decode"
+        },
+        {
+          "kind": "photo",
+          "source": "inaturalist",
+          "sourceId": "3942034",
+          "sourceUrl": "https://www.inaturalist.org/photos/3942034",
+          "observationUrl": "https://www.inaturalist.org/observations/3405836",
+          "observationId": 3405836,
+          "scientificName": "Zenaida macroura",
+          "author": "Gonzalo Zepeda Martínez",
+          "attribution": "(c) Gonzalo Zepeda Martínez, some rights reserved (CC BY-SA)",
+          "rawLicense": "cc-by-sa",
+          "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/3942034/original.jpg",
+          "latitude": 19.3036111111,
+          "longitude": -99.1052777778,
+          "distanceFromUamKm": 19.364,
+          "local": false,
+          "coordinatesObscured": false,
+          "location": "Coyoacán, Distrito Federal, Mexico",
+          "geoTier": 2,
+          "width": 874,
+          "height": 800,
+          "favorites": 0,
+          "taxonomicEvidence": "Research grade; exact active species ID and scientific name",
+          "visualReview": "pending",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "nonCommercial": false,
+          "file": "fotos/reference-02.jpg",
+          "codec": "mjpeg",
+          "changes": null,
+          "sha256": "985a128774938ea08f2d6e012e0c3a669ed81114048b9548f79a10a1efb775db",
+          "bytes": 90754,
+          "downloadedAt": "2026-09-30T02:38:09.170Z",
+          "validation": "ffmpeg full decode"
+        }
+      ],
+      "videoCredits": [
+        {
+          "kind": "video",
+          "source": "wikimedia-commons",
+          "sourceId": "47294890",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mourning_dove_(Zenaida_macroura).webm",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Mourning_dove_%28Zenaida_macroura%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "scientificName": "Zenaida macroura",
+          "author": "Katja Schulz",
+          "attribution": "https://www.flickr.com/photos/treegrow/6084320440/in/album-72157629085880901/",
+          "rawLicense": "https://creativecommons.org/licenses/by/2.0",
+          "sourceLicense": "CC BY 2.0",
+          "mime": "video/webm",
+          "width": 1920,
+          "height": 1280,
+          "size": 22693948,
+          "duration": 43.843,
+          "latitude": null,
+          "longitude": null,
+          "distanceFromUamKm": null,
+          "local": false,
+          "geoTier": 4,
+          "title": "File:Mourning dove (Zenaida macroura).webm",
+          "description": "Mourning dove ( Zenaida macroura ). Tucson, Pima County, Arizona, USA. 25 March 2009. In this video, the original material has been stabilised.",
+          "type": "behavior",
+          "commonsMetadata": {
+            "DateTime": {
+              "value": "2016-03-03 06:07:46",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "Mourning dove (Zenaida macroura)",
+              "source": "mediawiki-metadata"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "Zenaida macroura|Birds of Tucson, Arizona|Flickr videos reviewed by trusted users|Columbiformes of the United States",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "ImageDescription": {
+              "value": "Mourning dove (<i>Zenaida macroura</i>). Tucson, Pima County, Arizona, USA. 25 March 2009.\nIn this video, the original material has been stabilised.",
+              "source": "commons-desc-page"
+            },
+            "DateTimeOriginal": {
+              "value": "2011-08-27",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/treegrow/6084320440/in/album-72157629085880901/\">https://www.flickr.com/photos/treegrow/6084320440/in/album-72157629085880901/</a>",
+              "source": "commons-desc-page"
+            },
+            "Artist": {
+              "value": "Katja Schulz",
+              "source": "commons-desc-page"
+            },
+            "LicenseShortName": {
+              "value": "CC BY 2.0",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Creative Commons Attribution 2.0",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "true",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "LicenseUrl": {
+              "value": "https://creativecommons.org/licenses/by/2.0",
+              "source": "commons-desc-page"
+            },
+            "Copyrighted": {
+              "value": "True",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "cc-by-2.0",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          },
+          "taxonomicEvidence": "Scientific name in Commons file title or species category",
+          "visualReview": "pending",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "nonCommercial": false,
+          "file": "videos/behavior-01.webm",
+          "codec": "vp8",
+          "changes": null,
+          "sha256": "4f801dd85c7310aa3fc92371cce6820184b742a8f4629e5138b1c115e150fb7a",
+          "bytes": 22693948,
+          "downloadedAt": "2026-09-30T02:38:15.010Z",
+          "validation": "ffmpeg full decode"
+        }
+      ],
+      "media": [
+        {
+          "type": "video",
+          "src": "content/zenaida-macroura/videos/behavior-01.webm"
+        }
+      ],
       "recordings": [
         "content/zenaida-macroura/audio/other-01.wav",
         "content/zenaida-macroura/audio/other-02.wav",
@@ -14782,6 +15448,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/agapornis-roseicollis/audio/call-01.mp3",
@@ -14920,6 +15588,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/spinus-psaltria/audio/call-01.mp3",
@@ -15056,6 +15726,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/spinus-notatus/audio/call-01.mp3",
@@ -15194,6 +15866,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/spinus-pinus/audio/call-01.mp3",
@@ -15332,6 +16006,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/junco-phaeonotus/audio/alarm-01.mp3",
@@ -15468,6 +16144,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/tyto-furcata/audio/alarm-01.mp3",
@@ -15604,6 +16282,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/amazona-autumnalis/audio/call-01.wav",
@@ -15740,6 +16420,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/amazona-albifrons/audio/call-01.mp3",
@@ -15876,6 +16558,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/myiozetetes-similis/audio/call-01.mp3",
@@ -16012,6 +16696,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/megaceryle-alcyon/audio/call-01.mp3",
@@ -16152,6 +16838,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/geothlypis-nelsoni/audio/call-01.mp3",
@@ -16290,6 +16978,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/campylorhynchus-megalopterus/audio/call-01.mp3",
@@ -16426,6 +17116,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/dumetella-carolinensis/audio/call-01.wav",
@@ -16564,6 +17256,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/turdus-rufopalliatus/audio/alarm-01.mp3",
@@ -16700,6 +17394,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/turdus-assimilis/audio/alarm-01.mp3",
@@ -16835,11 +17531,633 @@
       "observations": 160,
       "rank": "species",
       "audio": "content/turdus-migratorius/audio/other-01.m4a",
+      "photos": [
+        "content/turdus-migratorius/fotos/local-01.jpg",
+        "content/turdus-migratorius/fotos/local-02.jpg",
+        "content/turdus-migratorius/fotos/reference-01.jpg",
+        "content/turdus-migratorius/fotos/reference-02.jpg"
+      ],
+      "videos": [
+        {
+          "kind": "video",
+          "source": "wikimedia-commons",
+          "sourceId": "41546479",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_robin_(Turdus_migratorius)_singing.webm",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/American_robin_%28Turdus_migratorius%29_singing.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "scientificName": "Turdus migratorius",
+          "author": "Michael Carian",
+          "attribution": "https://www.flickr.com/photos/carianoff/3659401438/",
+          "rawLicense": "https://creativecommons.org/licenses/by-sa/2.0",
+          "sourceLicense": "CC BY-SA 2.0",
+          "mime": "video/webm",
+          "width": 640,
+          "height": 360,
+          "size": 2129378,
+          "duration": 73.842,
+          "latitude": null,
+          "longitude": null,
+          "distanceFromUamKm": null,
+          "local": false,
+          "geoTier": 4,
+          "title": "File:American robin (Turdus migratorius) singing.webm",
+          "description": "American robin ( Turdus migratorius ) singing in California, USA.",
+          "type": "vocalization",
+          "commonsMetadata": {
+            "DateTime": {
+              "value": "2015-07-13 06:04:28",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "American robin (Turdus migratorius) singing",
+              "source": "mediawiki-metadata"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "WebM videos|Turdidae of California|Video display resolution 640 x 360|Flickr videos reviewed by trusted users|Videos of Turdus migratorius",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "ImageDescription": {
+              "value": "American robin (<i>Turdus migratorius</i>) singing in California, USA.",
+              "source": "commons-desc-page"
+            },
+            "DateTimeOriginal": {
+              "value": "2009-06-24",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/carianoff/3659401438/\">https://www.flickr.com/photos/carianoff/3659401438/</a>",
+              "source": "commons-desc-page"
+            },
+            "Artist": {
+              "value": "Michael Carian",
+              "source": "commons-desc-page"
+            },
+            "LicenseShortName": {
+              "value": "CC BY-SA 2.0",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Creative Commons Attribution-Share Alike 2.0",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "true",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "LicenseUrl": {
+              "value": "https://creativecommons.org/licenses/by-sa/2.0",
+              "source": "commons-desc-page"
+            },
+            "Copyrighted": {
+              "value": "True",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "cc-by-sa-2.0",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          },
+          "taxonomicEvidence": "Scientific name in Commons file title or species category",
+          "visualReview": "pending",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "nonCommercial": false,
+          "file": "videos/vocalization-01.webm",
+          "codec": "vp8",
+          "changes": null,
+          "sha256": "450e1e524f3bec5b3ce5690ca74e6362ce18b1a9cf922a1509b3bf233ca1c5cf",
+          "bytes": 2129378,
+          "downloadedAt": "2026-09-30T02:38:03.783Z",
+          "validation": "ffmpeg full decode"
+        },
+        {
+          "kind": "video",
+          "source": "wikimedia-commons",
+          "sourceId": "114426414",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_Robin_in_bird_bath.webm",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/American_Robin_in_bird_bath.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "scientificName": "Turdus migratorius",
+          "author": "Captain-tucker",
+          "attribution": "Own work",
+          "rawLicense": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceLicense": "CC BY-SA 4.0",
+          "mime": "video/webm",
+          "width": 1920,
+          "height": 1080,
+          "size": 12795295,
+          "duration": 24.067,
+          "latitude": null,
+          "longitude": null,
+          "distanceFromUamKm": null,
+          "local": false,
+          "geoTier": 4,
+          "title": "File:American Robin in bird bath.webm",
+          "description": "Turdus migratorius bathing in a bird bath",
+          "type": "behavior",
+          "commonsMetadata": {
+            "DateTime": {
+              "value": "2022-01-19 02:31:00",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "American Robin in bird bath",
+              "source": "mediawiki-metadata"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "Taken with Canon EOS 70D|Self-published work|Photos by Captain-tucker/Nature|Turdus migratorius bathing",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "ImageDescription": {
+              "value": "Turdus migratorius bathing in a bird bath",
+              "source": "commons-desc-page"
+            },
+            "DateTimeOriginal": {
+              "value": "2015-05-24",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+              "source": "commons-desc-page"
+            },
+            "Artist": {
+              "value": "<a href=\"//commons.wikimedia.org/wiki/User:Captain-tucker\" title=\"User:Captain-tucker\">Captain-tucker</a>",
+              "source": "commons-desc-page"
+            },
+            "LicenseShortName": {
+              "value": "CC BY-SA 4.0",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Creative Commons Attribution-Share Alike 4.0",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "true",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "LicenseUrl": {
+              "value": "https://creativecommons.org/licenses/by-sa/4.0",
+              "source": "commons-desc-page"
+            },
+            "Copyrighted": {
+              "value": "True",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "cc-by-sa-4.0",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          },
+          "taxonomicEvidence": "Scientific name in Commons file title or species category",
+          "visualReview": "pending",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "nonCommercial": false,
+          "file": "videos/behavior-01.webm",
+          "codec": "vp9",
+          "changes": null,
+          "sha256": "855ef31410955c439918ac26b009bf9aa446db26fbfd16e1321daac180dab49a",
+          "bytes": 12795295,
+          "downloadedAt": "2026-09-30T02:38:06.636Z",
+          "validation": "ffmpeg full decode"
+        }
+      ],
+      "mediaReview": {
+        "rejected": [
+          {
+            "source": "inaturalist",
+            "sourceId": "96867388",
+            "reason": "Rejected after visual review: insufficient focus and detail"
+          },
+          {
+            "source": "inaturalist",
+            "sourceId": "496141015",
+            "reason": "Rejected after visual review: feathers/remains, no visible whole bird"
+          }
+        ]
+      },
       "habitat": "160 observaciones en la zona",
       "demo": false,
-      "cutout": null,
-      "photos": [],
-      "media": [],
+      "cutout": "content/turdus-migratorius/fotos/local-01.jpg",
+      "photoCredits": [
+        {
+          "kind": "photo",
+          "source": "inaturalist",
+          "sourceId": "663756928",
+          "sourceUrl": "https://www.inaturalist.org/photos/663756928",
+          "observationUrl": "https://www.inaturalist.org/observations/363616445",
+          "observationId": 363616445,
+          "scientificName": "Turdus migratorius",
+          "author": "Álvaro San José Elizundia",
+          "attribution": "(c) Álvaro San José Elizundia, some rights reserved (CC BY-NC)",
+          "rawLicense": "cc-by-nc",
+          "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/663756928/original.jpg",
+          "latitude": 19.3562436653,
+          "longitude": -99.2728315085,
+          "distanceFromUamKm": 1.087,
+          "local": true,
+          "coordinatesObscured": false,
+          "location": "Lomas de Santa Fe, Contadero, 05348 Ciudad de México, CDMX, Mexico",
+          "geoTier": 0,
+          "width": 2048,
+          "height": 1365,
+          "favorites": 1,
+          "taxonomicEvidence": "Research grade; exact active species ID and scientific name",
+          "visualReview": "pending",
+          "license": "CC BY-NC 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+          "nonCommercial": true,
+          "file": "fotos/local-02.jpg",
+          "codec": "mjpeg",
+          "changes": null,
+          "sha256": "d055074bacb8c39fd72ff995f01f5d7f52ecbf1dcfc3ea430b3abf7832cab3c6",
+          "bytes": 1082348,
+          "downloadedAt": "2026-09-30T02:37:59.353Z",
+          "validation": "ffmpeg full decode"
+        },
+        {
+          "kind": "photo",
+          "source": "inaturalist",
+          "sourceId": "4031080",
+          "sourceUrl": "https://www.inaturalist.org/photos/4031080",
+          "observationUrl": "https://www.inaturalist.org/observations/3469988",
+          "observationId": 3469988,
+          "scientificName": "Turdus migratorius",
+          "author": "Gonzalo Zepeda Martínez",
+          "attribution": "(c) Gonzalo Zepeda Martínez, some rights reserved (CC BY-SA)",
+          "rawLicense": "cc-by-sa",
+          "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/4031080/original.jpg",
+          "latitude": 19.3138888889,
+          "longitude": -99.3097222222,
+          "distanceFromUamKm": 5.162,
+          "local": false,
+          "coordinatesObscured": false,
+          "location": "Desierto de los Leones, Distrito Federal, Mexico",
+          "geoTier": 1,
+          "width": 927,
+          "height": 800,
+          "favorites": 0,
+          "taxonomicEvidence": "Research grade; exact active species ID and scientific name",
+          "visualReview": "pending",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "nonCommercial": false,
+          "file": "fotos/reference-01.jpg",
+          "codec": "mjpeg",
+          "changes": null,
+          "sha256": "1e6bf88a2f4374d16a85e85f400942cf274ff8dc054bffb8ddf063e83f74f91e",
+          "bytes": 202055,
+          "downloadedAt": "2026-09-30T02:38:00.271Z",
+          "validation": "ffmpeg full decode"
+        },
+        {
+          "kind": "photo",
+          "source": "inaturalist",
+          "sourceId": "531585132",
+          "sourceUrl": "https://www.inaturalist.org/photos/531585132",
+          "observationUrl": "https://www.inaturalist.org/observations/295300605",
+          "observationId": 295300605,
+          "scientificName": "Turdus migratorius",
+          "author": "Nathan Zárate",
+          "attribution": "(c) Nathan Zárate, some rights reserved (CC BY-NC)",
+          "rawLicense": "cc-by-nc",
+          "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/531585132/original.jpg",
+          "latitude": 19.3208015869,
+          "longitude": -99.2752025871,
+          "distanceFromUamKm": 3.605,
+          "local": true,
+          "coordinatesObscured": false,
+          "location": "Cd. de México, México",
+          "geoTier": 0,
+          "width": 2048,
+          "height": 2048,
+          "favorites": 0,
+          "taxonomicEvidence": "Research grade; exact active species ID and scientific name",
+          "visualReview": "pending",
+          "license": "CC BY-NC 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+          "nonCommercial": true,
+          "file": "fotos/local-01.jpg",
+          "codec": "mjpeg",
+          "changes": null,
+          "sha256": "fa1d3e6f869921335265595b6d10e335df6f8da0982d2a743f07ba7e3bdab512",
+          "bytes": 5467088,
+          "downloadedAt": "2026-09-30T02:40:15.975Z",
+          "validation": "ffmpeg full decode"
+        },
+        {
+          "kind": "photo",
+          "source": "inaturalist",
+          "sourceId": "533929037",
+          "sourceUrl": "https://www.inaturalist.org/photos/533929037",
+          "observationUrl": "https://www.inaturalist.org/observations/296526024",
+          "observationId": 296526024,
+          "scientificName": "Turdus migratorius",
+          "author": "Efraín Octavio Aguilar Pérez",
+          "attribution": "(c) Efraín Octavio Aguilar Pérez, some rights reserved (CC BY-NC)",
+          "rawLicense": "cc-by-nc",
+          "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/533929037/original.jpg",
+          "latitude": 19.3144295201,
+          "longitude": -99.3104651355,
+          "distanceFromUamKm": 5.157,
+          "local": false,
+          "coordinatesObscured": false,
+          "location": "Cd. de México, México",
+          "geoTier": 1,
+          "width": 2048,
+          "height": 1365,
+          "favorites": 0,
+          "taxonomicEvidence": "Research grade; exact active species ID and scientific name",
+          "visualReview": "pending",
+          "license": "CC BY-NC 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+          "nonCommercial": true,
+          "file": "fotos/reference-02.jpg",
+          "codec": "mjpeg",
+          "changes": null,
+          "sha256": "10a9bdf44f68912d2d448835560d6d27d2054d6572e8b88a8ddc7327e37ab163",
+          "bytes": 1511633,
+          "downloadedAt": "2026-09-30T02:40:16.546Z",
+          "validation": "ffmpeg full decode"
+        }
+      ],
+      "videoCredits": [
+        {
+          "kind": "video",
+          "source": "wikimedia-commons",
+          "sourceId": "41546479",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_robin_(Turdus_migratorius)_singing.webm",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/American_robin_%28Turdus_migratorius%29_singing.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "scientificName": "Turdus migratorius",
+          "author": "Michael Carian",
+          "attribution": "https://www.flickr.com/photos/carianoff/3659401438/",
+          "rawLicense": "https://creativecommons.org/licenses/by-sa/2.0",
+          "sourceLicense": "CC BY-SA 2.0",
+          "mime": "video/webm",
+          "width": 640,
+          "height": 360,
+          "size": 2129378,
+          "duration": 73.842,
+          "latitude": null,
+          "longitude": null,
+          "distanceFromUamKm": null,
+          "local": false,
+          "geoTier": 4,
+          "title": "File:American robin (Turdus migratorius) singing.webm",
+          "description": "American robin ( Turdus migratorius ) singing in California, USA.",
+          "type": "vocalization",
+          "commonsMetadata": {
+            "DateTime": {
+              "value": "2015-07-13 06:04:28",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "American robin (Turdus migratorius) singing",
+              "source": "mediawiki-metadata"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "WebM videos|Turdidae of California|Video display resolution 640 x 360|Flickr videos reviewed by trusted users|Videos of Turdus migratorius",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "ImageDescription": {
+              "value": "American robin (<i>Turdus migratorius</i>) singing in California, USA.",
+              "source": "commons-desc-page"
+            },
+            "DateTimeOriginal": {
+              "value": "2009-06-24",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/carianoff/3659401438/\">https://www.flickr.com/photos/carianoff/3659401438/</a>",
+              "source": "commons-desc-page"
+            },
+            "Artist": {
+              "value": "Michael Carian",
+              "source": "commons-desc-page"
+            },
+            "LicenseShortName": {
+              "value": "CC BY-SA 2.0",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Creative Commons Attribution-Share Alike 2.0",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "true",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "LicenseUrl": {
+              "value": "https://creativecommons.org/licenses/by-sa/2.0",
+              "source": "commons-desc-page"
+            },
+            "Copyrighted": {
+              "value": "True",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "cc-by-sa-2.0",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          },
+          "taxonomicEvidence": "Scientific name in Commons file title or species category",
+          "visualReview": "pending",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "nonCommercial": false,
+          "file": "videos/vocalization-01.webm",
+          "codec": "vp8",
+          "changes": null,
+          "sha256": "450e1e524f3bec5b3ce5690ca74e6362ce18b1a9cf922a1509b3bf233ca1c5cf",
+          "bytes": 2129378,
+          "downloadedAt": "2026-09-30T02:38:03.783Z",
+          "validation": "ffmpeg full decode"
+        },
+        {
+          "kind": "video",
+          "source": "wikimedia-commons",
+          "sourceId": "114426414",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_Robin_in_bird_bath.webm",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/American_Robin_in_bird_bath.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "scientificName": "Turdus migratorius",
+          "author": "Captain-tucker",
+          "attribution": "Own work",
+          "rawLicense": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceLicense": "CC BY-SA 4.0",
+          "mime": "video/webm",
+          "width": 1920,
+          "height": 1080,
+          "size": 12795295,
+          "duration": 24.067,
+          "latitude": null,
+          "longitude": null,
+          "distanceFromUamKm": null,
+          "local": false,
+          "geoTier": 4,
+          "title": "File:American Robin in bird bath.webm",
+          "description": "Turdus migratorius bathing in a bird bath",
+          "type": "behavior",
+          "commonsMetadata": {
+            "DateTime": {
+              "value": "2022-01-19 02:31:00",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "American Robin in bird bath",
+              "source": "mediawiki-metadata"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "Taken with Canon EOS 70D|Self-published work|Photos by Captain-tucker/Nature|Turdus migratorius bathing",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "ImageDescription": {
+              "value": "Turdus migratorius bathing in a bird bath",
+              "source": "commons-desc-page"
+            },
+            "DateTimeOriginal": {
+              "value": "2015-05-24",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+              "source": "commons-desc-page"
+            },
+            "Artist": {
+              "value": "<a href=\"//commons.wikimedia.org/wiki/User:Captain-tucker\" title=\"User:Captain-tucker\">Captain-tucker</a>",
+              "source": "commons-desc-page"
+            },
+            "LicenseShortName": {
+              "value": "CC BY-SA 4.0",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Creative Commons Attribution-Share Alike 4.0",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "true",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "LicenseUrl": {
+              "value": "https://creativecommons.org/licenses/by-sa/4.0",
+              "source": "commons-desc-page"
+            },
+            "Copyrighted": {
+              "value": "True",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "cc-by-sa-4.0",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          },
+          "taxonomicEvidence": "Scientific name in Commons file title or species category",
+          "visualReview": "pending",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "nonCommercial": false,
+          "file": "videos/behavior-01.webm",
+          "codec": "vp9",
+          "changes": null,
+          "sha256": "855ef31410955c439918ac26b009bf9aa446db26fbfd16e1321daac180dab49a",
+          "bytes": 12795295,
+          "downloadedAt": "2026-09-30T02:38:06.636Z",
+          "validation": "ffmpeg full decode"
+        }
+      ],
+      "media": [
+        {
+          "type": "video",
+          "src": "content/turdus-migratorius/videos/behavior-01.webm"
+        },
+        {
+          "type": "video",
+          "src": "content/turdus-migratorius/videos/vocalization-01.webm"
+        }
+      ],
       "recordings": [
         "content/turdus-migratorius/audio/other-01.m4a",
         "content/turdus-migratorius/audio/other-01.wav",
@@ -16979,6 +18297,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/camptostoma-imberbe/audio/other-01.mp3",
@@ -17121,6 +18441,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/pyrocephalus-rubinus/audio/other-01.wav",
@@ -17263,6 +18585,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/melanotis-caerulescens/audio/song-01.mp3",
@@ -17399,6 +18723,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/peucedramus-taeniatus/audio/call-01.wav",
@@ -17537,6 +18863,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/zenaida-asiatica/audio/other-01.wav",
@@ -17679,6 +19007,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/columba-livia/audio/other-01.wav",
@@ -17817,6 +19147,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/streptopelia-decaocto/audio/other-01.wav",
@@ -17959,6 +19291,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/empidonax-difficilis/audio/other-01.wav",
@@ -18101,6 +19435,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/empidonax-wrightii/audio/call-01.mp3",
@@ -18239,6 +19575,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/contopus-cooperi/audio/song-01.mp3",
@@ -18375,6 +19713,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/empidonax-minimus/audio/call-01.mp3",
@@ -18513,6 +19853,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/mitrephanes-phaeocercus/audio/call-01.mp3",
@@ -18651,6 +19993,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/empidonax-hammondii/audio/call-01.mp3",
@@ -18791,6 +20135,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/contopus-sordidulus/audio/call-01.mp3",
@@ -18931,6 +20277,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/sayornis-phoebe/audio/call-01.mp3",
@@ -19069,6 +20417,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/empidonax-albigularis/audio/call-01.mp3",
@@ -19207,6 +20557,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/contopus-pertinax/audio/call-01.mp3",
@@ -19345,6 +20697,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/empidonax-oberholseri/audio/call-01.mp3",
@@ -19484,6 +20838,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "audio": null,
       "recordings": [],
@@ -19510,6 +20866,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/sayornis-nigricans/audio/call-01.wav",
@@ -19646,6 +21004,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/empidonax-fulvifrons/audio/call-01.mp3",
@@ -19782,6 +21142,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/empidonax-affinis/audio/call-01.mp3",
@@ -19918,6 +21280,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/spatula-clypeata/audio/alarm-01.mp3",
@@ -20054,6 +21418,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/anas-diazi/audio/call-01.mp3",
@@ -20192,6 +21558,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/cairina-moschata/audio/alarm-01.mp3",
@@ -20328,6 +21696,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/oxyura-jamaicensis/audio/call-01.mp3",
@@ -20466,6 +21836,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/myioborus-pictus/audio/call-01.mp3",
@@ -20604,6 +21976,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/myioborus-miniatus/audio/call-01.mp3",
@@ -20742,6 +22116,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/meleagris-gallopavo/audio/call-01.mp3",
@@ -20879,6 +22255,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "audio": null,
       "recordings": [],
@@ -20905,6 +22283,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/pelecanus-erythrorhynchos/audio/other-01.m4a",
@@ -21007,6 +22387,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/psephotus-haematonotus/audio/call-01.mp3",
@@ -21143,6 +22525,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/myiopsitta-monachus/audio/call-01.mp3",
@@ -21281,6 +22665,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/agapornis-personatus/audio/call-01.mp3",
@@ -21417,6 +22803,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/aratinga-solstitialis/audio/other-01.m4a"
@@ -21483,6 +22871,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/polioptila-caerulea/audio/call-01.mp3",
@@ -21621,6 +23011,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/diglossa-baritula/audio/other-01.mp3",
@@ -21757,6 +23149,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/passerina-caerulea/audio/call-01.mp3",
@@ -21895,6 +23289,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/pheucticus-ludovicianus/audio/alarm-01.mp3",
@@ -22035,6 +23431,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/pheucticus-melanocephalus/audio/call-01.mp3",
@@ -22173,6 +23571,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/loxia-curvirostra/audio/call-01.mp3",
@@ -22309,6 +23709,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/haemorhous-mexicanus/audio/call-01.mp3",
@@ -22449,6 +23851,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/piranga-ludoviciana/audio/call-01.mp3",
@@ -22589,6 +23993,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/piranga-bidentata/audio/call-01.mp3",
@@ -22725,6 +24131,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/piranga-flava/audio/call-01.mp3",
@@ -22861,6 +24269,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/piranga-rubra/audio/call-01.mp3",
@@ -22999,6 +24409,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/actitis-macularius/audio/alarm-01.mp3",
@@ -23135,6 +24547,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/porzana-carolina/audio/call-01.mp3",
@@ -23273,6 +24687,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/arremon-virenticeps/audio/other-01.wav",
@@ -23411,6 +24827,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/atlapetes-pileatus/audio/alarm-01.mp3",
@@ -23547,6 +24965,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/pipilo-maculatus/audio/call-01.mp3",
@@ -23685,6 +25105,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/melozone-fusca/audio/other-01.m4a",
@@ -23827,6 +25249,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/regulus-satrapa/audio/call-01.mp3",
@@ -23965,6 +25389,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/corthylio-calendula/audio/call-01.mp3",
@@ -24103,6 +25529,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/luscinia-megarhynchos/audio/alarm-01.mp3",
@@ -24239,6 +25667,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/catherpes-mexicanus/audio/call-01.mp3",
@@ -24377,6 +25807,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/thryomanes-bewickii/audio/other-01.m4a",
@@ -24519,6 +25951,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/troglodytes-aedon/audio/call-01.mp3",
@@ -24657,6 +26091,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/psaltriparus-minimus/audio/call-01.mp3",
@@ -24795,6 +26231,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/sporophila-torqueola/audio/other-01.wav",
@@ -24933,6 +26371,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/mimus-polyglottos/audio/other-01.mp3",
@@ -25075,6 +26515,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/antrostomus-arizonae/audio/other-01.m4a",
@@ -25213,6 +26655,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/megascops-kennicottii/audio/other-01.mp3",
@@ -25353,6 +26797,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/psiloscops-flammeolus/audio/other-01.wav",
@@ -25491,6 +26937,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/tyrannus-vociferans/audio/call-01.mp3",
@@ -25627,6 +27075,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/molothrus-ater/audio/call-01.mp3",
@@ -25763,6 +27213,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/dives-dives/audio/other-01.wav",
@@ -25903,6 +27355,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/molothrus-aeneus/audio/call-01.mp3",
@@ -26041,6 +27495,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/columbina-inca/audio/call-01.mp3",
@@ -26179,6 +27635,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/certhia-americana/audio/call-01.mp3",
@@ -26317,6 +27775,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/lepidocolaptes-leucogaster/audio/call-01.mp3",
@@ -26453,6 +27913,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/cyanocorax-colliei/audio/other-01.wav",
@@ -26595,6 +28057,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/aeronautes-saxatalis/audio/call-01.mp3",
@@ -26731,6 +28195,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/vireo-solitarius/audio/other-01.mp3",
@@ -26869,6 +28335,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/vireo-cassinii/audio/other-01.wav",
@@ -27007,6 +28475,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/vireo-plumbeus/audio/alarm-01.mp3",
@@ -27143,6 +28613,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/vireo-huttoni/audio/call-01.mp3",
@@ -27281,6 +28753,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/aimophila-ruficeps/audio/other-01.mp3",
@@ -27419,6 +28893,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/peucaea-ruficauda/audio/call-01.mp3",
@@ -27557,6 +29033,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/oriturus-superciliosus/audio/alarm-01.mp3",
@@ -27695,6 +29173,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/quiscalus-mexicanus/audio/call-01.mp3",
@@ -27831,6 +29311,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/bartramia-longicauda/audio/flight_call-01.mp3",
@@ -27967,6 +29449,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/cathartes-aura/audio/alarm-01.mp3",
@@ -28103,6 +29587,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/catharus-guttatus/audio/other-01.m4a",
@@ -28245,6 +29731,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/catharus-ustulatus/audio/call-01.mp3",
@@ -28381,6 +29869,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/catharus-frantzii/audio/alarm-01.mp3",
@@ -28521,6 +30011,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/catharus-occidentalis/audio/call-01.mp3",
@@ -28659,6 +30151,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/catharus-aurantiirostris/audio/other-01.wav",
@@ -28797,6 +30291,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/selasphorus-rufus/audio/call-01.mp3",
@@ -28933,6 +30429,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/selasphorus-platycercus/audio/call-01.mp3",
@@ -29069,6 +30567,8 @@
       "demo": false,
       "cutout": null,
       "photos": [],
+      "photoCredits": [],
+      "videoCredits": [],
       "media": [],
       "recordings": [
         "content/selasphorus-heloisa/audio/call-01.wav",
@@ -29190,5 +30690,5 @@
       "hasNotes": false
     }
   ],
-  "revision": "f496fd4c4c78b30816e9757bc15ac3806abb1a90c12a58c1c6fe13cabfc34ddd"
+  "revision": "5fa11d6efdfcfad52f4b7e875fd833b424ea9db8cc1a564c595a97e71fb07779"
 }

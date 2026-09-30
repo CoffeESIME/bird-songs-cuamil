@@ -4,7 +4,7 @@ import path from 'node:path';
 import {createHash} from 'node:crypto';
 const dist = fileURLToPath(new URL('../dist/', import.meta.url));
 const root = path.join(dist,'content');
-const image = /\.(jpe?g|png|webp|gif|avif)$/i, video = /\.(mp4|webm|mov|m4v)$/i, audio = /\.(mp3|wav|ogg|m4a|flac)$/i;
+const image = /\.(jpe?g|png|webp|gif|avif)$/i, video = /\.(mp4|webm|mov|m4v|ogv)$/i, audio = /\.(mp3|wav|ogg|m4a|flac)$/i;
 async function files(dir, pattern) {
   const output=[];
   for (const entry of await readdir(dir,{withFileTypes:true})) {
@@ -51,6 +51,7 @@ export async function buildContent() {
     if(allAudio.length&&(!metadata.recording||audio.test(metadata.recording))) analysis=recordingAnalyses[url(allAudio[0])]||analysis;
     birds.push({...metadata, habitat:metadata.habitat || (metadata.rank==='genus'?'Identificación a nivel de género':`${metadata.observations ?? '—'} observaciones en la zona`),
       demo:false, cutout:cover?url(cover):null, photos:allImages.map(url),
+      photoCredits:Array.isArray(metadata.photos)?metadata.photos:[],videoCredits:Array.isArray(metadata.videos)?metadata.videos:[],
       media:allVideos.map(f=>({type:'video',src:url(f)})), audio:allAudio[0]&&(!metadata.recording||audio.test(metadata.recording))?url(allAudio[0]):null,
       recordings:allAudio.map(url),recordingAnalyses,audioCredits:Array.isArray(metadata.audio)?metadata.audio:[],analysis,notes,contentPath:url(dir)+'/',
       hasNotes:!!notes.replace(/<!--[\s\S]*?-->/g,'').trim()});
