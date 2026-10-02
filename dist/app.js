@@ -1,8 +1,8 @@
-import {renderAnnex} from './content-view.js';
 import {birds,uiSounds,source,revision as contentRevision} from './catalog.js';
 import {prepareAcoustic,acousticFrame} from './acoustic.js';
 import {analysisRow,recordingAnalysis,validateAnalysis} from './analysis-data.js';
 const $=id=>document.getElementById(id), video=$('video'), audio=new Audio();
+$('autoplay').checked=false;
 const motionPreference=matchMedia('(prefers-reduced-motion: reduce)');
 let reduced=motionPreference.matches;
 const icon='<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M2 9h5v5h8V7h5V3h5v7h5v4h-6v9H11v-4H6v-5H2zM12 23h3v6h-3zm8 0h3v6h-3z"/></svg>';
@@ -67,6 +67,8 @@ function loadBird(){
  video.poster=b.photos[0]||'';video.muted=!!b.audio;
  if(b.audio)audio.src=b.audio;
  video.load();audio.load();routeAudio();
+ $('video-card').hidden=!b.media.length;
+ document.querySelector('.sheet-grid').classList.toggle('without-video',!b.media.length);
  $('video').hidden=!b.media.length;$('video-play').disabled=!b.media.length;
  $('play').disabled=!b.audio&&!b.media.length;
  $('video-caption').textContent=b.media.length?'Grabación de campo':'Aún no hay videos';
@@ -74,8 +76,6 @@ function loadBird(){
  $('status').textContent=b.audio||b.media.length?'Archivo audiovisual de '+b.name+'.':'Esta ficha todavía no tiene una grabación.';
  $('elapsed').textContent='0:00';$('duration').textContent='--:--';$('spectrogram-time').textContent='0:00';$('seek').value=0;$('seek').disabled=true;
  const link=$('taxon-link');link.href=b.source;link.textContent='Ver especie en iNaturalist ↗';
- const annex=$('annex-link');annex.hidden=!b.hasNotes;annex.href='#anexo-'+b.id;
- annex.onclick=()=>{const entry=$('anexo-'+b.id);if(entry)entry.open=true};
  const select=$('video-select');select.replaceChildren();select.hidden=b.media.length<2;
  b.media.forEach((m,i)=>{const option=document.createElement('option');option.value=m.src;option.textContent=decodeURIComponent(m.src.split('/').pop());select.append(option)});
  select.onchange=()=>{pause();video.src=select.value;video.load();if(!b.audio){selectedAnalysisUrl=select.value===b.media[0]?.src?b.analysis:null;loadAnalysis()}};
@@ -187,7 +187,7 @@ $('acoustic').onpointerdown=e=>{drag={x:e.clientX,y:e.clientY};$('acoustic').set
 motionPreference.addEventListener('change',event=>{reduced=event.matches;drawAll()});
 document.querySelector('.library-heading h2 span').textContent='/ '+birds.length;
 $('catalog-source').href=source.url;$('catalog-source').textContent=birds.length+' fichas · radio de 5 km · iNaturalist';
-renderAnnex(birds,n=>changeBird(n,false));
+// El anexo permanece oculto hasta contar con contenido editorial suficiente.
 loadBird();resize();
 // The local server rebuilds the index when files are pasted. Refresh an idle page.
 if(location.hostname==='127.0.0.1'||location.hostname==='localhost'){
