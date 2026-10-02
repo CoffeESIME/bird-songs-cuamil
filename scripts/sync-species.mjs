@@ -1,6 +1,7 @@
 import {mkdir, readFile, writeFile, access} from 'node:fs/promises';
 const root = new URL('../dist/content/', import.meta.url);
 const endpoint = 'https://api.inaturalist.org/v1/observations/species_counts?lat=19.3525&lng=-99.2824&radius=5&taxon_id=3&per_page=500&locale=es-MX';
+const selected = new Set(JSON.parse(await readFile(new URL('../selected-species.json', import.meta.url), 'utf8')));
 let snapshot;
 if (process.argv.includes('--snapshot')) snapshot = JSON.parse(await readFile(new URL('../inaturalist-species.json', import.meta.url)));
 else {
@@ -13,9 +14,13 @@ else {
     results.push(...data.results);
   }
   snapshot = {total_results: total, results};
-  await writeFile(new URL('../inaturalist-species.json', import.meta.url), JSON.stringify(snapshot, null, 2));
 }
 if (snapshot.results.length !== snapshot.total_results) throw Error('Catálogo incompleto');
+snapshot.results = snapshot.results.filter(({taxon}) => selected.has(taxon.name));
+const missing = [...selected].filter(name => !snapshot.results.some(({taxon}) => taxon.name === name));
+if (missing.length) throw Error(`Faltan especies seleccionadas: ${missing.join(', ')}`);
+snapshot.total_results = snapshot.results.length;
+await writeFile(new URL('../inaturalist-species.json', import.meta.url), JSON.stringify(snapshot, null, 2) + '\n');
 await mkdir(root, {recursive:true});
 for (const {taxon, count} of snapshot.results) {
   const id = taxon.name.toLowerCase().replace(/[^a-z0-9]+/g, '-');

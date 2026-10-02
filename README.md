@@ -6,7 +6,7 @@ Sitio web en español, con dependencias de Markdown empaquetadas localmente. `np
 
 Para importar grabaciones con autor y licencia, consulta **[AUDIO.md](AUDIO.md)**. El comando independiente `npm run birds:audio -- --bird accipiter-striatus --dry-run` muestra la selección antes de descargar. Xeno-canto v3 requiere `XENO_CANTO_API_KEY`; iNaturalist funciona como fuente complementaria y alternativa.
 
-El catálogo contiene las 214 entradas (212 especies y dos géneros) importadas de la consulta de iNaturalist. Cada ave tiene una carpeta en **dist/content/**: copia imágenes en **fotos/**, videos en **videos/** y escribe sus notas en **notas.md**. Las notas con contenido aparecen al final en el anexo, con soporte para Markdown y reproductores de YouTube, Spotify y Apple Music.
+El catálogo contiene las 36 especies seleccionadas en las cuatro imágenes de referencia, registradas en **selected-species.json**. La sincronización con iNaturalist respeta esta selección. Cada ave tiene una carpeta en **dist/content/**: copia imágenes en **fotos/**, videos en **videos/** y escribe sus notas en **notas.md**. Las notas con contenido aparecen al final en el anexo, con soporte para Markdown y reproductores de YouTube, Spotify y Apple Music.
 
 Consulta **[CONTENT.md](CONTENT.md)** para ejemplos, formatos, actualización automática y publicación. Con el servidor local abierto, guardar archivos actualiza la app; la versión publicada requiere un nuevo despliegue.
 

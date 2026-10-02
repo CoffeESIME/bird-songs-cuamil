@@ -12,6 +12,9 @@ test('Only recognized HTTPS media providers can become embeds',()=>{
 test('Every imported taxon has a unique editable folder and no demo media',async()=>{
  const {birds}=JSON.parse(await readFile(new URL('../dist/content-index.json',import.meta.url),'utf8'));
  const snapshot=JSON.parse(await readFile(new URL('../inaturalist-species.json',import.meta.url),'utf8'));
+ const selected=JSON.parse(await readFile(new URL('../selected-species.json',import.meta.url),'utf8'));
+ assert.deepEqual(birds.map(b=>b.scientific).sort(),[...selected].sort());
+ assert.deepEqual(snapshot.results.map(({taxon})=>taxon.name).sort(),[...selected].sort());
  assert.equal(new Set(birds.map(b=>b.id)).size,birds.length);
  for(const {taxon} of snapshot.results)assert.ok(birds.some(b=>b.taxonId===taxon.id),taxon.name);
  for(const bird of birds){assert.equal(bird.demo,false);assert.ok(!JSON.stringify(bird.media).includes('sample-'));await readFile(new URL('../dist/'+bird.contentPath+'notas.md',import.meta.url));}
