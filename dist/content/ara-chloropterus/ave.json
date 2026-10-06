@@ -112,5 +112,250 @@
       "analysisSha256": "cbb4b266e8abcccd8fca4234d21bd66d0305b5896010f040112094d6de193c7e",
       "analysisVersion": 2
     }
+  ],
+  "photos": [
+    {
+      "kind": "photo",
+      "source": "wikimedia-commons",
+      "sourceId": "169903601",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:189_Red-and-green_macaw_couple_flying_in_Chapada_dos_Guimar%C3%A3es_National_Park_Photo_by_Giles_Laurent.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/189_Red-and-green_macaw_couple_flying_in_Chapada_dos_Guimar%C3%A3es_National_Park_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "scientificName": "Ara chloropterus",
+      "author": "Giles Laurent",
+      "attribution": "© Giles Laurent , gileslaurent.com , License CC BY-SA",
+      "rawLicense": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceLicense": "CC BY-SA 4.0",
+      "mime": "image/jpeg",
+      "width": 5865,
+      "height": 3910,
+      "size": 9637891,
+      "duration": null,
+      "latitude": null,
+      "longitude": null,
+      "distanceFromUamKm": null,
+      "local": false,
+      "geoTier": 4,
+      "title": "File:189 Red-and-green macaw couple flying in Chapada dos Guimarães National Park Photo by Giles Laurent.jpg",
+      "description": "Red-and-green macaw couple flying in Parque Nacional da Chapada dos Guimarães, Brazil. These intelligent parrots are known for their strong monogamous bonds, often remaining with the same mate for decades, sharing not only the skies, but also the duties of nesting, feeding, and raising their young.",
+      "commonsMetadata": {
+        "DateTime": {
+          "value": "2025-07-13 21:07:42",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "189 Red-and-green macaw couple flying in Chapada dos Guimarães National Park Photo by Giles Laurent",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Commons featured widescreen desktop backgrounds|Blue, red, yellow|Uploaded via Campaign:wle-br|Featured pictures of Mato Grosso|Featured pictures by Giles Laurent|Images from Wiki Loves Earth 2025 in Brazil - Mato Grosso|Awarded pictures by Giles Laurent|Photos by Giles Laurent|Images from Wiki Loves Earth 2025|Ara chloropterus in flight|Animals of Chapada dos Guimarães National Park|Taken with Sony FE 200-600mm F5.6-6.3 G OSS|Images from Wiki Loves Earth with different SDC participant in|Images from Wiki Loves Earth 2025 in Brazil|Birds in August 2024|Featured pictures of birds in Brazil|Pictures of the Year/2025 (finalist)|Featured pictures of Ara",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality|featured|valued|poty|potd",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-15.306354",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-55.835403",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Red-and-green macaw couple flying in Parque Nacional da Chapada dos Guimarães, Brazil. These intelligent parrots are known for their strong monogamous bonds, often remaining with the same mate for decades, sharing not only the skies, but also the duties of nesting, feeding, and raising their young.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-08-15 22:36:04",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>, from <a rel=\"nofollow\" class=\"external text\" href=\"https://gileslaurent.com\">gileslaurent.com</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Giles_Laurent\" title=\"User:Giles Laurent\">Giles Laurent</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "© <a href=\"//commons.wikimedia.org/wiki/User:Giles_Laurent\" title=\"User:Giles Laurent\">Giles Laurent</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://gileslaurent.com\">gileslaurent.com</a>, License CC BY-SA",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "taxonomicEvidence": "Scientific name in Commons file title or species category",
+      "visualReview": "pending",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "nonCommercial": false,
+      "file": "fotos/reference-01.jpg",
+      "codec": "mjpeg",
+      "changes": null,
+      "sha256": "b5ad7ba3e75e38fa86b38b98d0134c9c5f2353de5abf7233120eca5aa9d0194d",
+      "bytes": 9637891,
+      "downloadedAt": "2026-10-06T00:47:35.025Z",
+      "validation": "ffmpeg full decode"
+    }
+  ],
+  "videos": [
+    {
+      "kind": "video",
+      "source": "wikimedia-commons",
+      "sourceId": "49224532",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arara_carente.webm",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Arara_carente.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "scientificName": "Ara chloropterus",
+      "author": "Levi Matheus",
+      "attribution": "Own work",
+      "rawLicense": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceLicense": "CC BY-SA 4.0",
+      "mime": "video/webm",
+      "width": 640,
+      "height": 640,
+      "size": 5933807,
+      "duration": 10.322000000000001,
+      "latitude": null,
+      "longitude": null,
+      "distanceFromUamKm": null,
+      "local": false,
+      "geoTier": 4,
+      "title": "File:Arara carente.webm",
+      "description": "Essa imagem foi fotografada no Parque das Aves em Foz do Iguaçu, essa Arara gostou da blusa do meu tio e insistia que ele ficasse perto a ela.",
+      "type": "behavior",
+      "commonsMetadata": {
+        "DateTime": {
+          "value": "2016-06-04 03:05:01",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Arara carente",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Uploaded via Campaign:wle-br|Images from Wiki Loves Earth 2016 in Brazil|Images from Wiki Loves Earth 2016|Images from Wiki Loves Earth missing SDC depicts|Images from Wiki Loves Earth missing SDC location of creation|Ara chloropterus in Parque das Aves|Videos from Wiki Loves Earth 2016 in Brazil",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Essa imagem foi fotografada no Parque das Aves em Foz do Iguaçu, essa Arara gostou da blusa do meu tio e insistia que ele ficasse perto a ela.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-05-07",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Levi_Matheus&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Levi Matheus (page does not exist)\">Levi Matheus</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "taxonomicEvidence": "Scientific name in Commons file title or species category",
+      "visualReview": "pending",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "nonCommercial": false,
+      "file": "videos/behavior-01.webm",
+      "codec": "vp8",
+      "changes": null,
+      "sha256": "991699050d76c2e47abde7886aa156f0ad7c3ffcf204fc46ae3a2baf629f6b35",
+      "bytes": 5933807,
+      "downloadedAt": "2026-10-06T00:47:50.088Z",
+      "validation": "ffmpeg full decode"
+    }
   ]
 }

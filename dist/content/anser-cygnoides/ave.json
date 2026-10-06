@@ -367,5 +367,124 @@
       "downloadedAt": "2026-09-30T03:53:56.921Z",
       "validation": "ffmpeg full decode"
     }
+  ],
+  "videos": [
+    {
+      "kind": "video",
+      "source": "wikimedia-commons",
+      "sourceId": "123335534",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2022-09-24_LJUBLJANA_%C5%A0pica_ANSERIFORMES_Anser_cygnoides_LABODJA_GOS_8.webm",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/2022-09-24_LJUBLJANA_%C5%A0pica_ANSERIFORMES_Anser_cygnoides_LABODJA_GOS_8.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "scientificName": "Anser cygnoides",
+      "author": "NaIzletuSi ™",
+      "attribution": "NaIzletuSi ™",
+      "rawLicense": "https://creativecommons.org/licenses/by/3.0",
+      "sourceLicense": "CC BY 3.0",
+      "mime": "video/webm",
+      "width": 1920,
+      "height": 1080,
+      "size": 8358194,
+      "duration": 13.034,
+      "latitude": null,
+      "longitude": null,
+      "distanceFromUamKm": null,
+      "local": false,
+      "geoTier": 4,
+      "title": "File:2022-09-24 LJUBLJANA Špica ANSERIFORMES Anser cygnoides LABODJA GOS 8.webm",
+      "description": "2022-09-24 LJUBLJANA Špica ANSERIFORMES Anser cygnoides LABODJA GOS",
+      "type": "behavior",
+      "commonsMetadata": {
+        "DateTime": {
+          "value": "2022-09-24 13:49:23",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "2022-09-24 LJUBLJANA Špica ANSERIFORMES Anser cygnoides LABODJA GOS 8",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Media from YouTube|Files from external sources with reviewed licenses|Uploaded with video2commons|Domesticated geese in Slovenia|Videos of 2022 from Slovenia|Videos of birds of Ljubljana|Videos by NaIzletuSi|Videos of Špica (Ljubljana)|Videos of geese of Slovenia",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "2022-09-24 LJUBLJANA Špica ANSERIFORMES Anser cygnoides LABODJA GOS",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-09-24",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<bdi lang=\"en\" dir=\"ltr\"><a href=\"//commons.wikimedia.org/wiki/Commons:YouTube_files\" title=\"Commons:YouTube files\">YouTube</a>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=COT3TnbcwrE\"><bdi lang=\"\">2022-09-24 LJUBLJANA Špica ANSERIFORMES Anser cygnoides LABODJA GOS</bdi></a> – View/save archived versions on <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/*/https://www.youtube.com/watch?v=COT3TnbcwrE\">archive.org</a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/channel/UC2UqIUgMAzICSVqGO1riudw\">NaIzletuSi ™</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "NaIzletuSi ™",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "taxonomicEvidence": "Scientific name in Commons file title or species category",
+      "visualReview": "pending",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "nonCommercial": false,
+      "file": "videos/behavior-01.webm",
+      "codec": "vp9",
+      "changes": null,
+      "sha256": "5b7cc2e05880b890257c6d2ebe22440e69c7d21a1fbc5a51acb2651986054462",
+      "bytes": 8358194,
+      "downloadedAt": "2026-10-06T00:47:32.497Z",
+      "validation": "ffmpeg full decode"
+    }
   ]
 }
