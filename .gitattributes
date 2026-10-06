@@ -1,0 +1,2 @@
+# Audio analysis hashes depend on exact bytes, including line endings.
+dist/content/**/analysis/*.json text eol=lf

@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {readFile} from 'node:fs/promises';
+import {readFile, readdir} from 'node:fs/promises';
 import {embedURL} from '../dist/embeds.js';
 test('Only recognized HTTPS media providers can become embeds',()=>{
  assert.equal(embedURL('https://youtu.be/dQw4w9WgXcQ'),'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ');
@@ -13,9 +13,13 @@ test('Every imported taxon has a unique editable folder and no demo media',async
  const {birds}=JSON.parse(await readFile(new URL('../dist/content-index.json',import.meta.url),'utf8'));
  const snapshot=JSON.parse(await readFile(new URL('../inaturalist-species.json',import.meta.url),'utf8'));
  const selected=JSON.parse(await readFile(new URL('../selected-species.json',import.meta.url),'utf8'));
- assert.deepEqual(birds.map(b=>b.scientific).sort(),[...selected].sort());
+ // The selection constrains iNaturalist imports; manually added folders are valid too.
+ for(const scientific of selected)assert.ok(birds.some(b=>b.scientific===scientific),`Missing selected species: ${scientific}`);
  assert.deepEqual(snapshot.results.map(({taxon})=>taxon.name).sort(),[...selected].sort());
+ const folders=(await readdir(new URL('../dist/content/',import.meta.url),{withFileTypes:true})).filter(entry=>entry.isDirectory()).map(entry=>entry.name);
+ assert.deepEqual(birds.map(b=>b.id).sort(),folders.sort());
  assert.equal(new Set(birds.map(b=>b.id)).size,birds.length);
+ assert.equal(new Set(birds.map(b=>b.scientific)).size,birds.length);
  for(const {taxon} of snapshot.results)assert.ok(birds.some(b=>b.taxonId===taxon.id),taxon.name);
  for(const bird of birds){assert.equal(bird.demo,false);assert.ok(!JSON.stringify(bird.media).includes('sample-'));await readFile(new URL('../dist/'+bird.contentPath+'notas.md',import.meta.url));}
 });

@@ -2,7 +2,7 @@
 
 Para importar fotografías y videos con licencias individuales, consulta [MEDIA.md](MEDIA.md). El comando `npm run birds:media -- --bird <id> --dry-run` permite revisar la selección antes de descargar.
 
-La app tiene una carpeta por especie en **dist/content/**. El catálogo conserva únicamente las 36 especies de las cuatro imágenes de referencia, enumeradas en **selected-species.json**, a partir de la consulta de iNaturalist (19.3525, −99.2824; radio de 5 km; aves). `content:sync` filtra los resultados con esta lista para evitar reintroducir especies descartadas. Es una instantánea, no un listado que depende de internet al abrir la app. La fecha, la consulta y el total están en `dist/content/source.json`.
+La app tiene una carpeta por especie en **dist/content/**. La importación de iNaturalist conserva las 36 especies de las cuatro imágenes de referencia, enumeradas en **selected-species.json**, a partir de la consulta (19.3525, −99.2824; radio de 5 km; aves). `content:sync` filtra los resultados con esta lista para evitar reintroducir especies descartadas. El catálogo también incluye las especies agregadas manualmente en carpetas propias. Es una instantánea, no un listado que depende de internet al abrir la app. La fecha, la consulta y el total de la importación están en `dist/content/source.json`.
 
 ## Uso diario: copiar, pegar y guardar
 
@@ -86,7 +86,7 @@ Estas son propiedades adicionales dentro del objeto existente, separadas por com
 
 Desde `aviario/`, ejecuta `npm run content:sync` con conexión a internet. Consulta todas las páginas de iNaturalist, crea carpetas para especies nuevas y conserva los archivos existentes. No borra especies ni sobrescribe tus nombres o notas. `npm run content:build` reconstruye el índice sin consultar internet. `npm run check` comprueba el catálogo, los archivos y el comportamiento básico.
 
-Para agregar una especie manualmente, copia una carpeta vacía, usa un nombre científico separado por guiones, cambia `id` para que coincida con la carpeta y ajusta sus metadatos. Mantén `notas.md`, aunque esté vacío.
+Para agregar una especie manualmente, copia una carpeta vacía, usa un nombre científico separado por guiones, cambia `id` para que coincida con la carpeta y ajusta sus metadatos. Mantén `notas.md`, aunque esté vacío. No necesitas modificar `selected-species.json` ni la instantánea de iNaturalist para estas altas manuales. Ejecuta `npm run build` antes de publicar: comprueba que cada carpeta esté incluida, que no haya especies duplicadas y que las especies de la selección original sigan presentes.
 
 ## Arquitectura
 
